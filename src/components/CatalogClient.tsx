@@ -1,0 +1,398 @@
+"use client";
+
+import { useState, useMemo, useEffect, useRef } from "react";
+import { useSearchParams } from "next/navigation";
+import { Search, X, SlidersHorizontal, ChevronDown } from "lucide-react";
+import type { Plant, UserAnswers, ScoredPlant, BarvaKvetu, Mesic, Narocnost } from "@/types/plants";
+import { getRecommendedPlants } from "@/utils/filterPlants";
+import { PlantCard } from "@/components/PlantCard";
+import { useFavorites } from "@/hooks/useFavorites";
+import {
+  umisteniLabels, svetloLabels, vlhkostLabels, kategorieLabels,
+  barvaKvetuLabels, mesicLabels, narocnostLabels,
+} from "@/utils/labels";
+
+const BOOL_KEYS = new Set(["bezpecnostDeti", "bezpecnostMazlici", "chciVuni", "proVcely", "vhodnaDoNadoby"]);
+const ARRAY_KEYS = new Set(["ocekavani"]);
+const AF = "af_";
+
+function parseUrlState(sp: URLSearchParams): {
+  answers: UserAnswers;
+  additional: AdditionalFilters;
+  searchQuery: string;
+} {
+  const answers: Record<string, unknown> = {};
+  const additional: Record<string, unknown> = {};
+  let searchQuery = "";
+
+  sp.forEach((value, key) => {
+    if (key === "q") {
+      searchQuery = value;
+    } else if (key.startsWith(AF)) {
+      const k = key.slice(AF.length);
+      if (k === "mesicKveteni") additional[k] = parseInt(value, 10);
+      else if (value === "1") additional[k] = true;
+      else additional[k] = value;
+    } else {
+      if (BOOL_KEYS.has(key)) answers[key] = value === "true";
+      else if (ARRAY_KEYS.has(key)) answers[key] = value.split(",").filter(Boolean);
+      else if (key === "mesicKveteni") answers[key] = parseInt(value, 10);
+      else answers[key] = value;
+    }
+  });
+
+  return { answers: answers as UserAnswers, additional: additional as AdditionalFilters, searchQuery };
+}
+
+function buildUrlParams(answers: UserAnswers, additional: AdditionalFilters, searchQuery: string): URLSearchParams {
+  const p = new URLSearchParams();
+  for (const [k, v] of Object.entries(answers)) {
+    if (v == null || v === "") continue;
+    if (typeof v === "boolean") p.set(k, String(v));
+    else if (Array.isArray(v)) { if (v.length) p.set(k, v.join(",")); }
+    else p.set(k, String(v));
+  }
+  for (const [k, v] of Object.entries(additional)) {
+    if (v == null || v === false) continue;
+    if (typeof v === "boolean") p.set(AF + k, "1");
+    else p.set(AF + k, String(v));
+  }
+  if (searchQuery) p.set("q", searchQuery);
+  return p;
+}
+
+interface CatalogClientProps {
+  plants: Plant[];
+}
+
+interface AdditionalFilters {
+  barvaKvetu?: BarvaKvetu;
+  mesicKveteni?: Mesic;
+  narocnost?: Narocnost;
+  stalezelena?: boolean;
+  vune?: boolean;
+  proVcely?: boolean;
+  jedla?: boolean;
+  vhodnaDoNadoby?: boolean;
+  bezpecnaProDeti?: boolean;
+  bezpecnaProPsy?: boolean;
+}
+
+function normalize(text: string): string {
+  return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+const primaryFilterDefs = [
+  { key: "umisteni" as const, placeholder: "Umístění", options: { venku: umisteniLabels.venku, interier: umisteniLabels.interier, balkon_terasa: umisteniLabels.balkon_terasa } },
+  { key: "svetlo" as const, placeholder: "Světlo", options: svetloLabels as Record<string, string> },
+  { key: "vlhkost" as const, placeholder: "Vlhkost", options: vlhkostLabels as Record<string, string> },
+  { key: "kategorie" as const, placeholder: "Typ rostliny", options: kategorieLabels as Record<string, string> },
+];
+
+const quickToggles: { key: keyof AdditionalFilters; label: string }[] = [
+  { key: "vune", label: "Voní" },
+  { key: "proVcely", label: "Pro včely" },
+  { key: "jedla", label: "Jedlá" },
+  { key: "stalezelena", label: "Stálezelená" },
+];
+
+export function CatalogClient({ plants }: CatalogClientProps) {
+  const searchParams = useSearchParams();
+  const initRef = useRef<ReturnType<typeof parseUrlState> | null>(null);
+  if (!initRef.current) initRef.current = parseUrlState(searchParams);
+
+  const [answers, setAnswers] = useState<UserAnswers>(initRef.current.answers);
+  const [additional, setAdditional] = useState<AdditionalFilters>(initRef.current.additional);
+  const [searchQuery, setSearchQuery] = useState(initRef.current.searchQuery);
+  const [panelOpen, setPanelOpen] = useState(false);
+  const fav = useFavorites();
+
+  useEffect(() => {
+    const params = buildUrlParams(answers, additional, searchQuery);
+    const search = params.toString();
+    const url = search ? `/rostliny?${search}` : "/rostliny";
+    window.history.replaceState(window.history.state, "", url);
+  }, [answers, additional, searchQuery]);
+
+  const setPrimary = (key: keyof UserAnswers, value: string | undefined) => {
+    setAnswers((prev) => {
+      const next = { ...prev };
+      if (value === undefined) delete next[key];
+      else (next as Record<string, unknown>)[key] = value;
+      return next;
+    });
+  };
+
+  const toggleAdditional = (key: keyof AdditionalFilters) => {
+    setAdditional((prev) => ({ ...prev, [key]: prev[key] ? undefined : true }));
+  };
+
+  const { topPicks, otherOptions } = useMemo(
+    () => getRecommendedPlants(plants, answers),
+    [plants, answers]
+  );
+
+  const applyExtra = (items: ScoredPlant[]) => {
+    let result = items;
+    if (additional.barvaKvetu) result = result.filter(({ plant }) => plant.barvaKvetu?.includes(additional.barvaKvetu!));
+    if (additional.mesicKveteni) result = result.filter(({ plant }) => plant.obdobiKveteni?.includes(additional.mesicKveteni!));
+    if (additional.narocnost) result = result.filter(({ plant }) => plant.narocnost === additional.narocnost);
+    if (additional.stalezelena) result = result.filter(({ plant }) => plant.stalezelena);
+    if (additional.vune) result = result.filter(({ plant }) => plant.vune);
+    if (additional.proVcely) result = result.filter(({ plant }) => plant.proVcely);
+    if (additional.jedla) result = result.filter(({ plant }) => plant.jedla);
+    if (additional.vhodnaDoNadoby) result = result.filter(({ plant }) => plant.vhodnaDoNadoby);
+    if (additional.bezpecnaProDeti) result = result.filter(({ plant }) => plant.bezpecnaProDeti);
+    if (additional.bezpecnaProPsy) result = result.filter(({ plant }) => plant.bezpecnaProPsy);
+    if (searchQuery) {
+      const q = normalize(searchQuery);
+      result = result.filter(({ plant }) =>
+        normalize(plant.nazevCz).includes(q) || (plant.nazevLat && normalize(plant.nazevLat).includes(q))
+      );
+    }
+    return result;
+  };
+
+  const filteredTop = useMemo(() => applyExtra(topPicks), [topPicks, additional, searchQuery]);
+  const filteredOther = useMemo(() => applyExtra(otherOptions), [otherOptions, additional, searchQuery]);
+  const total = filteredTop.length + filteredOther.length;
+  const additionalCount = Object.values(additional).filter((v) => v !== undefined && v !== false).length;
+
+  return (
+    <div className="mx-auto max-w-6xl px-4 py-6">
+      {/* Filter bar */}
+      <div className="mb-4 flex flex-wrap items-center gap-2">
+        {primaryFilterDefs.map((pf) => (
+          <DropdownFilter
+            key={pf.key}
+            placeholder={pf.placeholder}
+            options={pf.options}
+            value={answers[pf.key] as string | undefined}
+            onChange={(v) => setPrimary(pf.key, v)}
+          />
+        ))}
+        <span className="mx-1 hidden h-6 w-px bg-gray-200 sm:block" />
+        {quickToggles.map((qt) => (
+          <button
+            key={qt.key}
+            onClick={() => toggleAdditional(qt.key)}
+            className={`rounded-full border px-3 py-1.5 text-sm font-medium transition ${
+              additional[qt.key] ? "border-primary bg-accent-light text-primary-dark" : "border-gray-200 text-gray-600 hover:border-gray-300"
+            }`}
+          >
+            {qt.label}
+          </button>
+        ))}
+        <button
+          onClick={() => setPanelOpen(true)}
+          className="flex items-center gap-1.5 rounded-full border border-gray-200 bg-gray-50 px-3 py-1.5 text-sm font-semibold text-gray-600 transition hover:bg-white"
+        >
+          <SlidersHorizontal size={14} /> Filtry
+          {additionalCount > 0 && (
+            <span className="flex h-5 min-w-[20px] items-center justify-center rounded-full bg-primary px-1 text-[10px] font-bold text-white">{additionalCount}</span>
+          )}
+        </button>
+      </div>
+
+      {/* Search + count */}
+      <div className="mb-6 flex items-center gap-3">
+        <div className="flex flex-1 items-center gap-2 rounded-xl border border-gray-200 bg-white px-3 py-2 focus-within:border-primary">
+          <Search size={16} className="text-gray-400" />
+          <input
+            type="text"
+            placeholder="Hledat dle názvu..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="flex-1 bg-transparent text-sm outline-none placeholder:text-gray-400"
+          />
+          {searchQuery && (
+            <button onClick={() => setSearchQuery("")} className="text-gray-400 hover:text-gray-600"><X size={14} /></button>
+          )}
+        </div>
+        <span className="flex-shrink-0 text-sm text-gray-400">
+          {total} {total === 1 ? "rostlina" : total < 5 ? "rostliny" : "rostlin"}
+        </span>
+      </div>
+
+      {/* Filter panel overlay */}
+      {panelOpen && (
+        <FilterPanelOverlay
+          filters={additional}
+          onChange={setAdditional}
+          onClear={() => setAdditional({})}
+          onClose={() => setPanelOpen(false)}
+        />
+      )}
+
+      {/* Results */}
+      {total === 0 ? (
+        <div className="py-20 text-center">
+          <p className="text-gray-500">Bohužel jsme nenašli žádnou rostlinu odpovídající vašim podmínkám.</p>
+        </div>
+      ) : (
+        <div className="space-y-8">
+          {filteredTop.length > 0 && (
+            <section>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {filteredTop.map((sp) => (
+                  <PlantCard
+                    key={sp.plant.id}
+                    plant={sp.plant}
+                    reasons={sp.reasons}
+                    isFavorite={fav.isFavorite(sp.plant.id)}
+                    onToggleFavorite={() => fav.toggle(sp.plant.id)}
+                  />
+                ))}
+              </div>
+            </section>
+          )}
+          {filteredOther.length > 0 && (
+            <section>
+              {filteredTop.length > 0 && <h3 className="mb-4 text-lg font-semibold text-gray-700">Další možnosti</h3>}
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {filteredOther.map((sp) => (
+                  <PlantCard
+                    key={sp.plant.id}
+                    plant={sp.plant}
+                    isFavorite={fav.isFavorite(sp.plant.id)}
+                    onToggleFavorite={() => fav.toggle(sp.plant.id)}
+                  />
+                ))}
+              </div>
+            </section>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function DropdownFilter({ placeholder, options, value, onChange }: {
+  placeholder: string;
+  options: Record<string, string>;
+  value: string | undefined;
+  onChange: (v: string | undefined) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const label = value ? options[value] : undefined;
+
+  return (
+    <div className="relative">
+      {label ? (
+        <div className="flex items-center gap-1 rounded-full border border-primary bg-accent-light px-3 py-1.5 text-sm font-medium text-primary-dark">
+          <span className="cursor-pointer" onClick={() => setOpen((v) => !v)}>{label}</span>
+          <button onClick={() => onChange(undefined)} className="ml-0.5 opacity-60 hover:opacity-100"><X size={12} /></button>
+        </div>
+      ) : (
+        <button
+          onClick={() => setOpen((v) => !v)}
+          className="flex items-center gap-1 rounded-full border border-dashed border-gray-300 px-3 py-1.5 text-sm text-gray-500 transition hover:border-gray-400"
+        >
+          {placeholder} <ChevronDown size={12} />
+        </button>
+      )}
+      {open && (
+        <>
+          <div className="fixed inset-0 z-40" onClick={() => setOpen(false)} />
+          <div className="absolute left-0 top-full z-50 mt-1 min-w-[200px] rounded-xl border border-gray-200 bg-white py-1 shadow-lg">
+            {Object.entries(options).map(([val, lab]) => (
+              <button
+                key={val}
+                onClick={() => { onChange(val === value ? undefined : val); setOpen(false); }}
+                className={`block w-full px-4 py-2.5 text-left text-sm transition ${
+                  val === value ? "bg-accent-light font-semibold text-primary-dark" : "text-gray-700 hover:bg-gray-50"
+                }`}
+              >
+                {lab}
+              </button>
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+function FilterPanelOverlay({ filters, onChange, onClear, onClose }: {
+  filters: AdditionalFilters;
+  onChange: (f: AdditionalFilters) => void;
+  onClear: () => void;
+  onClose: () => void;
+}) {
+  const setSelect = <K extends keyof AdditionalFilters>(key: K, value: AdditionalFilters[K] | undefined) => {
+    onChange({ ...filters, [key]: value });
+  };
+  const toggleBool = (key: keyof AdditionalFilters) => {
+    const current = filters[key] as boolean | undefined;
+    onChange({ ...filters, [key]: current ? undefined : true });
+  };
+
+  return (
+    <div className="fixed inset-0 z-50 flex justify-end bg-black/40" onClick={onClose}>
+      <div className="flex h-full w-full max-w-sm flex-col bg-white shadow-xl" onClick={(e) => e.stopPropagation()}>
+        <div className="flex items-center justify-between border-b border-gray-200 px-5 py-4">
+          <h3 className="text-lg font-semibold">Všechny filtry</h3>
+          <button onClick={onClose} className="text-gray-400 hover:text-gray-600"><X size={22} /></button>
+        </div>
+        <div className="flex-1 space-y-6 overflow-y-auto px-5 py-5">
+          <ChipSection label="Barva květu">
+            {(Object.keys(barvaKvetuLabels) as BarvaKvetu[]).map((b) => (
+              <Chip key={b} active={filters.barvaKvetu === b} onClick={() => setSelect("barvaKvetu", filters.barvaKvetu === b ? undefined : b)}>{barvaKvetuLabels[b]}</Chip>
+            ))}
+          </ChipSection>
+          <ChipSection label="Období kvetení">
+            {([3, 4, 5, 6, 7, 8, 9, 10] as Mesic[]).map((m) => (
+              <Chip key={m} active={filters.mesicKveteni === m} onClick={() => setSelect("mesicKveteni", filters.mesicKveteni === m ? undefined : m)}>{mesicLabels[m]}</Chip>
+            ))}
+          </ChipSection>
+          <ChipSection label="Náročnost">
+            {(Object.keys(narocnostLabels) as Narocnost[]).map((n) => (
+              <Chip key={n} active={filters.narocnost === n} onClick={() => setSelect("narocnost", filters.narocnost === n ? undefined : n)}>{narocnostLabels[n]}</Chip>
+            ))}
+          </ChipSection>
+          <div>
+            <h4 className="mb-2 text-sm font-semibold text-gray-900">Vlastnosti</h4>
+            <div className="space-y-1">
+              {([
+                ["stalezelena", "Stálezelená"], ["vune", "Voní"], ["proVcely", "Pro včely"],
+                ["jedla", "Jedlá"], ["vhodnaDoNadoby", "Do nádoby"],
+                ["bezpecnaProDeti", "Bezpečná pro děti"], ["bezpecnaProPsy", "Bezpečná pro mazlíčky"],
+              ] as [keyof AdditionalFilters, string][]).map(([key, label]) => (
+                <label key={key} className="flex cursor-pointer items-center gap-3 rounded-lg px-2 py-2.5 hover:bg-gray-50">
+                  <input type="checkbox" checked={!!filters[key]} onChange={() => toggleBool(key)} className="h-5 w-5 accent-primary" />
+                  <span className="text-sm font-medium">{label}</span>
+                </label>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="flex gap-3 border-t border-gray-200 px-5 py-4">
+          <button onClick={onClear} className="flex-1 rounded-xl border border-gray-200 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-50">Zrušit filtry</button>
+          <button onClick={onClose} className="flex-1 rounded-xl bg-primary py-3 text-sm font-semibold text-white transition hover:bg-primary-dark">Hotovo</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ChipSection({ label, children }: { label: string; children: React.ReactNode }) {
+  return (
+    <div>
+      <h4 className="mb-2 text-sm font-semibold text-gray-900">{label}</h4>
+      <div className="flex flex-wrap gap-2">{children}</div>
+    </div>
+  );
+}
+
+function Chip({ active, onClick, children }: { active: boolean; onClick: () => void; children: React.ReactNode }) {
+  return (
+    <button
+      onClick={onClick}
+      className={`rounded-full border px-3 py-1.5 text-sm font-medium transition ${
+        active ? "border-primary bg-accent-light text-primary-dark" : "border-gray-200 text-gray-600 hover:border-gray-300"
+      }`}
+    >
+      {children}
+    </button>
+  );
+}
