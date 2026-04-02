@@ -34688,5 +34688,3162 @@
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Impatiens%20balfourii9.jpg&w=500",
     "popis": "Netýkavka Balfourova (Impatiens balfourii) je trvalka, vhodná na zahradu. Preferuje slunné a polostinné stanoviště.",
     "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+  },
+  {
+    "id": "actinidia-arguta",
+    "nazevCz": "Aktinidie ostrolistá (mini kiwi)",
+    "nazevLat": "Actinidia arguta",
+    "kategorie": [
+      "popinava"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 400,
+    "vyskaMaxCm": 800,
+    "sirkaMinCm": 200,
+    "sirkaMaxCm": 400,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "bila"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": true,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "stredni",
+    "frekvenceZalivky": "stredni",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "popis": "Mohutná opadavá liána s drobnými plody podobnými kiwi. Plody jsou sladké, jedlé i se slupkou a bohaté na vitamin C.",
+    "pece": "Vyžaduje oporu a pravidelný řez. Pro plodnost je třeba vysadit samčí i samičí rostlinu.",
+    "tagy": [
+      "jedla plody",
+      "popinava",
+      "mini kiwi",
+      "vitamin C"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Actinidia_arguta_edit1.jpg&w=500"
+  },
+  {
+    "id": "actinidia-kolomikta",
+    "nazevCz": "Aktinidie pestrolistá",
+    "nazevLat": "Actinidia kolomikta",
+    "kategorie": [
+      "popinava"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 300,
+    "vyskaMaxCm": 500,
+    "sirkaMinCm": 150,
+    "sirkaMaxCm": 300,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "bila"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": true,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "stredni",
+    "frekvenceZalivky": "stredni",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "popis": "Okrasná popínavá rostlina s nápadně panašovanými listy v bílé a růžové. Plody jsou drobné, jedlé a sladké.",
+    "pece": "Potřebuje oporu a chráněné stanoviště. Samčí rostliny mají výraznější zbarvení listů.",
+    "tagy": [
+      "okrasne listy",
+      "popinava",
+      "panasovana",
+      "jedla plody"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Actinidia_kolomikta_leaves.jpg&w=500"
+  },
+  {
+    "id": "callicarpa-bodinieri",
+    "nazevCz": "Krásnoplodec Bodinierův",
+    "nazevLat": "Callicarpa bodinieri",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 150,
+    "vyskaMaxCm": 300,
+    "sirkaMinCm": 150,
+    "sirkaMaxCm": 250,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "ruzova",
+      "fialova"
+    ],
+    "obdobiKveteni": [
+      7,
+      8
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "stredni",
+    "frekvenceZalivky": "stredni",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "popis": "Opadavý keř proslulý zářivě fialovými bobulemi na podzim. Drobné růžové květy v létě jsou nenápadné, ale plody jsou velmi dekorativní.",
+    "pece": "Na jaře zastřihnout nízko nad zemí pro bohatší plodnost. Vysazovat ve skupinách pro lepší opylení.",
+    "tagy": [
+      "okrasne plody",
+      "podzimni dekorace",
+      "fialove bobule"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Callicarpa_bodinieri_giraldii2.jpg&w=500"
+  },
+  {
+    "id": "caragana-arborescens",
+    "nazevCz": "Čimišník stromkovitý",
+    "nazevLat": "Caragana arborescens",
+    "kategorie": [
+      "ker",
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 300,
+    "vyskaMaxCm": 600,
+    "sirkaMinCm": 200,
+    "sirkaMaxCm": 400,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "zluta"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "popis": "Velmi odolný keř nebo malý strom ze Sibiře. Žluté motýlovité květy se objevují v květnu a červnu.",
+    "pece": "Snáší extrémní mrazy, sucho i chudé půdy. Prakticky bezúdržbový, vhodný i do větrolamů.",
+    "tagy": [
+      "odolny",
+      "suche stanoviste",
+      "vetrolam",
+      "nenáročný"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Caragana_arborescens_-_Karagana_syberyjska.jpg&w=500"
+  },
+  {
+    "id": "caryopteris-clandonensis",
+    "nazevCz": "Ořechokřídlec clandonský",
+    "nazevLat": "Caryopteris × clandonensis",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku",
+      "nadoba"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 60,
+    "vyskaMaxCm": 100,
+    "sirkaMinCm": 60,
+    "sirkaMaxCm": 100,
+    "velikostKategorie": "mala",
+    "barvaKvetu": [
+      "modra",
+      "fialova"
+    ],
+    "obdobiKveteni": [
+      8,
+      9,
+      10
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "proMotyly": true,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "stredni",
+    "popis": "Kompaktní keřík s aromatickým listem a intenzivně modrými květy v pozdním létě. Vynikající pozdní zdroj nektaru pro včely.",
+    "pece": "Na jaře seříznout nízko nad zemí. Vyžaduje propustnou půdu a slunné stanoviště.",
+    "tagy": [
+      "pro opylovace",
+      "modre kvety",
+      "aromaticky",
+      "pozdni leto"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Caryopteris_x_clandonensis_01.jpg&w=500"
+  },
+  {
+    "id": "castanea-sativa",
+    "nazevCz": "Kaštanovník jedlý",
+    "nazevLat": "Castanea sativa",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 1500,
+    "vyskaMaxCm": 3000,
+    "sirkaMinCm": 800,
+    "sirkaMaxCm": 1500,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "zluta",
+      "bila"
+    ],
+    "obdobiKveteni": [
+      6,
+      7
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": true,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "stredni",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "popis": "Majestátní dlouhověký strom s jedlými kaštany. Nádherné žluté jehnědy a výrazně zubatý list. V teplých oblastech pravidelně plodí.",
+    "pece": "Preferuje mírně kyselou, propustnou půdu. Mladé stromy chránit před silnými mrazy.",
+    "tagy": [
+      "jedla plody",
+      "dlouhoveky",
+      "majestatni strom"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Castanea_sativa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-179.jpg&w=500"
+  },
+  {
+    "id": "cercis-canadensis",
+    "nazevCz": "Zmarlika kanadská",
+    "nazevLat": "Cercis canadensis",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 600,
+    "vyskaMaxCm": 1000,
+    "sirkaMinCm": 500,
+    "sirkaMaxCm": 800,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "ruzova",
+      "fialova"
+    ],
+    "obdobiKveteni": [
+      4,
+      5
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "stredni",
+    "frekvenceZalivky": "stredni",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "popis": "Okrasný malý strom kvetoucí růžovými květy přímo na větvích ještě před rašením listů. Na podzim se listy barví do zlatova.",
+    "pece": "Vysazovat na chráněné stanoviště. Nesnáší přesazování, vysazovat na trvalé místo.",
+    "tagy": [
+      "jaro",
+      "kauliflorie",
+      "podzimni zbarveni"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Cercis_canadensis_in_flower.jpg&w=500"
+  },
+  {
+    "id": "cercis-siliquastrum",
+    "nazevCz": "Zmarlika Jidášova",
+    "nazevLat": "Cercis siliquastrum",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 500,
+    "vyskaMaxCm": 1000,
+    "sirkaMinCm": 400,
+    "sirkaMaxCm": 800,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "ruzova",
+      "fialova"
+    ],
+    "obdobiKveteni": [
+      4,
+      5
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "stredni",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -15,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "pomaly",
+    "popis": "Středomořský strom známý bohatým jarním kvetením v purpurově růžové barvě přímo na kůře větví a kmene.",
+    "pece": "Vyžaduje teplé, chráněné stanoviště a propustnou půdu. V chladnějších oblastech ČR může namrzat.",
+    "tagy": [
+      "stredomorsky",
+      "kauliflorie",
+      "jaro",
+      "teple stanoviste"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Cercis_siliquastrum_-_Judas_tree_-_Erguvan_02.jpg&w=500"
+  },
+  {
+    "id": "ginkgo-biloba",
+    "nazevCz": "Jinan dvoulaločný",
+    "nazevLat": "Ginkgo biloba",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 1500,
+    "vyskaMaxCm": 2500,
+    "sirkaMinCm": 600,
+    "sirkaMaxCm": 1000,
+    "velikostKategorie": "velka",
+    "obdobiKveteni": [
+      4,
+      5
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": false,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": false,
+    "bezpecnaProPsy": false,
+    "bezpecnaProKocky": false,
+    "toxicita": "mirna",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "pomaly",
+    "popis": "Prastarý ‚živý fosil' s unikátními vějířovitými listy. Na podzim se listy barví do zářivě zlaté barvy. Dvoudomý strom.",
+    "pece": "Nenáročný na půdu ani údržbu. Vysazovat samčí exempláře – samičí tvoří zapáchající plody.",
+    "tagy": [
+      "zivy fosil",
+      "podzimni zbarveni",
+      "dlouhoveky",
+      "mestsky strom"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Ginkgo_biloba_leaf.jpg&w=500"
+  },
+  {
+    "id": "hippophae-rhamnoides",
+    "nazevCz": "Rakytník řešetlákový",
+    "nazevLat": "Hippophae rhamnoides",
+    "kategorie": [
+      "ker",
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 200,
+    "vyskaMaxCm": 600,
+    "sirkaMinCm": 200,
+    "sirkaMaxCm": 400,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "zluta"
+    ],
+    "obdobiKveteni": [
+      3,
+      4
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": false,
+    "proMotyly": false,
+    "jedla": true,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "popis": "Trnitý keř se stříbřitými listy a oranžovými plody bohatými na vitamíny. Dvoudomá rostlina – pro plody nutné samčí i samičí kusy.",
+    "pece": "Nenáročný, snáší vítr, sůl i chudou půdu. Rozrůstá se výběžky – je vhodné omezit kořenový prostor.",
+    "tagy": [
+      "jedla plody",
+      "vitaminy",
+      "odolny",
+      "vetrolam"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Hippophae_rhamnoides_-_Sea_Buckthorn.jpg&w=500"
+  },
+  {
+    "id": "kolkwitzia-amabilis",
+    "nazevCz": "Kolkvície půvabná",
+    "nazevLat": "Kolkwitzia amabilis",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 200,
+    "vyskaMaxCm": 300,
+    "sirkaMinCm": 200,
+    "sirkaMaxCm": 300,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "ruzova"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "proMotyly": true,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "popis": "Nádherně kvetoucí keř obsypaný růžovými zvonkovitými květy v květnu a červnu. Patří k nejkrásnějším okrasným keřům.",
+    "pece": "Po odkvětu prosvětlovat staré výhony. Jinak nenáročná rostlina snášející i městské prostředí.",
+    "tagy": [
+      "bohate kveteni",
+      "ruzove kvety",
+      "nenáročný",
+      "okrasny ker"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Kolkwitzia_amabilis_04.jpg&w=500"
+  },
+  {
+    "id": "laburnum-watereri",
+    "nazevCz": "Štědřenec Watererův",
+    "nazevLat": "Laburnum × watereri",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 400,
+    "vyskaMaxCm": 700,
+    "sirkaMinCm": 300,
+    "sirkaMaxCm": 500,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "zluta"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "proMotyly": true,
+    "jedla": false,
+    "bezpecnaProDeti": false,
+    "bezpecnaProPsy": false,
+    "bezpecnaProKocky": false,
+    "toxicita": "ano",
+    "narocnost": "stredni",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "popis": "Okrasný malý strom se zlatožlutými převislými hrozny květů. Kvete velice bohatě a efektně. Všechny části jsou silně jedovaté!",
+    "pece": "Nenáročný na půdu. Nevysazovat tam, kde se pohybují děti – semena a lusky jsou jedovaté.",
+    "tagy": [
+      "zlute kvety",
+      "jedovaty",
+      "previsle hrozny",
+      "efektni kveteni"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Laburnum_watereri_flowers.jpg&w=500"
+  },
+  {
+    "id": "larix-decidua",
+    "nazevCz": "Modřín opadavý",
+    "nazevLat": "Larix decidua",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 2000,
+    "vyskaMaxCm": 4000,
+    "sirkaMinCm": 500,
+    "sirkaMaxCm": 1000,
+    "velikostKategorie": "velka",
+    "obdobiKveteni": [
+      3,
+      4
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": false,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "popis": "Jediný evropský opadavý jehličnan. Na jaře raší svěže zeleným jehličím, na podzim se barví do zlatova a opadává.",
+    "pece": "Nenáročný na údržbu. Preferuje hlubší půdy a dostatek světla. Nesnáší zastínění.",
+    "tagy": [
+      "opadavy jehlicnan",
+      "podzimni zbarveni",
+      "rychle roste"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Larix_decidua_Aletschwald.jpg&w=500"
+  },
+  {
+    "id": "larix-kaempferi",
+    "nazevCz": "Modřín japonský",
+    "nazevLat": "Larix kaempferi",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 2000,
+    "vyskaMaxCm": 3500,
+    "sirkaMinCm": 500,
+    "sirkaMaxCm": 1000,
+    "velikostKategorie": "velka",
+    "obdobiKveteni": [
+      3,
+      4
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": false,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "popis": "Opadavý jehličnan s širší korunou než modřín opadavý. Jehličí je modrozelené, na podzim se barví do oranžova.",
+    "pece": "Snáší i vlhčí stanoviště. Odolnější vůči rakovině modřínu než evropský druh.",
+    "tagy": [
+      "opadavy jehlicnan",
+      "podzimni zbarveni",
+      "odolny"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Larix_kaempferi_cone.jpg&w=500"
+  },
+  {
+    "id": "liquidambar-styraciflua",
+    "nazevCz": "Ambroň západní",
+    "nazevLat": "Liquidambar styraciflua",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 1500,
+    "vyskaMaxCm": 2500,
+    "sirkaMinCm": 600,
+    "sirkaMaxCm": 1000,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "zelena"
+    ],
+    "obdobiKveteni": [
+      4,
+      5
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": false,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "stredni",
+    "frekvenceZalivky": "stredni",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "popis": "Statný strom s dlanitě laločnatými listy připomínajícími javor. Na podzim se barví do spektakulárních odstínů červené, oranžové a fialové.",
+    "pece": "Preferuje vlhčí, mírně kyselou půdu. Chráněné stanoviště v mladém věku.",
+    "tagy": [
+      "podzimni zbarveni",
+      "okrasny strom",
+      "dlanite listy"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Liquidambar_styraciflua-autumn.jpg&w=500"
+  },
+  {
+    "id": "lycium-chinense",
+    "nazevCz": "Kustovnice čínská (goji)",
+    "nazevLat": "Lycium chinense",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 100,
+    "vyskaMaxCm": 300,
+    "sirkaMinCm": 100,
+    "sirkaMaxCm": 300,
+    "velikostKategorie": "stredni",
+    "barvaKvetu": [
+      "fialova"
+    ],
+    "obdobiKveteni": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": true,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "rychly",
+    "popis": "Keř s převislými větvemi produkující červené plody goji bohaté na antioxidanty a vitamíny. Kvete drobnými fialovými kvítky.",
+    "pece": "Velmi nenáročná rostlina. Rozrůstá se výběžky – vhodné omezit kořenový prostor. Pravidelný řez zvyšuje úrodu.",
+    "tagy": [
+      "jedla plody",
+      "goji",
+      "superfood",
+      "nenáročný"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Lycium_chinense_fruits.jpg&w=500"
+  },
+  {
+    "id": "morus-alba",
+    "nazevCz": "Morušovník bílý",
+    "nazevLat": "Morus alba",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 800,
+    "vyskaMaxCm": 1500,
+    "sirkaMinCm": 500,
+    "sirkaMaxCm": 1000,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "zelena"
+    ],
+    "obdobiKveteni": [
+      4,
+      5
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": true,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "popis": "Rychle rostoucí strom s jedlými sladkými plody bílé až růžové barvy. Listy slouží jako potrava pro bource morušového.",
+    "pece": "Nenáročný na půdu. Snáší městské prostředí i sucho. Plody mohou špinat dlažbu.",
+    "tagy": [
+      "jedla plody",
+      "rychle roste",
+      "mestsky strom"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Morus_alba_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-095.jpg&w=500"
+  },
+  {
+    "id": "morus-nigra",
+    "nazevCz": "Morušovník černý",
+    "nazevLat": "Morus nigra",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 600,
+    "vyskaMaxCm": 1200,
+    "sirkaMinCm": 500,
+    "sirkaMaxCm": 800,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "zelena"
+    ],
+    "obdobiKveteni": [
+      4,
+      5
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": true,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "popis": "Menší strom s aromatickými tmavě červenými až černými plody vynikající chuti. Chutnější než morušovník bílý.",
+    "pece": "Preferuje teplé stanoviště. Méně mrazuvzdorný než bílý druh. Plody silně barví – nevysazovat u dlažby.",
+    "tagy": [
+      "jedla plody",
+      "chutne plody",
+      "teple stanoviste"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Morus_nigra_fruits.jpg&w=500"
+  },
+  {
+    "id": "photinia-fraseri",
+    "nazevCz": "Blýskalka Fraserova",
+    "nazevLat": "Photinia × fraseri",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 200,
+    "vyskaMaxCm": 400,
+    "sirkaMinCm": 200,
+    "sirkaMaxCm": 300,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "bila"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": false,
+    "bezpecnaProPsy": false,
+    "bezpecnaProKocky": false,
+    "toxicita": "mirna",
+    "narocnost": "stredni",
+    "frekvenceZalivky": "stredni",
+    "mrazuvzdornostDoC": -15,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "stredni",
+    "popis": "Stálezelený keř s efektně červeně zbarveným mladým listem. Vhodný na živé ploty i jako solitér. Bílé květy v květnu.",
+    "pece": "Stříhat na jaře a v létě pro podporu barevných výhonů. V chladnějších oblastech chránit před mrazem.",
+    "tagy": [
+      "stalezeleny",
+      "cervene listy",
+      "zivy plot",
+      "okrasne listy"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Photinia_fraseri_Red_Robin_01.jpg&w=500"
+  },
+  {
+    "id": "physocarpus-opulifolius",
+    "nazevCz": "Tavola kalinolistá",
+    "nazevLat": "Physocarpus opulifolius",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 200,
+    "vyskaMaxCm": 300,
+    "sirkaMinCm": 200,
+    "sirkaMaxCm": 300,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "bila",
+      "ruzova"
+    ],
+    "obdobiKveteni": [
+      6,
+      7
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "popis": "Robustní keř s dekorativní odlupující se kůrou. Kultivary s tmavě purpurovým nebo žlutým listem jsou velmi oblíbené.",
+    "pece": "Prakticky bezúdržbový. Snáší řez, sucho i městské prostředí. Ideální na živé ploty.",
+    "tagy": [
+      "okrasne listy",
+      "zivy plot",
+      "nenáročný",
+      "purpurove listy"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Physocarpus_opulifolius_Diabolo_01.JPG&w=500"
+  },
+  {
+    "id": "sophora-japonica",
+    "nazevCz": "Jerlín japonský",
+    "nazevLat": "Styphnolobium japonicum",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 1500,
+    "vyskaMaxCm": 2500,
+    "sirkaMinCm": 800,
+    "sirkaMaxCm": 1500,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "bila",
+      "zluta"
+    ],
+    "obdobiKveteni": [
+      7,
+      8
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "proMotyly": true,
+    "jedla": false,
+    "bezpecnaProDeti": false,
+    "bezpecnaProPsy": false,
+    "bezpecnaProKocky": false,
+    "toxicita": "mirna",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "popis": "Mohutný strom s elegantní korunou a zpeřenými listy. Kvete v pozdním létě bílými vonným latami – důležitý pozdní zdroj pro včely.",
+    "pece": "Nenáročný na půdu, snáší městské prostředí a sucho. Mladé stromy chránit před silnými mrazy.",
+    "tagy": [
+      "mestsky strom",
+      "pozdni kveteni",
+      "pro opylovace",
+      "vonna"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Sophora_japonica_flowers.jpg&w=500"
+  },
+  {
+    "id": "stephanandra-incisa",
+    "nazevCz": "Štěpánka řezaná",
+    "nazevLat": "Stephanandra incisa",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin",
+      "stin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 80,
+    "vyskaMaxCm": 150,
+    "sirkaMinCm": 100,
+    "sirkaMaxCm": 200,
+    "velikostKategorie": "mala",
+    "barvaKvetu": [
+      "bila"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "stredni",
+    "popis": "Nízký keř s jemně dělenými listy a gracilními obloukovitými větvemi. Na podzim se barví do oranžova. Vhodný jako půdopokryvná rostlina.",
+    "pece": "Nenáročná, snáší i stín. Občas prosvětlit staré výhony. Rozrůstá se zakořeňováním větví.",
+    "tagy": [
+      "pudopokryvna",
+      "podzimni zbarveni",
+      "nizky ker"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Stephanandra_incisa_Crispa_0zz.jpg&w=500"
+  },
+  {
+    "id": "symphoricarpos-albus",
+    "nazevCz": "Pámelník bílý",
+    "nazevLat": "Symphoricarpos albus",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "polostin",
+      "stin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 100,
+    "vyskaMaxCm": 200,
+    "sirkaMinCm": 100,
+    "sirkaMaxCm": 200,
+    "velikostKategorie": "stredni",
+    "barvaKvetu": [
+      "ruzova"
+    ],
+    "obdobiKveteni": [
+      6,
+      7
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": false,
+    "bezpecnaProPsy": false,
+    "bezpecnaProKocky": false,
+    "toxicita": "mirna",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "popis": "Nenáročný keř s nápadnými bílými bobulemi na podzim a v zimě. Květy jsou drobné růžové, ale plody jsou hlavní ozdobou.",
+    "pece": "Snáší stín, sucho i znečištěné prostředí. Rozrůstá se výběžky. Bobule jsou mírně jedovaté.",
+    "tagy": [
+      "bile bobule",
+      "stinomilny",
+      "nenáročný",
+      "zimni dekorace"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Symphoricarpos_albus_fruits.jpg&w=500"
+  },
+  {
+    "id": "symphoricarpos-chenaultii",
+    "nazevCz": "Pámelník Chenaultův",
+    "nazevLat": "Symphoricarpos × chenaultii",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "polostin",
+      "stin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 80,
+    "vyskaMaxCm": 150,
+    "sirkaMinCm": 100,
+    "sirkaMaxCm": 200,
+    "velikostKategorie": "mala",
+    "barvaKvetu": [
+      "ruzova"
+    ],
+    "obdobiKveteni": [
+      6,
+      7
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": false,
+    "bezpecnaProPsy": false,
+    "bezpecnaProKocky": false,
+    "toxicita": "mirna",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "popis": "Nízký keř s obloukovitě převislými větvemi a růžovočervenými bobulemi. Odrůda 'Hancock' je oblíbená půdopokryvná rostlina.",
+    "pece": "Velmi nenáročný, snáší stín i sucho. Rozrůstá se výběžky. Bobule jsou mírně jedovaté.",
+    "tagy": [
+      "pudopokryvna",
+      "stinomilny",
+      "ruzove bobule",
+      "nenáročný"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Symphoricarpos_x_chenaultii_Hancock_1.jpg&w=500"
+  },
+  {
+    "id": "abeliophyllum-distichum",
+    "nazevCz": "Abeliofylum dvouřadé",
+    "nazevLat": "Abeliophyllum distichum",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 100,
+    "vyskaMaxCm": 200,
+    "sirkaMinCm": 100,
+    "sirkaMaxCm": 200,
+    "velikostKategorie": "stredni",
+    "barvaKvetu": [
+      "bila",
+      "ruzova"
+    ],
+    "obdobiKveteni": [
+      3,
+      4
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "stredni",
+    "frekvenceZalivky": "stredni",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "pomaly",
+    "popis": "Vzácný keř nazývaný bílá zlatice – kvete brzy na jaře bílými či růžovými vonným kvítky na holých větvích.",
+    "pece": "Chráněné, slunné stanoviště. Po odkvětu zastřihnout odkvetlé výhony. Pomalu rostoucí druh.",
+    "tagy": [
+      "casne jaro",
+      "vonna",
+      "vzacny",
+      "bila zlatice"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Abeliophyllum_distichum3.jpg&w=500"
+  },
+  {
+    "id": "clerodendrum-trichotomum",
+    "nazevCz": "Klerodendron třízubý",
+    "nazevLat": "Clerodendrum trichotomum",
+    "kategorie": [
+      "ker",
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 300,
+    "vyskaMaxCm": 600,
+    "sirkaMinCm": 250,
+    "sirkaMaxCm": 500,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "bila"
+    ],
+    "obdobiKveteni": [
+      7,
+      8,
+      9
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "proMotyly": true,
+    "jedla": false,
+    "bezpecnaProDeti": false,
+    "bezpecnaProPsy": false,
+    "bezpecnaProKocky": false,
+    "toxicita": "mirna",
+    "narocnost": "stredni",
+    "frekvenceZalivky": "stredni",
+    "mrazuvzdornostDoC": -15,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "popis": "Exoticky působící keř s vonným bílými květy a metalicky modrými plody v červených kalichách na podzim.",
+    "pece": "Teplé, chráněné stanoviště. V chladnějších oblastech může namrzat, ale zmlazuje z kořenů.",
+    "tagy": [
+      "vonna",
+      "okrasne plody",
+      "exoticky",
+      "pozdni kveteni"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Clerodendrum_trichotomum_BotGardBln310505B.jpg&w=500"
+  },
+  {
+    "id": "enkianthus-campanulatus",
+    "nazevCz": "Enkiantus zvonkovitý",
+    "nazevLat": "Enkianthus campanulatus",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 200,
+    "vyskaMaxCm": 400,
+    "sirkaMinCm": 150,
+    "sirkaMaxCm": 300,
+    "velikostKategorie": "velka",
+    "barvaKvetu": [
+      "bila",
+      "ruzova",
+      "cervena"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "vyssi",
+    "frekvenceZalivky": "stredni",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "pomaly",
+    "popis": "Elegantní keř s převislými zvonkovitými květy a výjimečným podzimním zbarvením v odstínech červené a oranžové.",
+    "pece": "Vyžaduje kyselou, humusovitou půdu (podobně jako rododendrony). Nesnáší vápnitou vodu.",
+    "tagy": [
+      "podzimni zbarveni",
+      "kysela puda",
+      "zvonkovite kvety"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Enkianthus_campanulatus_(flower_s3).jpg&w=500"
+  },
+  {
+    "id": "imperata-cylindrica",
+    "nazevCz": "Imperáta válcovitá",
+    "nazevLat": "Imperata cylindrica",
+    "kategorie": [
+      "travina"
+    ],
+    "umisteni": [
+      "venku",
+      "nadoba",
+      "balkon_terasa"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 30,
+    "vyskaMaxCm": 60,
+    "sirkaMinCm": 30,
+    "sirkaMaxCm": 50,
+    "velikostKategorie": "mala",
+    "barvaKvetu": [
+      "cervena"
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": false,
+    "proMotyly": false,
+    "jedla": false,
+    "bezpecnaProDeti": true,
+    "bezpecnaProPsy": true,
+    "bezpecnaProKocky": true,
+    "toxicita": "ne",
+    "narocnost": "nizka",
+    "frekvenceZalivky": "stredni",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "stredni",
+    "popis": "Nízká okrasná tráva s listy zbarvujícími se od zelené přes červenou po krvavě rudou. Odrůda 'Red Baron' je nejoblíbenější.",
+    "pece": "Na jaře sestřihnout k zemi. Nenáročná, vyžaduje dostatek vlhkosti pro sytou barvu listů.",
+    "tagy": [
+      "okrasna trava",
+      "cervene listy",
+      "nizka",
+      "nadoba"
+    ],
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Imperata_cylindrica_%27Rubra%27_kz01.jpg&w=500"
+  },
+  {
+    "id": "hydrangea-paniculata",
+    "nazevCz": "Hortenzie latnatá",
+    "nazevLat": "Hydrangea paniculata",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku",
+      "nadoba"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 150,
+    "vyskaMaxCm": 300,
+    "barvaKvetu": [
+      "bila",
+      "ruzova"
+    ],
+    "obdobiKveteni": [
+      7,
+      8,
+      9
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Hydrangea_paniculata_%27Grandiflora%27_02.jpg/800px-Hydrangea_paniculata_%27Grandiflora%27_02.jpg",
+    "popis": "Mohutný opadavý keř s velkými kuželovitými květenstvími, která postupně mění barvu z bílé do růžové. Patří k nejodolnějším hortenzím vhodným do českých zahrad.",
+    "pece": "Vyžaduje pravidelnou zálivku a humózní půdu. Na jaře se silně seřezává pro bohatší kvetení."
+  },
+  {
+    "id": "hydrangea-serrata",
+    "nazevCz": "Hortenzie pilovitá",
+    "nazevLat": "Hydrangea serrata",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku",
+      "nadoba"
+    ],
+    "svetlo": [
+      "polostin",
+      "stin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 60,
+    "vyskaMaxCm": 150,
+    "barvaKvetu": [
+      "bila",
+      "ruzova",
+      "modra",
+      "fialova"
+    ],
+    "obdobiKveteni": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "stredni",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Hydrangea_serrata_Bluebird1.jpg/800px-Hydrangea_serrata_Bluebird1.jpg",
+    "popis": "Kompaktní horská hortenzie s jemnými plochými květenstvími, která mění barvu podle pH půdy. Menší a elegantnější než hortenzie velkolistá.",
+    "pece": "Vyžaduje kyselou, vlhkou půdu a polostinné stanoviště. Na zimu je vhodné přikrýt mulčem."
+  },
+  {
+    "id": "abies-koreana",
+    "nazevCz": "Jedle korejská",
+    "nazevLat": "Abies koreana",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 300,
+    "vyskaMaxCm": 1000,
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Abies_koreana_cone.jpg/800px-Abies_koreana_cone.jpg",
+    "popis": "Pomalurostoucí jehličnan s nápadnými fialovými vzpřímenými šiškami a hustým jehličím stříbřitě zbarveným na spodní straně. Oblíbený okrasný strom menších zahrad.",
+    "pece": "Nenáročná na údržbu, preferuje vlhčí propustnou půdu. Nesnáší sucho a horké stanoviště."
+  },
+  {
+    "id": "abies-nordmanniana",
+    "nazevCz": "Jedle kavkazská",
+    "nazevLat": "Abies nordmanniana",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 1500,
+    "vyskaMaxCm": 2500,
+    "stalezelena": true,
+    "vune": true,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Abies_nordmanniana.jpg/800px-Abies_nordmanniana.jpg",
+    "popis": "Statný jehličnan pyramidálního tvaru s hustým tmavozeleným lesklým jehličím. Nejoblíbenější vánoční stromek v Evropě díky měkkým nepichlavým jehlicím.",
+    "pece": "Snáší i částečný stín, preferuje hlubší vlhčí půdu. V mládí roste pomaleji, později zrychluje."
+  },
+  {
+    "id": "abies-concolor",
+    "nazevCz": "Jedle ojíněná",
+    "nazevLat": "Abies concolor",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 1500,
+    "vyskaMaxCm": 2500,
+    "stalezelena": true,
+    "vune": true,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Abies_concolor_Mainau.jpg/800px-Abies_concolor_Mainau.jpg",
+    "popis": "Elegantní jedle s dlouhými modrozelenými až stříbřitými jehlicemi s vůní po citrusech. Jedna z nejodolnějších jedlí vůči suchu a městskému prostředí.",
+    "pece": "Nenáročná jedle tolerující sucho i znečištěné ovzduší. Nevyžaduje řez, preferuje propustnou půdu."
+  },
+  {
+    "id": "abies-alba",
+    "nazevCz": "Jedle bělokorá",
+    "nazevLat": "Abies alba",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "polostin",
+      "stin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 3000,
+    "vyskaMaxCm": 5000,
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "stredni",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Abies_alba_001.JPG/800px-Abies_alba_001.JPG",
+    "popis": "Mohutný původní český jehličnan dorůstající až 50 metrů s charakteristickou hladkou šedou kůrou. Významný lesní strom středoevropských hor.",
+    "pece": "Vyžaduje vzdušnou vlhkost a propustnou humózní půdu. Citlivá na znečištění ovzduší a sucho."
+  },
+  {
+    "id": "picea-pungens",
+    "nazevCz": "Smrk pichlavý",
+    "nazevLat": "Picea pungens",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 1000,
+    "vyskaMaxCm": 2000,
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Picea_pungens_tree.jpg/800px-Picea_pungens_tree.jpg",
+    "popis": "Stříbřitě modrý smrk s tuhými pichlavými jehlicemi, původem ze Skalnatých hor. Velmi oblíbený okrasný jehličnan s mnoha kultivary.",
+    "pece": "Velmi odolný strom snášející mráz i sucho. Preferuje slunné stanoviště a propustnou půdu."
+  },
+  {
+    "id": "picea-omorika",
+    "nazevCz": "Smrk omorika",
+    "nazevLat": "Picea omorika",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 1500,
+    "vyskaMaxCm": 2000,
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Picea_omorika_Morton.jpg/800px-Picea_omorika_Morton.jpg",
+    "popis": "Štíhlý elegantní smrk s úzkou kuželovitou korunou a dvoubarevným jehličím – tmavozeleným svrchu a stříbřitým zespodu. Endemit balkánských hor.",
+    "pece": "Nenáročný na půdu ani stanoviště, snáší městské prostředí. Nevyžaduje řez, přirozeně si udržuje krásný tvar."
+  },
+  {
+    "id": "picea-orientalis",
+    "nazevCz": "Smrk východní",
+    "nazevLat": "Picea orientalis",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 1500,
+    "vyskaMaxCm": 3000,
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Picea_orientalis_-_Shelton%2C_WA.jpg/800px-Picea_orientalis_-_Shelton%2C_WA.jpg",
+    "popis": "Kavkazský smrk s nejkratšími jehlicemi ze všech smrků a hustou tmavozelenou korunou. Elegantní soliterní strom pro větší zahrady.",
+    "pece": "Preferuje vlhčí stanoviště chráněné před silným větrem. Dobře snáší polostín a městské prostředí."
+  },
+  {
+    "id": "picea-breweriana",
+    "nazevCz": "Smrk Brewerův",
+    "nazevLat": "Picea breweriana",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 1000,
+    "vyskaMaxCm": 2000,
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "vyssi",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Picea_breweriana_young.jpg/800px-Picea_breweriana_young.jpg",
+    "popis": "Výjimečně dekorativní smrk s dlouhými převislými větvičkami vytvářejícími závoj. Jeden z nejvzácnějších a nejkrásnějších smrků na světě.",
+    "pece": "Náročnější na pěstování – vyžaduje chladnější vlhké klima a chráněné stanoviště. Roste velmi pomalu."
+  },
+  {
+    "id": "pinus-mugo",
+    "nazevCz": "Borovice kleč",
+    "nazevLat": "Pinus mugo",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku",
+      "nadoba"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 100,
+    "vyskaMaxCm": 300,
+    "stalezelena": true,
+    "vune": true,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Pinus_mugo_subsp._mugo_%28habitus%29.jpg/800px-Pinus_mugo_subsp._mugo_%28habitus%29.jpg",
+    "popis": "Nízký keřovitý jehličnan typický pro horské oblasti s hustým porostem tmavozeleného jehličí. Existuje mnoho trpasličích kultivarů vhodných do skalek.",
+    "pece": "Mimořádně odolná, snáší mráz, vítr i chudé půdy. Nevyžaduje téměř žádnou údržbu."
+  },
+  {
+    "id": "pinus-strobus",
+    "nazevCz": "Borovice vejmutovka",
+    "nazevLat": "Pinus strobus",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 2000,
+    "vyskaMaxCm": 3500,
+    "stalezelena": true,
+    "vune": true,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Pinus_strobus_Torulosa1.jpg/800px-Pinus_strobus_Torulosa1.jpg",
+    "popis": "Rychle rostoucí severoamerická borovice s měkkým modrozeleným jehličím ve svazečcích po pěti. Vytváří širokou vzdušnou korunu.",
+    "pece": "Nenáročná borovice preferující kyselejší propustné půdy. Citlivá na sypavku, jinak bezproblémová."
+  },
+  {
+    "id": "pinus-sylvestris",
+    "nazevCz": "Borovice lesní",
+    "nazevLat": "Pinus sylvestris",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 2000,
+    "vyskaMaxCm": 3500,
+    "stalezelena": true,
+    "vune": true,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pinus_sylvestris_Glenmuick.jpg/800px-Pinus_sylvestris_Glenmuick.jpg",
+    "popis": "Původní česká borovice s charakteristickou oranžovou kůrou v koruně a nepravidelným habitem ve stáří. Nejrozšířenější borovice Evropy.",
+    "pece": "Extrémně nenáročná, roste i na nejchudších písčitých půdách. Vyžaduje pouze slunné stanoviště."
+  },
+  {
+    "id": "cornus-kousa",
+    "nazevCz": "Svída japonská",
+    "nazevLat": "Cornus kousa",
+    "kategorie": [
+      "ker",
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 300,
+    "vyskaMaxCm": 700,
+    "barvaKvetu": [
+      "bila",
+      "ruzova"
+    ],
+    "obdobiKveteni": [
+      6,
+      7
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "jedla": true,
+    "narocnost": "stredni",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cornus_kousa_var._chinensis_in_Eastwoodhill_Arboretum_%282%29.jpg/800px-Cornus_kousa_var._chinensis_in_Eastwoodhill_Arboretum_%282%29.jpg",
+    "popis": "Okrasný keř nebo malý strom s nápadnými bílými nebo růžovými listeny připomínajícími květy a jedlými červenými plody. Na podzim se zbarvuje do oranžova a červena.",
+    "pece": "Preferuje kyselou humózní půdu a chráněné stanoviště. Na jaře se lehce přihnojuje a mulčuje."
+  },
+  {
+    "id": "lonicera-kamtschatica",
+    "nazevCz": "Zimolez kamčatský",
+    "nazevLat": "Lonicera kamtschatica",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 100,
+    "vyskaMaxCm": 200,
+    "barvaKvetu": [
+      "zluta",
+      "bila"
+    ],
+    "obdobiKveteni": [
+      3,
+      4
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "jedla": true,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Lonicera_caerulea_var._edulis%2C_fruit.jpg/800px-Lonicera_caerulea_var._edulis%2C_fruit.jpg",
+    "popis": "Ovocný keř s jedlými podlouhlými modrými plody bohatými na vitamíny, dozrávajícími jako první ovoce v sezóně. Květy jsou důležitým časným zdrojem pylu pro včely.",
+    "pece": "Nenáročný keř preferující vlhčí stanoviště. Pro plodnost je nutné vysadit alespoň dva různé kultivary."
+  },
+  {
+    "id": "lonicera-henryi",
+    "nazevCz": "Zimolez Henryho",
+    "nazevLat": "Lonicera henryi",
+    "kategorie": [
+      "popinava"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "polostin",
+      "stin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 300,
+    "vyskaMaxCm": 600,
+    "barvaKvetu": [
+      "cervena",
+      "ruzova"
+    ],
+    "obdobiKveteni": [
+      6,
+      7
+    ],
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lonicera_henryi1.jpg/800px-Lonicera_henryi1.jpg",
+    "popis": "Stálezelená popínavá rostlina s tmavě zelenými kopinatými listy a drobnými červenofialovými květy. Vynikající pro pokrytí plotů a pergol i ve stinných polohách.",
+    "pece": "Nenáročná popínavka, po zakořenění snáší i sušší podmínky. V tuhých zimách může částečně ztratit listy."
+  },
+  {
+    "id": "rosa-rugosa",
+    "nazevCz": "Růže svraskalá",
+    "nazevLat": "Rosa rugosa",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 100,
+    "vyskaMaxCm": 200,
+    "barvaKvetu": [
+      "ruzova",
+      "bila",
+      "cervena"
+    ],
+    "obdobiKveteni": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "jedla": true,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Rosa_rugosa_Flowers_and_leaves_1.JPG/800px-Rosa_rugosa_Flowers_and_leaves_1.JPG",
+    "popis": "Mohutná keřová růže s výrazně svraskalými listy, velkými vonícími květy a velkými červenými šípky. Vynikající pro volně rostoucí živé ploty.",
+    "pece": "Mimořádně odolná a nenáročná růže zvládající i písčité a slané půdy. Není náchylná k chorobám růží."
+  },
+  {
+    "id": "acer-campestre",
+    "nazevCz": "Javor babyka",
+    "nazevLat": "Acer campestre",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 800,
+    "vyskaMaxCm": 1500,
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Acer_campestre_in_Burgwald01.jpg/800px-Acer_campestre_in_Burgwald01.jpg",
+    "popis": "Menší původní javor s hustou kompaktní korunou a zlatožlutým podzimním zbarvením. Výborný pro živé ploty, aleje i jako soliterní strom.",
+    "pece": "Velmi přizpůsobivý strom snášející řez, sucho i městské prostředí. Dobře regeneruje po zastřihávání."
+  },
+  {
+    "id": "betula-utilis",
+    "nazevCz": "Bříza užitečná",
+    "nazevLat": "Betula utilis",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 1000,
+    "vyskaMaxCm": 2000,
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Betula_utilis_ssp._jacquemontii_%27Doorenbos%27.jpg/800px-Betula_utilis_ssp._jacquemontii_%27Doorenbos%27.jpg",
+    "popis": "Himálajská bříza proslulá svou oslnivě bílou hladkou kůrou, která je nejbělejší ze všech bříz. Atraktivní zejména v zimě, kdy vynikne kůra bez listí.",
+    "pece": "Preferuje vlhčí půdu na slunném stanovišti. Nevyžaduje řez, mladé stromy je dobré chránit před srnčí zvěří."
+  },
+  {
+    "id": "prunus-subhirtella",
+    "nazevCz": "Třešeň chloupkatá",
+    "nazevLat": "Prunus subhirtella",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 500,
+    "vyskaMaxCm": 1000,
+    "barvaKvetu": [
+      "ruzova",
+      "bila"
+    ],
+    "obdobiKveteni": [
+      3,
+      4
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "stredni",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Prunus_subhirtella_%27Autumnalis%27.jpg/800px-Prunus_subhirtella_%27Autumnalis%27.jpg",
+    "popis": "Okrasná japonská třešeň kvetoucí již brzy na jaře jemnými růžovými nebo bílými květy. Kultivar 'Autumnalis' kvete opakovaně i na podzim a v mírných zimách.",
+    "pece": "Vyžaduje propustnou výživnou půdu a slunné stanoviště. Řez se provádí po odkvětu, ne v zimě."
+  },
+  {
+    "id": "prunus-incisa",
+    "nazevCz": "Třešeň vroubkovaná",
+    "nazevLat": "Prunus incisa",
+    "kategorie": [
+      "ker",
+      "strom"
+    ],
+    "umisteni": [
+      "venku",
+      "nadoba"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 200,
+    "vyskaMaxCm": 500,
+    "barvaKvetu": [
+      "ruzova",
+      "bila"
+    ],
+    "obdobiKveteni": [
+      3,
+      4
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Prunus_incisa_Kojo-no-mai_2.jpg/800px-Prunus_incisa_Kojo-no-mai_2.jpg",
+    "popis": "Miniaturní japonská třešeň ideální i pro malé zahrady a nádoby. Kvete brzy na jaře bohatými růžovobílými květy a na podzim se krásně barví.",
+    "pece": "Nenáročná na údržbu, preferuje slunné stanoviště s propustnou půdou. Občasný lehký řez po odkvětu."
+  },
+  {
+    "id": "prunus-lusitanica",
+    "nazevCz": "Bobkovišeň portugalská",
+    "nazevLat": "Prunus lusitanica",
+    "kategorie": [
+      "ker",
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin",
+      "stin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 300,
+    "vyskaMaxCm": 800,
+    "barvaKvetu": [
+      "bila"
+    ],
+    "obdobiKveteni": [
+      6
+    ],
+    "stalezelena": true,
+    "vune": true,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "stredni",
+    "mrazuvzdornostDoC": -15,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Prunus_lusitanica_flowers.jpg/800px-Prunus_lusitanica_flowers.jpg",
+    "popis": "Stálezelený keř nebo malý strom s lesklými tmavě zelenými listy a hrozny vonných bílých květů. Elegantní alternativa k vavřínu pro stříhané živé ploty.",
+    "pece": "Vyžaduje chráněné stanoviště v teplejších oblastech ČR. Snáší řez, ale citlivá na silné mrazy pod -15 °C."
+  },
+  {
+    "id": "malus-toringo",
+    "nazevCz": "Jabloň toringová",
+    "nazevLat": "Malus toringo",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 400,
+    "vyskaMaxCm": 800,
+    "barvaKvetu": [
+      "bila",
+      "ruzova"
+    ],
+    "obdobiKveteni": [
+      4,
+      5
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Malus_toringo_var._sargentii.jpg/800px-Malus_toringo_var._sargentii.jpg",
+    "popis": "Okrasná jabloň japonského původu s drobnými bílorůžovými květy a malými červenými plůdky přetrvávajícími na větvích do zimy. Atraktivní ve všech ročních obdobích.",
+    "pece": "Nenáročná na půdu, preferuje slunné stanoviště. Řez se provádí v zimě pro udržení tvaru koruny."
+  },
+  {
+    "id": "salix-integra",
+    "nazevCz": "Vrba celolistá",
+    "nazevLat": "Salix integra",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku",
+      "nadoba"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 100,
+    "vyskaMaxCm": 300,
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Salix_integra_%27Hakuro-nishiki%27.jpg/800px-Salix_integra_%27Hakuro-nishiki%27.jpg",
+    "popis": "Kompaktní vrba známá zejména kultivarem 'Hakuro-nishiki' s panašovanými růžovo-bílo-zelenými listy. Efektní na kmínku i jako keř do nádob.",
+    "pece": "Vyžaduje pravidelnou zálivku a každoroční silný řez na jaře pro zachování barevného listí. Snáší i přemokřené půdy."
+  },
+  {
+    "id": "salix-caprea",
+    "nazevCz": "Vrba jíva",
+    "nazevLat": "Salix caprea",
+    "kategorie": [
+      "strom",
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 500,
+    "vyskaMaxCm": 1000,
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Salix_caprea_015.jpg/800px-Salix_caprea_015.jpg",
+    "popis": "Původní česká vrba známá svými hedvábnými kočičkami, které jsou jedním z prvních zdrojů pylu pro včely na jaře. Nenáročný pionýrský dřevina.",
+    "pece": "Prakticky bezúdržbová, roste téměř kdekoli. Snáší zamokření i přechodné sucho. Rozmnožuje se snadno řízky."
+  },
+  {
+    "id": "tilia-cordata",
+    "nazevCz": "Lípa srdčitá",
+    "nazevLat": "Tilia cordata",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 2000,
+    "vyskaMaxCm": 3000,
+    "barvaKvetu": [
+      "zluta"
+    ],
+    "obdobiKveteni": [
+      6,
+      7
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "jedla": true,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Tilia_cordata_-_small_leaved_linden_-_desc-leaves_and_702702702702702_fruits.jpg/800px-Tilia_cordata_-_small_leaved_linden_-_desc-leaves_and_702702702702702_fruits.jpg",
+    "popis": "Národní strom Čechů s voňavými žlutými květy využívanými na léčivý čaj. Dlouhověký strom dorůstající až 30 metrů s krásnou kulovitou korunou.",
+    "pece": "Nenáročný strom snášející městské prostředí. Dobře reaguje na řez, vhodný pro tvarované aleje."
+  },
+  {
+    "id": "tilia-platyphyllos",
+    "nazevCz": "Lípa velkolistá",
+    "nazevLat": "Tilia platyphyllos",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 2500,
+    "vyskaMaxCm": 3500,
+    "barvaKvetu": [
+      "zluta"
+    ],
+    "obdobiKveteni": [
+      6
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "jedla": true,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tilia_platyphyllos_002.JPG/800px-Tilia_platyphyllos_002.JPG",
+    "popis": "Mohutná lípa s velkými srdčitými listy kvete o 1–2 týdny dříve než lípa srdčitá. Často vysazovaná u kostelů, zámků a na návsích jako památný strom.",
+    "pece": "Nenáročná na údržbu, preferuje hlubší živné půdy. Snáší městské prostředí a dobře reaguje na řez."
+  },
+  {
+    "id": "fagus-sylvatica",
+    "nazevCz": "Buk lesní",
+    "nazevLat": "Fagus sylvatica",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "polostin",
+      "stin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 2500,
+    "vyskaMaxCm": 4000,
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": false,
+    "jedla": true,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fagus_sylvatica_013.jpg/800px-Fagus_sylvatica_013.jpg",
+    "popis": "Majestátní původní lesní strom s hladkou šedou kůrou a listy měnícími barvu z jemně zelené přes tmavou až po zlatohnědou na podzim. Bukvice jsou jedlé po opražení.",
+    "pece": "Preferuje humózní propustné půdy, nesnáší zamokření. Výborný pro stříhané živé ploty, kde si podržuje suché listy přes zimu."
+  },
+  {
+    "id": "quercus-robur",
+    "nazevCz": "Dub letní",
+    "nazevLat": "Quercus robur",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 2500,
+    "vyskaMaxCm": 4000,
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Quercus_robur.jpg/800px-Quercus_robur.jpg",
+    "popis": "Symbolický dlouhověký strom dorůstající mohutných rozměrů s nepravidelnou rozložitou korunou. Žaludy jsou potravou mnoha živočichů, dřevo je vysoce ceněné.",
+    "pece": "Velmi odolný strom snášející zamokření i přechodné sucho. V mládí roste pomaleji, později zrychluje. Nevyžaduje řez."
+  },
+  {
+    "id": "chamaecyparis-lawsoniana",
+    "nazevCz": "Cypřišek Lawsonův",
+    "nazevLat": "Chamaecyparis lawsoniana",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 1000,
+    "vyskaMaxCm": 2000,
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "stredni",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Chamaecyparis_lawsoniana_A.jpg/800px-Chamaecyparis_lawsoniana_A.jpg",
+    "popis": "Elegantní stálezelený jehličnan s měkkou šupinatou zelení dostupný v desítkách kultivarů – od sloupovitých modrých po kulovité zlaté formy.",
+    "pece": "Preferuje vlhčí vzduch a propustnou půdu. Nesnáší silné mrazy a vysoušející východní větry v zimě."
+  },
+  {
+    "id": "chamaecyparis-obtusa",
+    "nazevCz": "Cypřišek tupolistý",
+    "nazevLat": "Chamaecyparis obtusa",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku",
+      "nadoba"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 500,
+    "vyskaMaxCm": 1500,
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "stredni",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Chamaecyparis_obtusa_Nana_Gracilis1.jpg/800px-Chamaecyparis_obtusa_Nana_Gracilis1.jpg",
+    "popis": "Japonský cypřišek s vějířkovitě uspořádanými větvičkami a lesklým tmavozeleným jehličím. Trpasličí kultivary jsou ideální pro japonské zahrady a nádoby.",
+    "pece": "Vyžaduje vlhčí propustnou půdu a ochranu před vysoušejícím zimním sluncem. Trpasličí formy jsou vhodné do nádob."
+  },
+  {
+    "id": "juniperus-communis",
+    "nazevCz": "Jalovec obecný",
+    "nazevLat": "Juniperus communis",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 100,
+    "vyskaMaxCm": 600,
+    "stalezelena": true,
+    "vune": true,
+    "proVcely": false,
+    "jedla": true,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -35,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Juniperus_communis_cones.jpg/800px-Juniperus_communis_cones.jpg",
+    "popis": "Původní český jehličnan s pichlavým jehličím a aromatickými bobulemi využívanými jako koření. Chráněný druh s rozmanitými formami od poléhavých po sloupovité.",
+    "pece": "Extrémně nenáročný, roste i na suchých kamenitých půdách. Nesnáší zamokření a hustý stín."
+  },
+  {
+    "id": "juniperus-scopulorum",
+    "nazevCz": "Jalovec skalní",
+    "nazevLat": "Juniperus scopulorum",
+    "kategorie": [
+      "strom",
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 500,
+    "vyskaMaxCm": 1500,
+    "stalezelena": true,
+    "vune": true,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Juniperus_scopulorum_UGA3.jpg/800px-Juniperus_scopulorum_UGA3.jpg",
+    "popis": "Severoamerický jalovec štíhlého sloupovitého tvaru s modrostříbrným jehličím. Kultivar 'Blue Arrow' patří k nejoblíbenějším sloupovitým jehličnanům.",
+    "pece": "Velmi odolný vůči suchu a mrazu. Preferuje propustnou půdu a plné slunce, nesnáší zamokření."
+  },
+  {
+    "id": "thuja-plicata",
+    "nazevCz": "Zerav obrovský",
+    "nazevLat": "Thuja plicata",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 1500,
+    "vyskaMaxCm": 2500,
+    "stalezelena": true,
+    "vune": true,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Thuja_plicata_47978.JPG/800px-Thuja_plicata_47978.JPG",
+    "popis": "Mohutný stálezelený jehličnan s aromatickým dřevem a lesklým tmavozeleným šupinatým jehličím. Výborný pro vysoké živé ploty díky rychlému růstu.",
+    "pece": "Preferuje vlhčí stanoviště, v suchých obdobích nutné zavlažovat. Snáší řez a dobře se zahušťuje."
+  },
+  {
+    "id": "taxus-media",
+    "nazevCz": "Tis prostřední",
+    "nazevLat": "Taxus × media",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku",
+      "nadoba"
+    ],
+    "svetlo": [
+      "polostin",
+      "stin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 200,
+    "vyskaMaxCm": 500,
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Taxus_x_media_Hicksii.jpg/800px-Taxus_x_media_Hicksii.jpg",
+    "popis": "Hybridní tis kombinující vlastnosti tisu červeného a japonského. Hustý stálezelený keř ideální pro stříhané živé ploty a tvarování. Všechny části mimo míšek jsou jedovaté.",
+    "pece": "Snáší hluboký stín i slunce, velmi dobře reaguje na řez. Nesnáší zamokřenou půdu."
+  },
+  {
+    "id": "rhododendron-catawbiense",
+    "nazevCz": "Pěnišník katawbský",
+    "nazevLat": "Rhododendron catawbiense",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "polostin",
+      "stin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 200,
+    "vyskaMaxCm": 400,
+    "barvaKvetu": [
+      "fialova",
+      "ruzova"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "stredni",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Rhododendron_catawbiense_a1.jpg/800px-Rhododendron_catawbiense_a1.jpg",
+    "popis": "Mohutný stálezelený rododendron s velkými fialově růžovými květy v bohatých hroznech. Jeden z nejmrazuvzdornějších velkých rododendronů.",
+    "pece": "Vyžaduje kyselou humózní půdu a polostinné stanoviště. Mulčovat kyselým materiálem a zalévat měkkou vodou."
+  },
+  {
+    "id": "rhododendron-yakushimanum",
+    "nazevCz": "Pěnišník jakušimský",
+    "nazevLat": "Rhododendron yakushimanum",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku",
+      "nadoba"
+    ],
+    "svetlo": [
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 60,
+    "vyskaMaxCm": 120,
+    "barvaKvetu": [
+      "ruzova",
+      "bila"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "stredni",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "pomaly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Rhododendron_yakushimanum_01.jpg/800px-Rhododendron_yakushimanum_01.jpg",
+    "popis": "Kompaktní japonský rododendron s plstnatými listy a nádhernými květy měnícími barvu z růžové do bílé. Ideální pro malé zahrady a nádoby.",
+    "pece": "Vyžaduje kyselou, vlhkou ale propustnou půdu. Mulčovat kůrou, zalévat dešťovou vodou."
+  },
+  {
+    "id": "spiraea-vanhouttei",
+    "nazevCz": "Tavolník Van Houtteho",
+    "nazevLat": "Spiraea × vanhouttei",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 150,
+    "vyskaMaxCm": 250,
+    "barvaKvetu": [
+      "bila"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Spiraea_vanhouttei0.jpg/800px-Spiraea_vanhouttei0.jpg",
+    "popis": "Oblíbený okrasný keř s elegantně převislými větvemi pokrytými záplavou bílých květů. Často nazýván 'nevěstin závoj' pro svůj působivý jarní květ.",
+    "pece": "Velmi nenáročný keř, řez se provádí ihned po odkvětu. Snáší i chudší půdy a městské prostředí."
+  },
+  {
+    "id": "spiraea-cinerea",
+    "nazevCz": "Tavolník šedý",
+    "nazevLat": "Spiraea × cinerea",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 100,
+    "vyskaMaxCm": 200,
+    "barvaKvetu": [
+      "bila"
+    ],
+    "obdobiKveteni": [
+      4,
+      5
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Spiraea_cinerea_%27Grefsheim%27.jpg/800px-Spiraea_cinerea_%27Grefsheim%27.jpg",
+    "popis": "Půvabný keř s jemnými šedozelenými listy a převislými větvemi obsypanými drobnými bílými květy. Kultivar 'Grefsheim' patří k nejoblíbenějším jarním keřům.",
+    "pece": "Bezúdržbový keř, řez ihned po odkvětu. Roste prakticky v jakékoli zahradní půdě."
+  },
+  {
+    "id": "viburnum-plicatum",
+    "nazevCz": "Kalina řasnatá",
+    "nazevLat": "Viburnum plicatum",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 200,
+    "vyskaMaxCm": 350,
+    "barvaKvetu": [
+      "bila"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Viburnum_plicatum_f._tomentosum_%27Mariesii%27.jpg/800px-Viburnum_plicatum_f._tomentosum_%27Mariesii%27.jpg",
+    "popis": "Okrasný keř s charakteristicky vodorovně rozloženými větvemi a plochými bílými květenstvími připomínajícími krajku. Krásné podzimní zbarvení do červena.",
+    "pece": "Preferuje humózní vlhčí půdu. Řez jen pro tvarování, nevyžaduje pravidelný řez."
+  },
+  {
+    "id": "viburnum-bodnantense",
+    "nazevCz": "Kalina bodnantská",
+    "nazevLat": "Viburnum × bodnantense",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 200,
+    "vyskaMaxCm": 350,
+    "barvaKvetu": [
+      "ruzova",
+      "bila"
+    ],
+    "obdobiKveteni": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Viburnum_x_bodnantense_Dawn.jpg/800px-Viburnum_x_bodnantense_Dawn.jpg",
+    "popis": "Unikátní keř kvetoucí uprostřed zimy intenzivně vonícími růžovobílými květy. Jeden z mála keřů oživujících zahradu v nejchladnějších měsících.",
+    "pece": "Nenáročný keř, vysazovat na chráněné místo, kde vynikne zimní květ. Řez pouze po odkvětu."
+  },
+  {
+    "id": "cotoneaster-dammeri",
+    "nazevCz": "Skalník Dammerův",
+    "nazevLat": "Cotoneaster dammeri",
+    "kategorie": [
+      "ker"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "suche",
+      "bezne"
+    ],
+    "vyskaMinCm": 15,
+    "vyskaMaxCm": 30,
+    "barvaKvetu": [
+      "bila"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cotoneaster_dammeri_a1.jpg/800px-Cotoneaster_dammeri_a1.jpg",
+    "popis": "Stálezelený plazivý keřík pokrývající půdu hustým kobercem lesklých lístků s červenými plůdky na podzim. Vynikající půdopokryvná rostlina na svahy a skalky.",
+    "pece": "Mimořádně nenáročný, snáší sucho i chudé půdy. Občasný řez pro omezení rozpínavosti."
+  },
+  {
+    "id": "wisteria-floribunda",
+    "nazevCz": "Vistárie hroznatá",
+    "nazevLat": "Wisteria floribunda",
+    "kategorie": [
+      "popinava"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 800,
+    "vyskaMaxCm": 1500,
+    "barvaKvetu": [
+      "fialova",
+      "modra",
+      "bila",
+      "ruzova"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "stredni",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Wisteria_floribunda_-_Longwood_Gardens_-_DSC01087.JPG/800px-Wisteria_floribunda_-_Longwood_Gardens_-_DSC01087.JPG",
+    "popis": "Velkolepá popínavá dřevina s dlouhými převislými hrozny voňavých květů dosahujícími délky až 50 cm. Japonská kráska pro pergoly a fasády.",
+    "pece": "Vyžaduje pevnou oporu a pravidelný letní i zimní řez pro bohaté kvetení. Chránit před pozdními mrazy."
+  },
+  {
+    "id": "clematis-montana",
+    "nazevCz": "Plamének horský",
+    "nazevLat": "Clematis montana",
+    "kategorie": [
+      "popinava"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne"
+    ],
+    "vyskaMinCm": 500,
+    "vyskaMaxCm": 1000,
+    "barvaKvetu": [
+      "bila",
+      "ruzova"
+    ],
+    "obdobiKveteni": [
+      5,
+      6
+    ],
+    "stalezelena": false,
+    "vune": true,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Clematis_montana_rubens1.jpg/800px-Clematis_montana_rubens1.jpg",
+    "popis": "Bujně rostoucí plamének pokrývající pergoly a ploty záplavou drobných vonných květů. Jedna z nejsilněji rostoucích popínavých rostlin pro zahrady.",
+    "pece": "Nenáročný plamének řezaný pouze po odkvětu. Báze rostliny by měla být zastíněna, koruna na slunci."
+  },
+  {
+    "id": "vinca-major",
+    "nazevCz": "Barvínek větší",
+    "nazevLat": "Vinca major",
+    "kategorie": [
+      "trvalka"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "polostin",
+      "stin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 20,
+    "vyskaMaxCm": 50,
+    "barvaKvetu": [
+      "modra",
+      "fialova"
+    ],
+    "obdobiKveteni": [
+      4,
+      5,
+      6
+    ],
+    "stalezelena": true,
+    "vune": false,
+    "proVcely": true,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -20,
+    "vhodnaDoNadoby": true,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Vinca_major_2.jpg/800px-Vinca_major_2.jpg",
+    "popis": "Stálezelená půdopokryvná trvalka s velkými modrými květy a lesklými zelenými listy. Rychle pokrývá holou půdu i ve stinných partiích zahrady.",
+    "pece": "Naprosto nenáročný, roste téměř kdekoli. V příznivých podmínkách se může stát invazivní, je třeba omezovat šíření."
+  },
+  {
+    "id": "platanus-hispanica",
+    "nazevCz": "Platan javorolistý",
+    "nazevLat": "Platanus × hispanica",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 2500,
+    "vyskaMaxCm": 3500,
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -25,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "rychly",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Platanus_hispanica_bark_01_by_Line1.jpg/800px-Platanus_hispanica_bark_01_by_Line1.jpg",
+    "popis": "Mohutný městský strom s charakteristickou strakatou kůrou odlupující se v plátcích a velkými javorovitými listy. Typický strom bulvárů a parků jižní Evropy.",
+    "pece": "Velmi odolný strom snášející znečištění, horko i řez. Vyžaduje dostatek prostoru pro mohutnou korunu."
+  },
+  {
+    "id": "ulmus-glabra",
+    "nazevCz": "Jilm horský",
+    "nazevLat": "Ulmus glabra",
+    "kategorie": [
+      "strom"
+    ],
+    "umisteni": [
+      "venku"
+    ],
+    "svetlo": [
+      "slunce",
+      "polostin"
+    ],
+    "vlhkost": [
+      "bezne",
+      "vlhke"
+    ],
+    "vyskaMinCm": 2500,
+    "vyskaMaxCm": 3500,
+    "stalezelena": false,
+    "vune": false,
+    "proVcely": false,
+    "jedla": false,
+    "narocnost": "nizka",
+    "mrazuvzdornostDoC": -30,
+    "vhodnaDoNadoby": false,
+    "rychlostRustu": "stredni",
+    "obrazek": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ulmus_glabra_in_Botanical_garden%2C_TP.jpg/800px-Ulmus_glabra_in_Botanical_garden%2C_TP.jpg",
+    "popis": "Statný původní český strom se širokou korunou a velkými asymetrickými listy s drsným povrchem. Ohrožen grafiózou, ale stále významný krajinný strom.",
+    "pece": "Preferuje vlhčí úrodné půdy v nižších polohách. Nutné sledovat zdravotní stav kvůli grafióze (holandské nemoci jilmů)."
   }
 ]
