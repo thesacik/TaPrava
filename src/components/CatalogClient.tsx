@@ -12,6 +12,8 @@ import {
   barvaKvetuLabels, mesicLabels, narocnostLabels,
 } from "@/utils/labels";
 
+const PAGE_SIZE = 30;
+
 const BOOL_KEYS = new Set(["bezpecnostDeti", "bezpecnostMazlici", "chciVuni", "proVcely", "vhodnaDoNadoby"]);
 const ARRAY_KEYS = new Set(["ocekavani"]);
 const AF = "af_";
@@ -136,6 +138,8 @@ export function CatalogClient({ plants }: CatalogClientProps) {
   const [additional, setAdditional] = useState<AdditionalFilters>(initRef.current.additional);
   const [searchQuery, setSearchQuery] = useState(initRef.current.searchQuery);
   const [panelOpen, setPanelOpen] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const sentinelRef = useRef<HTMLDivElement>(null);
   const fav = useFavorites();
 
   useEffect(() => {
@@ -143,6 +147,10 @@ export function CatalogClient({ plants }: CatalogClientProps) {
     const search = params.toString();
     const url = search ? `/rostliny?${search}` : "/rostliny";
     window.history.replaceState(window.history.state, "", url);
+  }, [answers, additional, searchQuery]);
+
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
   }, [answers, additional, searchQuery]);
 
   const setPrimary = (key: keyof UserAnswers, value: string | undefined) => {
@@ -188,6 +196,26 @@ export function CatalogClient({ plants }: CatalogClientProps) {
   const filteredOther = useMemo(() => applyExtra(otherOptions), [otherOptions, additional, searchQuery]);
   const total = filteredTop.length + filteredOther.length;
   const additionalCount = Object.values(additional).filter((v) => v !== undefined && v !== false).length;
+
+  const visibleTop = filteredTop.slice(0, visibleCount);
+  const remainingSlots = Math.max(0, visibleCount - filteredTop.length);
+  const visibleOther = remainingSlots > 0 ? filteredOther.slice(0, remainingSlots) : [];
+  const hasMore = visibleCount < total;
+
+  useEffect(() => {
+    const sentinel = sentinelRef.current;
+    if (!sentinel || !hasMore) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((prev) => Math.min(prev + PAGE_SIZE, total));
+        }
+      },
+      { rootMargin: "400px" },
+    );
+    io.observe(sentinel);
+    return () => io.disconnect();
+  }, [hasMore, total]);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-6">
@@ -240,10 +268,10 @@ export function CatalogClient({ plants }: CatalogClientProps) {
         </div>
       ) : (
         <div className="space-y-8">
-          {filteredTop.length > 0 && (
+          {visibleTop.length > 0 && (
             <section>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                {filteredTop.map((sp) => (
+                {visibleTop.map((sp) => (
                   <PlantCard
                     key={sp.plant.id}
                     plant={sp.plant}
@@ -255,11 +283,11 @@ export function CatalogClient({ plants }: CatalogClientProps) {
               </div>
             </section>
           )}
-          {filteredOther.length > 0 && (
+          {visibleOther.length > 0 && (
             <section>
               {filteredTop.length > 0 && <h3 className="mb-4 text-lg font-semibold text-gray-700">Další možnosti</h3>}
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                {filteredOther.map((sp) => (
+                {visibleOther.map((sp) => (
                   <PlantCard
                     key={sp.plant.id}
                     plant={sp.plant}
@@ -269,6 +297,11 @@ export function CatalogClient({ plants }: CatalogClientProps) {
                 ))}
               </div>
             </section>
+          )}
+          {hasMore && (
+            <div ref={sentinelRef} className="flex justify-center py-8">
+              <div className="h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-primary" />
+            </div>
           )}
         </div>
       )}
