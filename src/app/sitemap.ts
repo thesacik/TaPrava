@@ -3,7 +3,7 @@ import { allPlants } from "@/utils/plants";
 import { toSlug } from "@/utils/slug";
 import { categoryPages } from "@/data/categoryPages";
 
-const BASE = "https://vyberrostlinu.cz";
+const BASE = "https://taprava.cz";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [

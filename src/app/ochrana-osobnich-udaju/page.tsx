@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Ochrana osobních údajů",
   description:
-    "Zásady ochrany osobních údajů a používání cookies na webu VyberRostlinu.cz.",
+    "Zásady ochrany osobních údajů a používání cookies na webu TaPrava.cz.",
 };
 
 export default function PrivacyPage() {
@@ -17,7 +17,7 @@ export default function PrivacyPage() {
         <section>
           <h2>1. Správce údajů</h2>
           <p>
-            Provozovatelem webu VyberRostlinu.cz (dále jen „web") je fyzická
+            Provozovatelem webu TaPrava.cz (dále jen „web") je fyzická
             osoba. Kontaktovat nás můžete na e-mailové adrese uvedené v patičce
             webu.
           </p>

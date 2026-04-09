@@ -146,7 +146,7 @@ export function SeasonalClient() {
             description: content.intro,
             publisher: {
               "@type": "Organization",
-              name: "VyberRostlinu.cz",
+              name: "Ta Pravá",
             },
           }),
         }}

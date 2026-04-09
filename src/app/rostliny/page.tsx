@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Procházejte katalog s více než 1 000 rostlinami. Filtrujte podle umístění, světla, typu a dalších parametrů.",
   openGraph: {
-    title: "Katalog rostlin | VyberRostlinu.cz",
+    title: "Katalog rostlin | Ta Pravá",
     description: "Procházejte katalog s více než 1 000 rostlinami. Filtrujte podle umístění, světla, typu a dalších parametrů.",
   },
 };

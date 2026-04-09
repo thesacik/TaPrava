@@ -115,12 +115,12 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            name: "VyberRostlinu.cz",
-            url: "https://vyberrostlinu.cz",
+            name: "Ta Pravá",
+            url: "https://taprava.cz",
             description: "Interaktivní průvodce výběrem rostlin pro zahradu, balkon i interiér.",
             potentialAction: {
               "@type": "SearchAction",
-              target: "https://vyberrostlinu.cz/rostliny?q={search_term_string}",
+              target: "https://taprava.cz/rostliny?q={search_term_string}",
               "query-input": "required name=search_term_string",
             },
           }),

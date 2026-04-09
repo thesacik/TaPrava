@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Odpovězte na pár otázek a my vám doporučíme ty nejlepší rostliny pro vaše podmínky. Zdarma a bez registrace.",
   openGraph: {
-    title: "Průvodce výběrem rostlin | VyberRostlinu.cz",
+    title: "Průvodce výběrem rostlin | Ta Pravá",
     description: "Odpovězte na pár otázek a my vám doporučíme ty nejlepší rostliny pro vaše podmínky.",
   },
 };

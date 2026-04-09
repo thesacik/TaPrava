@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${plant.nazevCz}${plant.nazevLat ? ` (${plant.nazevLat})` : ""}`,
     description,
     openGraph: {
-      title: `${plant.nazevCz} | VyberRostlinu.cz`,
+      title: `${plant.nazevCz} | Ta Pravá`,
       description,
       ...(ogImage && { images: [{ url: ogImage, width: 1200, height: 630, alt: plant.nazevCz }] }),
     },

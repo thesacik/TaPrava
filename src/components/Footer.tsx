@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <Link href="/" className="mb-3 flex items-center gap-2 font-bold text-primary-dark">
               <Leaf size={20} className="text-primary" />
-              VyberRostlinu.cz
+              TaPrava.cz
             </Link>
             <p className="text-sm text-gray-500 leading-relaxed">
               Pomůžeme vám najít tu správnou rostlinu pro vaše podmínky.
@@ -29,7 +29,7 @@ export function Footer() {
           <div>
             <h4 className="mb-3 text-sm font-semibold text-gray-900">O projektu</h4>
             <p className="text-sm text-gray-500 leading-relaxed">
-              VyberRostlinu.cz je bezplatný online průvodce, který vám pomůže
+              Ta Pravá je bezplatný online průvodce, který vám pomůže
               vybrat ideální rostliny pro zahradu, balkon i interiér.
             </p>
             <Link href="/ochrana-osobnich-udaju" className="mt-3 inline-block text-sm text-gray-400 hover:text-primary">
@@ -39,7 +39,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 border-t border-gray-200 pt-6 text-center text-xs text-gray-400">
-          &copy; {new Date().getFullYear()} VyberRostlinu.cz. Všechna práva vyhrazena.
+          &copy; {new Date().getFullYear()} TaPrava.cz. Všechna práva vyhrazena.
         </div>
       </div>
     </footer>

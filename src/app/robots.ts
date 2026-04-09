@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: "https://vyberrostlinu.cz/sitemap.xml",
+    sitemap: "https://taprava.cz/sitemap.xml",
   };
 }

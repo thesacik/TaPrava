@@ -10,14 +10,14 @@ const amatic = Amatic_SC({ weight: ["400", "700"], subsets: ["latin", "latin-ext
 
 export const metadata: Metadata = {
   title: {
-    default: "VyberRostlinu.cz — Průvodce výběrem rostlin",
-    template: "%s | VyberRostlinu.cz",
+    default: "Ta Pravá — Průvodce výběrem rostlin",
+    template: "%s | Ta Pravá",
   },
   description:
     "Interaktivní průvodce výběrem rostlin pro zahradu, balkon i interiér. Katalog s více než 1 000 rostlinami, filtry, porovnání cen v e-shopech.",
-  metadataBase: new URL("https://vyberrostlinu.cz"),
+  metadataBase: new URL("https://taprava.cz"),
   openGraph: {
-    siteName: "VyberRostlinu.cz",
+    siteName: "Ta Pravá",
     locale: "cs_CZ",
     type: "website",
   },
