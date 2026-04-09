@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import {
   Sun, CloudSun, Cloud, Droplets, Ruler, Thermometer,
@@ -13,6 +14,30 @@ import {
   kategorieLabels, svetloLabels, vlhkostLabels, narocnostLabels,
   rychlostRustuLabels, frekvenceZalivkyLabels, barvaKvetuLabels, mesicLabels,
 } from "@/utils/labels";
+
+function DetailImage({ src, alt }: { src: string; alt: string }) {
+  const [failed, setFailed] = useState(false);
+
+  if (failed) {
+    return (
+      <div className="flex h-full items-center justify-center text-primary-light opacity-30">
+        <Leaf size={80} />
+      </div>
+    );
+  }
+
+  return (
+    <Image
+      src={src}
+      alt={alt}
+      fill
+      sizes="(max-width: 768px) 100vw, 50vw"
+      className="object-cover"
+      priority
+      onError={() => setFailed(true)}
+    />
+  );
+}
 
 interface PlantDetailProps {
   plant: Plant;
@@ -34,14 +59,7 @@ export function PlantDetail({ plant, isFavorite, onToggleFavorite }: PlantDetail
       <div className="grid gap-8 md:grid-cols-2">
         <div className="relative aspect-square overflow-hidden rounded-2xl bg-accent-light">
           {thumbUrl ? (
-            <Image
-              src={thumbUrl}
-              alt={plant.nazevCz}
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover"
-              priority
-            />
+            <DetailImage src={thumbUrl} alt={plant.nazevCz} />
           ) : (
             <div className="flex h-full items-center justify-center text-primary-light opacity-30">
               <Leaf size={80} />

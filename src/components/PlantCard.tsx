@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Sun, CloudSun, Cloud, Droplets, Bug, Leaf, Heart } from "lucide-react";
@@ -19,6 +22,30 @@ function SvetloIcon({ svetlo }: { svetlo: string[] }) {
   return <Cloud size={16} className="text-gray-400" />;
 }
 
+function PlantImage({ src, alt }: { src: string; alt: string }) {
+  const [failed, setFailed] = useState(false);
+
+  if (failed) {
+    return (
+      <div className="flex h-full items-center justify-center text-primary-light opacity-40">
+        <Leaf size={48} />
+      </div>
+    );
+  }
+
+  return (
+    <Image
+      src={src}
+      alt={alt}
+      fill
+      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+      className="object-cover transition group-hover:scale-105"
+      loading="lazy"
+      onError={() => setFailed(true)}
+    />
+  );
+}
+
 export function PlantCard({ plant, reasons, rank, isFavorite, onToggleFavorite }: PlantCardProps) {
   const thumbUrl = getThumbUrl(plant.obrazek, 400);
   const slug = toSlug(plant.nazevCz, plant.id);
@@ -27,14 +54,7 @@ export function PlantCard({ plant, reasons, rank, isFavorite, onToggleFavorite }
     <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:shadow-md">
       <Link href={`/rostliny/${slug}`} className="relative aspect-[4/3] bg-accent-light">
         {thumbUrl ? (
-          <Image
-            src={thumbUrl}
-            alt={plant.nazevCz}
-            fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className="object-cover transition group-hover:scale-105"
-            loading="lazy"
-          />
+          <PlantImage src={thumbUrl} alt={plant.nazevCz} />
         ) : (
           <div className="flex h-full items-center justify-center text-primary-light opacity-40">
             <Leaf size={48} />
