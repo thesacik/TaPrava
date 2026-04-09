@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect, useRef } from "react";
+import { useState, useMemo, useEffect, useRef, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
 import { Search, X, SlidersHorizontal, ChevronDown } from "lucide-react";
 import type { Plant, UserAnswers, ScoredPlant, BarvaKvetu, Mesic, Narocnost } from "@/types/plants";
@@ -15,6 +15,21 @@ import {
 const BOOL_KEYS = new Set(["bezpecnostDeti", "bezpecnostMazlici", "chciVuni", "proVcely", "vhodnaDoNadoby"]);
 const ARRAY_KEYS = new Set(["ocekavani"]);
 const AF = "af_";
+
+const OCEKAVANI_TO_FILTER: Record<string, keyof AdditionalFilters> = {
+  vune: "vune",
+  jedlost: "jedla",
+  stalezelena: "stalezelena",
+  pro_opylovace: "proVcely",
+};
+
+const WIZARD_BOOL_TO_FILTER: Record<string, keyof AdditionalFilters> = {
+  bezpecnostDeti: "bezpecnaProDeti",
+  bezpecnostMazlici: "bezpecnaProPsy",
+  chciVuni: "vune",
+  proVcely: "proVcely",
+  vhodnaDoNadoby: "vhodnaDoNadoby",
+};
 
 function parseUrlState(sp: URLSearchParams): {
   answers: UserAnswers;
@@ -40,6 +55,20 @@ function parseUrlState(sp: URLSearchParams): {
       else answers[key] = value;
     }
   });
+
+  const ocekavani = answers.ocekavani as string[] | undefined;
+  if (ocekavani) {
+    for (const o of ocekavani) {
+      const filterKey = OCEKAVANI_TO_FILTER[o];
+      if (filterKey) additional[filterKey] = true;
+    }
+  }
+
+  for (const [ansKey, filterKey] of Object.entries(WIZARD_BOOL_TO_FILTER)) {
+    if (answers[ansKey] === true) {
+      additional[filterKey] = true;
+    }
+  }
 
   return { answers: answers as UserAnswers, additional: additional as AdditionalFilters, searchQuery };
 }
@@ -94,6 +123,8 @@ const quickToggles: { key: keyof AdditionalFilters; label: string }[] = [
   { key: "proVcely", label: "Pro včely" },
   { key: "jedla", label: "Jedlá" },
   { key: "stalezelena", label: "Stálezelená" },
+  { key: "bezpecnaProDeti", label: "Pro děti" },
+  { key: "bezpecnaProPsy", label: "Pro mazlíčky" },
 ];
 
 export function CatalogClient({ plants }: CatalogClientProps) {
@@ -161,38 +192,16 @@ export function CatalogClient({ plants }: CatalogClientProps) {
   return (
     <div className="mx-auto max-w-6xl px-4 py-6">
       {/* Filter bar */}
-      <div className="mb-4 flex flex-wrap items-center gap-2">
-        {primaryFilterDefs.map((pf) => (
-          <DropdownFilter
-            key={pf.key}
-            placeholder={pf.placeholder}
-            options={pf.options}
-            value={answers[pf.key] as string | undefined}
-            onChange={(v) => setPrimary(pf.key, v)}
-          />
-        ))}
-        <span className="mx-1 hidden h-6 w-px bg-gray-200 sm:block" />
-        {quickToggles.map((qt) => (
-          <button
-            key={qt.key}
-            onClick={() => toggleAdditional(qt.key)}
-            className={`rounded-full border px-3 py-1.5 text-sm font-medium transition ${
-              additional[qt.key] ? "border-primary bg-accent-light text-primary-dark" : "border-gray-200 text-gray-600 hover:border-gray-300"
-            }`}
-          >
-            {qt.label}
-          </button>
-        ))}
-        <button
-          onClick={() => setPanelOpen(true)}
-          className="flex items-center gap-1.5 rounded-full border border-gray-200 bg-gray-50 px-3 py-1.5 text-sm font-semibold text-gray-600 transition hover:bg-white"
-        >
-          <SlidersHorizontal size={14} /> Filtry
-          {additionalCount > 0 && (
-            <span className="flex h-5 min-w-[20px] items-center justify-center rounded-full bg-primary px-1 text-[10px] font-bold text-white">{additionalCount}</span>
-          )}
-        </button>
-      </div>
+      <FilterBar
+        primaryFilterDefs={primaryFilterDefs}
+        answers={answers}
+        setPrimary={setPrimary}
+        quickToggles={quickToggles}
+        additional={additional}
+        toggleAdditional={toggleAdditional}
+        additionalCount={additionalCount}
+        onOpenPanel={() => setPanelOpen(true)}
+      />
 
       {/* Search + count */}
       <div className="mb-6 flex items-center gap-3">
@@ -267,6 +276,125 @@ export function CatalogClient({ plants }: CatalogClientProps) {
   );
 }
 
+const GAP = 8;
+const DIVIDER_W = 18;
+
+function useVisibleToggles(
+  barRef: React.RefObject<HTMLDivElement | null>,
+  toggleCount: number,
+  deps: unknown[],
+) {
+  const toggleWidths = useRef<number[]>([]);
+  const [visible, setVisible] = useState(toggleCount);
+
+  const recalc = useCallback(() => {
+    const bar = barRef.current;
+    if (!bar) return;
+
+    const barW = bar.offsetWidth;
+    const children = Array.from(bar.children) as HTMLElement[];
+
+    const filtrBtn = children.find((c) => c.dataset.role === "filtry");
+    const filtrW = filtrBtn ? filtrBtn.offsetWidth + GAP : 0;
+
+    let fixedW = 0;
+    for (const c of children) {
+      if (c.dataset.role === "toggle") {
+        const w = c.offsetWidth;
+        if (w > 0) {
+          const idx = Number(c.dataset.idx);
+          toggleWidths.current[idx] = w;
+        }
+      } else if (c !== filtrBtn) {
+        fixedW += c.offsetWidth + GAP;
+      }
+    }
+
+    const available = barW - fixedW - filtrW;
+    let used = 0;
+    let count = 0;
+    for (let i = 0; i < toggleCount; i++) {
+      const w = (toggleWidths.current[i] ?? 80) + GAP;
+      if (used + w <= available) { used += w; count++; }
+      else break;
+    }
+
+    setVisible(count);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [barRef, toggleCount, ...deps]);
+
+  useEffect(() => {
+    recalc();
+    const ro = new ResizeObserver(recalc);
+    if (barRef.current) ro.observe(barRef.current);
+    return () => ro.disconnect();
+  }, [recalc]);
+
+  return visible;
+}
+
+function FilterBar({
+  primaryFilterDefs,
+  answers,
+  setPrimary,
+  quickToggles,
+  additional,
+  toggleAdditional,
+  additionalCount,
+  onOpenPanel,
+}: {
+  primaryFilterDefs: { key: string; placeholder: string; options: Record<string, string> }[];
+  answers: UserAnswers;
+  setPrimary: (key: keyof UserAnswers, value: string | undefined) => void;
+  quickToggles: { key: keyof AdditionalFilters; label: string }[];
+  additional: AdditionalFilters;
+  toggleAdditional: (key: keyof AdditionalFilters) => void;
+  additionalCount: number;
+  onOpenPanel: () => void;
+}) {
+  const barRef = useRef<HTMLDivElement>(null);
+  const visible = useVisibleToggles(barRef, quickToggles.length, [answers, additional]);
+
+  return (
+    <div ref={barRef} className="mb-4 flex items-center gap-2">
+      {primaryFilterDefs.map((pf) => (
+        <DropdownFilter
+          key={pf.key}
+          placeholder={pf.placeholder}
+          options={pf.options}
+          value={answers[pf.key as keyof UserAnswers] as string | undefined}
+          onChange={(v) => setPrimary(pf.key as keyof UserAnswers, v)}
+        />
+      ))}
+      {visible > 0 && <span className="mx-1 h-6 w-px shrink-0 bg-gray-200" />}
+      {quickToggles.map((qt, i) => (
+        <button
+          key={qt.key}
+          data-role="toggle"
+          data-idx={i}
+          onClick={() => toggleAdditional(qt.key)}
+          style={i >= visible ? { position: "absolute", visibility: "hidden", pointerEvents: "none" } : undefined}
+          className={`shrink-0 whitespace-nowrap rounded-full border px-3 py-1.5 text-sm font-medium transition ${
+            additional[qt.key] ? "border-primary bg-accent-light text-primary-dark" : "border-gray-200 text-gray-600 hover:border-gray-300"
+          }`}
+        >
+          {qt.label}
+        </button>
+      ))}
+      <button
+        data-role="filtry"
+        onClick={onOpenPanel}
+        className="ml-auto flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border border-gray-200 bg-gray-50 px-3 py-1.5 text-sm font-semibold text-gray-600 transition hover:bg-white"
+      >
+        <SlidersHorizontal size={14} /> Filtry
+        {additionalCount > 0 && (
+          <span className="flex h-5 min-w-[20px] items-center justify-center rounded-full bg-primary px-1 text-[10px] font-bold text-white">{additionalCount}</span>
+        )}
+      </button>
+    </div>
+  );
+}
+
 function DropdownFilter({ placeholder, options, value, onChange }: {
   placeholder: string;
   options: Record<string, string>;
@@ -277,16 +405,16 @@ function DropdownFilter({ placeholder, options, value, onChange }: {
   const label = value ? options[value] : undefined;
 
   return (
-    <div className="relative">
+    <div className="relative shrink-0">
       {label ? (
-        <div className="flex items-center gap-1 rounded-full border border-primary bg-accent-light px-3 py-1.5 text-sm font-medium text-primary-dark">
+        <div className="flex items-center gap-1 whitespace-nowrap rounded-full border border-primary bg-accent-light px-3 py-1.5 text-sm font-medium text-primary-dark">
           <span className="cursor-pointer" onClick={() => setOpen((v) => !v)}>{label}</span>
           <button onClick={() => onChange(undefined)} className="ml-0.5 opacity-60 hover:opacity-100"><X size={12} /></button>
         </div>
       ) : (
         <button
           onClick={() => setOpen((v) => !v)}
-          className="flex items-center gap-1 rounded-full border border-dashed border-gray-300 px-3 py-1.5 text-sm text-gray-500 transition hover:border-gray-400"
+          className="flex items-center gap-1 whitespace-nowrap rounded-full border border-dashed border-gray-300 px-3 py-1.5 text-sm text-gray-500 transition hover:border-gray-400"
         >
           {placeholder} <ChevronDown size={12} />
         </button>

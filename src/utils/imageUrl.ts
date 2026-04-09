@@ -1,10 +1,13 @@
 export function getThumbUrl(url: string | undefined, width: number): string | undefined {
   if (!url) return undefined;
 
+  if (url.includes("thumb.php?")) {
+    return url.replace(/[?&]w=\d+/, `&w=${width}`).replace("?&", "?");
+  }
+
   const filePathMatch = url.match(/Special:FilePath\/(.+)$/i);
   if (filePathMatch) {
-    const filename = filePathMatch[1];
-    return `https://commons.wikimedia.org/w/thumb.php?f=${filename}&w=${width}`;
+    return `https://commons.wikimedia.org/w/thumb.php?f=${filePathMatch[1]}&w=${width}`;
   }
 
   if (url.includes("upload.wikimedia.org")) {

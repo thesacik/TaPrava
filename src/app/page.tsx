@@ -20,7 +20,7 @@ export default function HomePage() {
     <>
       <section className="relative overflow-hidden bg-gradient-to-br from-accent-light via-white to-white">
         <div className="mx-auto max-w-6xl px-4 py-20 text-center md:py-28">
-          <h1 className="mx-auto max-w-3xl text-4xl font-extrabold tracking-tight text-primary-dark md:text-5xl lg:text-6xl">
+          <h1 className="mx-auto max-w-3xl font-[family-name:var(--font-amatic)] text-5xl font-bold tracking-tight text-gray-900 md:text-6xl lg:text-7xl">
             Najděte tu správnou rostlinu pro vaše podmínky
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-gray-600 leading-relaxed">

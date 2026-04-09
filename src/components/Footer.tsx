@@ -32,6 +32,9 @@ export function Footer() {
               VyberRostlinu.cz je bezplatný online průvodce, který vám pomůže
               vybrat ideální rostliny pro zahradu, balkon i interiér.
             </p>
+            <Link href="/ochrana-osobnich-udaju" className="mt-3 inline-block text-sm text-gray-400 hover:text-primary">
+              Ochrana osobních údajů
+            </Link>
           </div>
         </div>
 

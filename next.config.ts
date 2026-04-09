@@ -2,7 +2,17 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    unoptimized: true,
+    unoptimized: process.env.NODE_ENV === "development",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "commons.wikimedia.org",
+      },
+      {
+        protocol: "https",
+        hostname: "upload.wikimedia.org",
+      },
+    ],
   },
 };
 

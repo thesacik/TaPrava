@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Heart, Leaf, Search, Menu, X, CalendarDays } from "lucide-react";
 import { useState } from "react";
@@ -19,9 +20,16 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-sm">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2 font-bold text-primary-dark text-lg">
-          <Leaf className="text-primary" size={24} />
-          <span>VyberRostlinu.cz</span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo.svg"
+            alt="Ta Pravá"
+            width={165}
+            height={70}
+            className="h-10 w-auto md:h-12"
+            priority
+            unoptimized
+          />
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">
