@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   Leaf, Search, Sparkles, TreeDeciduous, Flower, Home,
   Shrub, Sprout, CalendarDays,
@@ -66,13 +67,22 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="border-t border-gray-100 bg-accent-light">
-        <div className="mx-auto max-w-6xl px-4 py-16 text-center">
-          <CalendarDays size={40} className="mx-auto mb-4 text-primary" />
-          <h2 className="mb-3 text-2xl font-bold text-gray-900 md:text-3xl">
+      <section className="relative overflow-hidden border-t border-gray-100">
+        <Image
+          src="/images/seasonal-banner.png"
+          alt=""
+          fill
+          sizes="100vw"
+          className="object-cover"
+          quality={75}
+        />
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative z-10 mx-auto max-w-6xl px-4 py-20 text-center">
+          <CalendarDays size={40} className="mx-auto mb-4 text-white" />
+          <h2 className="mb-3 text-2xl font-bold text-white md:text-3xl">
             Sezónní průvodce zahradníka
           </h2>
-          <p className="mx-auto mb-8 max-w-xl text-gray-600">
+          <p className="mx-auto mb-8 max-w-xl text-white/80">
             Co sázet, co sklízet a jak pečovat o zahradu — měsíc po měsíci.
             Praktické tipy pro zahradu i pokojové rostliny.
           </p>
