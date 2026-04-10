@@ -12,6 +12,14 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "upload.wikimedia.org",
       },
+      {
+        protocol: "https",
+        hostname: "inaturalist-open-data.s3.amazonaws.com",
+      },
+      {
+        protocol: "https",
+        hostname: "static.inaturalist.org",
+      },
     ],
   },
 };

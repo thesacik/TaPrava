@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
 import {
   Sun, CloudSun, Cloud, Droplets, Ruler, Thermometer,
@@ -9,14 +9,31 @@ import {
 import type { Plant, Mesic, BarvaKvetu } from "@/types/plants";
 import { EshopOffers } from "@/components/EshopOffers";
 import { PriceLinks } from "@/components/PriceLinks";
+import { PlantGallery, type PlantGalleryHandle } from "@/components/PlantGallery";
+import { useGalleryPhotos } from "@/hooks/useGalleryPhotos";
 import { getThumbUrl } from "@/utils/imageUrl";
 import {
   kategorieLabels, svetloLabels, vlhkostLabels, narocnostLabels,
   rychlostRustuLabels, frekvenceZalivkyLabels, barvaKvetuLabels, mesicLabels,
 } from "@/utils/labels";
 
-function DetailImage({ src, alt }: { src: string; alt: string }) {
+function DetailImage({ src, fallbackSrc, alt }: { src: string; fallbackSrc?: string; alt: string }) {
   const [failed, setFailed] = useState(false);
+  const [fallbackFailed, setFallbackFailed] = useState(false);
+
+  if (failed && fallbackSrc && !fallbackFailed) {
+    return (
+      <Image
+        src={fallbackSrc}
+        alt={alt}
+        fill
+        sizes="(max-width: 768px) 100vw, 50vw"
+        className="object-cover"
+        priority
+        onError={() => setFallbackFailed(true)}
+      />
+    );
+  }
 
   if (failed) {
     return (
@@ -47,6 +64,10 @@ interface PlantDetailProps {
 
 export function PlantDetail({ plant, isFavorite, onToggleFavorite }: PlantDetailProps) {
   const thumbUrl = getThumbUrl(plant.obrazek, 500);
+  const galleryRef = useRef<PlantGalleryHandle>(null);
+  const { photos } = useGalleryPhotos(plant.nazevLat);
+
+  const fallbackUrl = photos.length > 0 ? photos[0].url : undefined;
 
   const buySection = plant.kategorie.includes("pokojova") ? (
     <EshopOffers query={plant.nazevLat || plant.nazevCz} />
@@ -57,13 +78,29 @@ export function PlantDetail({ plant, isFavorite, onToggleFavorite }: PlantDetail
   return (
     <div className="mx-auto max-w-5xl px-4 py-8">
       <div className="grid gap-8 md:grid-cols-2">
-        <div className="relative aspect-square overflow-hidden rounded-2xl bg-accent-light">
-          {thumbUrl ? (
-            <DetailImage src={thumbUrl} alt={plant.nazevCz} />
-          ) : (
-            <div className="flex h-full items-center justify-center text-primary-light opacity-30">
-              <Leaf size={80} />
-            </div>
+        <div>
+          <button
+            type="button"
+            onClick={() => galleryRef.current?.openAt(0)}
+            className="relative aspect-square w-full cursor-zoom-in overflow-hidden rounded-2xl bg-accent-light"
+          >
+            {thumbUrl ? (
+              <DetailImage src={thumbUrl} fallbackSrc={fallbackUrl} alt={plant.nazevCz} />
+            ) : fallbackUrl ? (
+              <DetailImage src={fallbackUrl} alt={plant.nazevCz} />
+            ) : (
+              <div className="flex h-full items-center justify-center text-primary-light opacity-30">
+                <Leaf size={80} />
+              </div>
+            )}
+          </button>
+          {plant.nazevLat && (
+            <PlantGallery
+              ref={galleryRef}
+              photos={photos}
+              mainImage={thumbUrl}
+              plantName={plant.nazevCz}
+            />
           )}
         </div>
 

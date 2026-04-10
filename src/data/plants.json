@@ -34919,7 +34919,7 @@
       "panasovana",
       "jedla plody"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Actinidia_kolomikta_leaves.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/145786140/medium.jpg"
   },
   {
     "id": "callicarpa-bodinieri",
@@ -35082,7 +35082,7 @@
       "aromaticky",
       "pozdni leto"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Caryopteris_x_clandonensis_01.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/333993489/medium.jpeg"
   },
   {
     "id": "castanea-sativa",
@@ -35452,7 +35452,7 @@
       "previsle hrozny",
       "efektni kveteni"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Laburnum_watereri_flowers.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/101025334/medium.jpeg"
   },
   {
     "id": "larix-decidua",
@@ -35867,7 +35867,7 @@
       "nenáročný",
       "purpurove listy"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Physocarpus_opulifolius_Diabolo_01.JPG&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/282466733/medium.jpg"
   },
   {
     "id": "sophora-japonica",
@@ -36243,7 +36243,7 @@
       "kysela puda",
       "zvonkovite kvety"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Enkianthus_campanulatus_%28flower_s3%29.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/81223305/medium.jpeg"
   },
   {
     "id": "imperata-cylindrica",
@@ -36508,7 +36508,7 @@
     "mrazuvzdornostDoC": -30,
     "vhodnaDoNadoby": false,
     "rychlostRustu": "stredni",
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Abies_alba_001.JPG&w=500",
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/169770084/medium.jpeg",
     "popis": "Mohutný původní český jehličnan dorůstající až 50 metrů s charakteristickou hladkou šedou kůrou. Významný lesní strom středoevropských hor.",
     "pece": "Vyžaduje vzdušnou vlhkost a propustnou humózní půdu. Citlivá na znečištění ovzduší a sucho."
   },
@@ -36696,7 +36696,7 @@
     "mrazuvzdornostDoC": -35,
     "vhodnaDoNadoby": false,
     "rychlostRustu": "rychly",
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Pinus_strobus_Torulosa1.jpg&w=500",
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/99551940/medium.jpg",
     "popis": "Rychle rostoucí severoamerická borovice s měkkým modrozeleným jehličím ve svazečcích po pěti. Vytváří širokou vzdušnou korunu.",
     "pece": "Nenáročná borovice preferující kyselejší propustné půdy. Citlivá na sypavku, jinak bezproblémová."
   },
@@ -36953,7 +36953,7 @@
     "mrazuvzdornostDoC": -25,
     "vhodnaDoNadoby": false,
     "rychlostRustu": "stredni",
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Silver_Birch_%2528Bhojpatra%2529_I_IMG_3405.jpg&w=500",
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/344120990/medium.jpg",
     "popis": "Himálajská bříza proslulá svou oslnivě bílou hladkou kůrou, která je nejbělejší ze všech bříz. Atraktivní zejména v zimě, kdy vynikne kůra bez listí.",
     "pece": "Preferuje vlhčí půdu na slunném stanovišti. Nevyžaduje řez, mladé stromy je dobré chránit před srnčí zvěří."
   },
@@ -37443,7 +37443,7 @@
     "mrazuvzdornostDoC": -30,
     "vhodnaDoNadoby": false,
     "rychlostRustu": "pomaly",
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Juniperus_scopulorum_UGA3.jpg&w=500",
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/201886259/medium.jpg",
     "popis": "Severoamerický jalovec štíhlého sloupovitého tvaru s modrostříbrným jehličím. Kultivar 'Blue Arrow' patří k nejoblíbenějším sloupovitým jehličnanům.",
     "pece": "Velmi odolný vůči suchu a mrazu. Preferuje propustnou půdu a plné slunce, nesnáší zamokření."
   },
@@ -37663,7 +37663,7 @@
     "mrazuvzdornostDoC": -30,
     "vhodnaDoNadoby": false,
     "rychlostRustu": "rychly",
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Spiraea_cinerea_%27Grefsheim%27.jpg&w=500",
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/136014443/medium.jpeg",
     "popis": "Půvabný keř s jemnými šedozelenými listy a převislými větvemi obsypanými drobnými bílými květy. Kultivar 'Grefsheim' patří k nejoblíbenějším jarním keřům.",
     "pece": "Bezúdržbový keř, řez ihned po odkvětu. Roste prakticky v jakékoli zahradní půdě."
   },
@@ -37934,7 +37934,7 @@
     "mrazuvzdornostDoC": -25,
     "vhodnaDoNadoby": false,
     "rychlostRustu": "rychly",
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Platanus_hispanica_bark_01_by_Line1.jpg&w=500",
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/563900775/medium.jpg",
     "popis": "Mohutný městský strom s charakteristickou strakatou kůrou odlupující se v plátcích a velkými javorovitými listy. Typický strom bulvárů a parků jižní Evropy.",
     "pece": "Velmi odolný strom snášející znečištění, horko i řez. Vyžaduje dostatek prostoru pro mohutnou korunu."
   },
@@ -43277,7 +43277,7 @@
       "popínavá",
       "nenáročná"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Jasminum_nudiflorum1.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/181543887/medium.jpg"
   },
   {
     "id": "sesleria-autumnalis",
@@ -43660,7 +43660,7 @@
       "pokryvná",
       "nenáročná"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Sedum_kamtschaticum_var._ellacombeanum_01.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/210600136/medium.jpg"
   },
   {
     "id": "sedum-telephium",
@@ -44341,7 +44341,7 @@
       "japonská",
       "červená borka"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Pinus_densiflora_Umbraculifera_01.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/9304622/medium.jpeg"
   },
   {
     "id": "pinus-leucodermis",
@@ -44446,7 +44446,7 @@
       "polostín",
       "vlhko"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Primula_denticulata_01.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/379576649/medium.jpeg"
   },
   {
     "id": "primula-japonica",
@@ -45852,7 +45852,7 @@
       "plody pro ptáky",
       "živý plot"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Cotoneaster_salicifolius_var._floccosus.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/509477909/medium.jpg"
   },
   {
     "id": "cotoneaster-lucidus",
@@ -46224,7 +46224,7 @@
       "suchomilná",
       "stříbrné listy"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Achillea_tomentosa_-_Gold_Coin.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/83978441/medium.jpeg"
   },
   {
     "id": "dianthus-plumarius",
@@ -46604,7 +46604,7 @@
       "opylovači",
       "suchomilná"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Echinacea_pallida_2.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/519007797/medium.jpg"
   },
   {
     "id": "echinacea-paradoxa",
@@ -47299,7 +47299,7 @@
       "trnový keř",
       "nenáročný"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Berberis_stenophylla1.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/34194986/medium.jpg"
   },
   {
     "id": "berberis-candidula",
@@ -47677,7 +47677,7 @@
       "popínavá",
       "dvoubarevné květy"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Lonicera_x_heckrottii_01.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/391259090/medium.jpg"
   },
   {
     "id": "paeonia-tenuifolia",
@@ -48704,7 +48704,7 @@
       "aromatická",
       "ovocná vůně"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Mentha_suaveolens_002.JPG&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/325693308/medium.jpg"
   },
   {
     "id": "verbena-bonariensis",
@@ -49085,7 +49085,7 @@
       "česnekové listy",
       "asijská kuchyně"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Allium_tuberosum_002.JPG&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/572343926/medium.jpg"
   },
   {
     "id": "allium-senescens",
@@ -49788,7 +49788,7 @@
       "oranžové květy",
       "břeh vody"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Trollius_chinensis_%2527Golden_Queen%2527%252C_opvallende_bloem_met_warme_oranjeachtige_kleur._Locatie%252C_Tuinreservaat_Jonkervallei_05.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/67290965/medium.jpeg"
   },
   {
     "id": "baptisia-alba",
@@ -50762,7 +50762,7 @@
       "žluté květy",
       "skalka"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Sedum_floriferum.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/210600136/medium.jpg"
   },
   {
     "id": "sedum-lydium",
@@ -50925,7 +50925,7 @@
       "pozdní květ",
       "skalka"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Hylotelephium_ewersii.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/260915050/medium.jpeg"
   },
   {
     "id": "sedum-cauticola",
@@ -52240,7 +52240,7 @@
       "odolná",
       "městská zeleň"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Pinus_heldreichii_Pirin.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/313164665/medium.jpeg"
   },
   {
     "id": "pinus-peuce",
@@ -52335,7 +52335,7 @@
       "zakrslá borovice",
       "mrazuvzdorná"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Pinus_pumila_Mount_Ontake.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/141403745/medium.jpg"
   },
   {
     "id": "pinus-thunbergii",
@@ -52602,7 +52602,7 @@
       "sběratelská",
       "fialové květy"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Primula_capitata.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/242734730/medium.jpeg"
   },
   {
     "id": "salvia-azurea",
@@ -52990,7 +52990,7 @@
       "menší strom",
       "japonská"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Magnolia_sieboldii_flower.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/600972506/medium.jpg"
   },
   {
     "id": "magnolia-denudata",
@@ -53307,7 +53307,7 @@
       "stín",
       "jemná"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Epimedium_youngianum_Niveum.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/35723440/medium.jpg"
   },
   {
     "id": "dryopteris-affinis",
@@ -54629,7 +54629,7 @@
       "aromatická",
       "nádoba"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Thymus_mastichina_1.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/369922329/medium.jpeg"
   },
   {
     "id": "campanula-garganica",
@@ -55009,7 +55009,7 @@
       "bílý květ",
       "řezaný květ"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Allium_cowanii_01.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/361874250/medium.jpeg"
   },
   {
     "id": "allium-nigrum",
@@ -55382,7 +55382,7 @@
       "prérijní zahrada",
       "pozdní kvetení"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Coreopsis_tripteris_001.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/149019273/medium.jpg"
   },
   {
     "id": "berberis-darwinii",
@@ -55754,7 +55754,7 @@
       "vzácná",
       "sběratelská"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Anemone_leveillei.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/196138628/medium.jpg"
   },
   {
     "id": "acer-freemanii",
@@ -56126,7 +56126,7 @@
       "bílé květy",
       "pozdní kvetení"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Artemisia_lactiflora_01.jpg&w=500"
+    "obrazek": "https://inaturalist-open-data.s3.amazonaws.com/photos/517599804/medium.jpg"
   },
   {
     "id": "hypericum-polyphyllum",
