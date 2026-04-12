@@ -82,6 +82,7 @@ export function PlantDetail({ plant, isFavorite, onToggleFavorite }: PlantDetail
           <button
             type="button"
             onClick={() => galleryRef.current?.openAt(0)}
+            aria-label="Zobrazit fotogalerii"
             className="relative aspect-square w-full cursor-zoom-in overflow-hidden rounded-2xl bg-accent-light"
           >
             {thumbUrl ? (

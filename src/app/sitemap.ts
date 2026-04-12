@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/pruvodce`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/sezonni-pruvodce`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/oblibene`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
+    { url: `${BASE}/ochrana-osobnich-udaju`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.2 },
   ];
 
   const categoryLandings: MetadataRoute.Sitemap = categoryPages.map((cat) => ({

@@ -243,7 +243,7 @@ export function CatalogClient({ plants }: CatalogClientProps) {
             className="flex-1 bg-transparent text-sm outline-none placeholder:text-gray-400"
           />
           {searchQuery && (
-            <button onClick={() => setSearchQuery("")} className="text-gray-400 hover:text-gray-600"><X size={14} /></button>
+            <button onClick={() => setSearchQuery("")} aria-label="Smazat hledání" className="text-gray-400 hover:text-gray-600"><X size={14} /></button>
           )}
         </div>
         <span className="flex-shrink-0 text-sm text-gray-400">
@@ -285,7 +285,7 @@ export function CatalogClient({ plants }: CatalogClientProps) {
           )}
           {visibleOther.length > 0 && (
             <section>
-              {filteredTop.length > 0 && <h3 className="mb-4 text-lg font-semibold text-gray-700">Další možnosti</h3>}
+              {filteredTop.length > 0 && <h2 className="mb-4 text-lg font-semibold text-gray-700">Další možnosti</h2>}
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {visibleOther.map((sp) => (
                   <PlantCard
@@ -442,7 +442,7 @@ function DropdownFilter({ placeholder, options, value, onChange }: {
       {label ? (
         <div className="flex items-center gap-1 whitespace-nowrap rounded-full border border-primary bg-accent-light px-3 py-1.5 text-sm font-medium text-primary-dark">
           <span className="cursor-pointer" onClick={() => setOpen((v) => !v)}>{label}</span>
-          <button onClick={() => onChange(undefined)} className="ml-0.5 opacity-60 hover:opacity-100"><X size={12} /></button>
+          <button onClick={() => onChange(undefined)} aria-label="Zrušit filtr" className="ml-0.5 opacity-60 hover:opacity-100"><X size={12} /></button>
         </div>
       ) : (
         <button
@@ -493,7 +493,7 @@ function FilterPanelOverlay({ filters, onChange, onClear, onClose }: {
       <div className="flex h-full w-full max-w-sm flex-col bg-white shadow-xl" onClick={(e) => e.stopPropagation()}>
         <div className="flex items-center justify-between border-b border-gray-200 px-5 py-4">
           <h3 className="text-lg font-semibold">Všechny filtry</h3>
-          <button onClick={onClose} className="text-gray-400 hover:text-gray-600"><X size={22} /></button>
+          <button onClick={onClose} aria-label="Zavřít filtry" className="text-gray-400 hover:text-gray-600"><X size={22} /></button>
         </div>
         <div className="flex-1 space-y-6 overflow-y-auto px-5 py-5">
           <ChipSection label="Barva květu">
@@ -502,7 +502,7 @@ function FilterPanelOverlay({ filters, onChange, onClear, onClose }: {
             ))}
           </ChipSection>
           <ChipSection label="Období kvetení">
-            {([3, 4, 5, 6, 7, 8, 9, 10] as Mesic[]).map((m) => (
+            {([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] as Mesic[]).map((m) => (
               <Chip key={m} active={filters.mesicKveteni === m} onClick={() => setSelect("mesicKveteni", filters.mesicKveteni === m ? undefined : m)}>{mesicLabels[m]}</Chip>
             ))}
           </ChipSection>

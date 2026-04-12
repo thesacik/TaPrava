@@ -98,6 +98,7 @@ export const PlantGallery = forwardRef<PlantGalleryHandle, PlantGalleryProps>(fu
         >
           <button
             onClick={closeLightbox}
+            aria-label="Zavřít"
             className="absolute right-4 top-4 z-10 rounded-full bg-white/20 p-2 text-white backdrop-blur-sm transition hover:bg-white/40"
           >
             <X size={24} />
@@ -106,6 +107,7 @@ export const PlantGallery = forwardRef<PlantGalleryHandle, PlantGalleryProps>(fu
           {lightboxIndex > 0 && (
             <button
               onClick={(e) => { e.stopPropagation(); goPrev(); }}
+              aria-label="Předchozí fotka"
               className="absolute left-4 z-10 rounded-full bg-white/20 p-2 text-white backdrop-blur-sm transition hover:bg-white/40"
             >
               <ChevronLeft size={28} />
@@ -115,6 +117,7 @@ export const PlantGallery = forwardRef<PlantGalleryHandle, PlantGalleryProps>(fu
           {lightboxIndex < allImages.length - 1 && (
             <button
               onClick={(e) => { e.stopPropagation(); goNext(); }}
+              aria-label="Další fotka"
               className="absolute right-4 z-10 rounded-full bg-white/20 p-2 text-white backdrop-blur-sm transition hover:bg-white/40"
             >
               <ChevronRight size={28} />

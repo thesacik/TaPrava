@@ -86,7 +86,7 @@ export function WizardClient() {
         <div className="mb-8">
           <div className="mb-4 flex items-center justify-between">
             {wizard.canGoBack ? (
-              <button onClick={wizard.goBack} className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-600 shadow-sm transition hover:bg-gray-100">
+              <button onClick={wizard.goBack} aria-label="Zpět" className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-600 shadow-sm transition hover:bg-gray-100">
                 <ArrowLeft size={22} />
               </button>
             ) : (
@@ -102,7 +102,7 @@ export function WizardClient() {
           </div>
         </div>
 
-        <h2 className="mb-8 text-center text-2xl font-bold text-primary-dark md:text-3xl">{step.question}</h2>
+        <h1 className="mb-8 text-center text-2xl font-bold text-primary-dark md:text-3xl">{step.question}</h1>
 
         {step.multiSelect ? (
           <MultiSelect step={step} wizard={wizard} />

@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef, useCallback, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   CalendarDays, Sprout, Home, ChevronLeft, ChevronRight, Flower2,
 } from "lucide-react";
@@ -14,6 +15,21 @@ import { useFavorites } from "@/hooks/useFavorites";
 const MONTHS: Mesic[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 const MONTH_SHORT = ["Led", "Úno", "Bře", "Dub", "Kvě", "Čvn", "Čvc", "Srp", "Zář", "Říj", "Lis", "Pro"];
 const BLOOM_PREVIEW = 6;
+
+const MONTH_BG: Record<Mesic, string> = {
+  1: "/images/months/01.png",
+  2: "/images/months/02.png",
+  3: "/images/months/03.png",
+  4: "/images/months/04.png",
+  5: "/images/months/05.png",
+  6: "/images/months/06.png",
+  7: "/images/months/07.png",
+  8: "/images/months/08.png",
+  9: "/images/months/09.png",
+  10: "/images/months/10.png",
+  11: "/images/months/11.png",
+  12: "/images/months/12.png",
+};
 
 function getCurrentMonth(): Mesic {
   return (new Date().getMonth() + 1) as Mesic;
@@ -29,21 +45,42 @@ export function SeasonalClient() {
     [month],
   );
 
+  const monthRefs = useRef<(HTMLButtonElement | null)[]>([]);
+
+  const scrollToMonth = useCallback((m: Mesic) => {
+    monthRefs.current[m - 1]?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+  }, []);
+
+  useEffect(() => {
+    scrollToMonth(month);
+  }, [month, scrollToMonth]);
+
   const prev = () => setMonth((m) => (m === 1 ? 12 : m - 1) as Mesic);
   const next = () => setMonth((m) => (m === 12 ? 1 : m + 1) as Mesic);
 
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-b from-accent-light to-white">
-        <div className="mx-auto max-w-5xl px-4 py-12 md:py-16">
-          <div className="mb-2 flex items-center gap-2 text-sm font-medium uppercase tracking-wide text-primary">
+      <section className="relative overflow-hidden">
+        <Image
+          key={month}
+          src={MONTH_BG[month]}
+          alt=""
+          fill
+          sizes="100vw"
+          className="object-cover transition-opacity duration-500"
+          quality={80}
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
+        <div className="relative z-10 mx-auto max-w-5xl px-4 py-16 md:py-20">
+          <div className="mb-2 flex items-center gap-2 text-sm font-medium uppercase tracking-wide text-white/80">
             <CalendarDays size={16} /> Sezónní průvodce
           </div>
-          <h1 className="text-3xl font-extrabold tracking-tight text-primary-dark md:text-4xl">
+          <h1 className="text-3xl font-extrabold tracking-tight text-white md:text-4xl">
             {content.heroTitle}
           </h1>
-          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-gray-600">
+          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-white/80">
             {content.intro}
           </p>
         </div>
@@ -59,6 +96,7 @@ export function SeasonalClient() {
             {MONTHS.map((m) => (
               <button
                 key={m}
+                ref={(el) => { monthRefs.current[m - 1] = el; }}
                 onClick={() => setMonth(m)}
                 className={`flex-shrink-0 rounded-lg px-3 py-1.5 text-sm font-medium transition ${
                   m === month
