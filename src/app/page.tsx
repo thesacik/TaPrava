@@ -9,12 +9,12 @@ import { allPlants } from "@/utils/plants";
 export default function HomePage() {
   const totalPlants = allPlants.length;
   const categories = [
-    { icon: Flower, label: "Pokojové rostliny", href: "/pokojove-rostliny", desc: "Pro váš interiér" },
-    { icon: Leaf, label: "Trvalky", href: "/trvalky", desc: "Kvetou rok co rok" },
-    { icon: Shrub, label: "Keře", href: "/kere", desc: "Struktura zahrady" },
-    { icon: TreeDeciduous, label: "Stromy", href: "/stromy", desc: "Stín a majestát" },
-    { icon: Sprout, label: "Bylinky", href: "/bylinky", desc: "Kuchyně i lékárna" },
-    { icon: Home, label: "Na balkon", href: "/rostliny-na-balkon", desc: "Do truhlíku i květináče" },
+    { icon: Flower, label: "Pokojové rostliny", href: "/pokojove-rostliny", desc: "Pro váš interiér", image: "/images/categories/pokojove.png" },
+    { icon: Leaf, label: "Trvalky", href: "/trvalky", desc: "Kvetou rok co rok", image: "/images/categories/trvalky.png" },
+    { icon: Shrub, label: "Keře", href: "/kere", desc: "Struktura zahrady", image: "/images/categories/kere.png" },
+    { icon: TreeDeciduous, label: "Stromy", href: "/stromy", desc: "Stín a majestát", image: "/images/categories/stromy.png" },
+    { icon: Sprout, label: "Bylinky", href: "/bylinky", desc: "Kuchyně i lékárna", image: "/images/categories/bylinky.png" },
+    { icon: Home, label: "Na balkon", href: "/rostliny-na-balkon", desc: "Do truhlíku i květináče", image: "/images/categories/balkon.png" },
   ];
 
   return (
@@ -57,11 +57,22 @@ export default function HomePage() {
             <Link
               key={cat.label}
               href={cat.href}
-              className="group flex flex-col items-center gap-3 rounded-2xl border border-gray-200 bg-white p-8 text-center shadow-sm transition hover:border-primary hover:shadow-md"
+              className="group relative flex h-48 flex-col items-center justify-center gap-1 overflow-hidden rounded-2xl text-center shadow-sm transition hover:shadow-lg"
             >
-              <cat.icon size={36} className="text-primary transition group-hover:scale-110" />
-              <span className="text-lg font-semibold text-gray-900">{cat.label}</span>
-              <span className="text-sm text-gray-500">{cat.desc}</span>
+              <Image
+                src={cat.image}
+                alt={cat.label}
+                fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="object-cover transition duration-300 group-hover:scale-105"
+                quality={75}
+              />
+              <div className="absolute inset-0 bg-black/45 transition duration-300 group-hover:bg-black/55" />
+              <div className="relative z-10">
+                <cat.icon size={28} className="mx-auto mb-1 text-white drop-shadow" />
+                <span className="text-lg font-bold text-white drop-shadow">{cat.label}</span>
+                <span className="mt-0.5 block text-sm text-white/80">{cat.desc}</span>
+              </div>
             </Link>
           ))}
         </div>
