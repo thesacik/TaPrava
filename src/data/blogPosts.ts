@@ -756,6 +756,341 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "jak-ochranit-rostliny-pred-mrazem",
+    title: "Jak ochránit rostliny před mrazem: praktický průvodce přezimováním",
+    excerpt:
+      "Mráz dokáže zničit i odolné rostliny, pokud nejsou připravené. Poradíme, jak je ochránit — a které mráz vůbec nevadí.",
+    date: "2026-04-07",
+    author: "Ta Pravá",
+    heroImage: "/images/months/01.png",
+    tags: ["zahrada", "zima", "péče"],
+    metaDescription:
+      "Jak ochránit rostliny před mrazem. Praktické tipy na přezimování, mulčování, zakrývání a přehled mrazuvzdorných rostlin.",
+    content: [
+      {
+        type: "text",
+        body: "Mráz je přirozená součást našeho klimatu, ale pro mnohé zahradní i balkónové rostliny může být smrtelný. Přitom stačí několik jednoduchých opatření, aby vaše rostliny zimu přežily v pořádku. A některé druhy mráz dokonce potřebují — vernalizace (chladový impulz) jim pomáhá kvést.",
+      },
+      {
+        type: "text",
+        heading: "Kdy začít s ochranou?",
+        body: "Ideální je připravit se ještě před prvními mrazy, tedy v říjnu až listopadu. Sledujte předpověď počasí — škodí hlavně náhlé mrazy po teplém podzimu, kdy rostliny ještě neztuhly. Pozor na pozdní jarní mrazy (duben–květen), které mohou poškodit rašící výhony a květy ovocných stromů.",
+      },
+      {
+        type: "text",
+        heading: "Mulčování — nejjednodušší ochrana",
+        body: "Vrstva mulče (10–15 cm) z listí, slámy, kůry nebo štěpky kolem kořenů chrání rostliny před promrznutím půdy. Mulč funguje jako izolace — udržuje stabilní teplotu a brání zamrznutí kořenového systému. Na jaře mulč odhrňte, aby se půda rychleji prohřála.",
+      },
+      {
+        type: "text",
+        heading: "Zakrývání rostlin",
+        body: "Citlivé keře a trvalky zakryjte netkanou textilií (agryl), jutou nebo speciálními zimními návleky. Nikdy nepoužívejte igelitovou fólii — pod ní se sráží vlhkost a rostlina hnije. Textilie musí být prodyšná. Kmen mladých stromků obalte jutovou páskou proti mrazovým trhlinám.",
+      },
+      {
+        type: "tip",
+        title: "Květináče na balkoně",
+        body: "Květináče promrzají rychleji než záhony. Postavte je na polystyrenovou desku (izolace od studené podlahy), obalte bublinkovou fólií nebo jutou a seskupte je k sobě — vzájemně se zahřívají. Citlivé pokojovky přesuňte dovnitř do chladné, světlé místnosti (5–10 °C).",
+      },
+      {
+        type: "text",
+        heading: "Zálivka před mrazem",
+        body: "Suchá půda promrzá rychleji a hlouběji než vlhká. Před očekávanými mrazy zalijte stálezelené keře, jehličnany a trvalky — zvláště pokud byl podzim suchý. Stálezelené rostliny odpařují vodu i v zimě, a pokud kořeny zamrznou, nedokáží ji doplnit. Vzniká tzv. mrazové sucho, které je častější příčinou úhynu než samotný mráz.",
+      },
+      {
+        type: "text",
+        heading: "Řez a hnojení — co nedělat",
+        body: "Na podzim nepřihnojujte dusíkem — stimuluje měkký růst, který mráz snadno poškodí. Neprovádějte řez pozdě na podzim — rány nestihnou zacelovat. Trvalky a okrasné trávy nechte přes zimu neořezané — suché nadzemní části chrání kořenový systém.",
+      },
+      {
+        type: "plantList",
+        heading: "Rostliny, kterým mráz nevadí (do -30 °C a více)",
+        plantIds: [
+          "convallaria-majalis",
+          "hippophae-rhamnoides",
+          "juniperus-communis",
+          "cornus-alba",
+          "syringa-vulgaris",
+          "spiraea-japonica",
+          "bergenia-cordifolia",
+          "pinus-mugo",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Které rostliny potřebují extra ochranu?",
+        body: "Nejvíce ohrožené jsou: nově vysazené rostliny (nezakořeněné), stálezelené keře (hortenzie, rododendrony, vavříny), středomořské byliny (rozmarýn, levandule), růže (kořenový krček zakopejte hlínou), citlivé trvalky (jiřiny — hlízy vykopat a uskladnit). Každou zimu počítejte s tím, že některé rostliny nepřežijí — to je normální součást zahradničení.",
+      },
+      {
+        type: "tip",
+        title: "Sněhová pokrývka je nejlepší izolace",
+        body: "Sníh chrání rostliny před mrazem lépe než cokoli jiného — pod 30 cm sněhu se teplota půdy drží kolem 0 °C, i když je venku -20 °C. Neodklízejte sníh ze záhonů. Z keřů a stromů ale opatrně setřepte těžký mokrý sníh, aby se nelámaly větve.",
+      },
+    ],
+  },
+  {
+    slug: "kvetouci-pokojove-rostliny-ktere-vam-rozkvetu-byt",
+    title: "Kvetoucí pokojové rostliny, které vám rozkvetou byt",
+    excerpt:
+      "Přehled nejkrásnějších kvetoucích pokojovek. Jaké podmínky potřebují a jak je přimět kvést znovu a znovu.",
+    date: "2026-04-06",
+    author: "Ta Pravá",
+    heroImage: "/images/blog-kvetouci-pokojovky.png",
+    tags: ["pokojové", "kvetení", "inspirace"],
+    metaDescription:
+      "Nejkrásnější kvetoucí pokojové rostliny pro váš byt. Tipy na péči, jak podpořit kvetení a přehled oblíbených druhů.",
+    content: [
+      {
+        type: "text",
+        body: "Pokojové rostliny nemusí být jen zelené. Existuje celá řada druhů, které vás odmění pravidelnými květy — od elegantních orchidejí přes tropické anturie po nenáročné begónie. Kvetoucí pokojovky dokáží proměnit každý interiér a přinést kousek přírody do bytu i v zimních měsících.",
+      },
+      {
+        type: "text",
+        heading: "Lopatkovec (Spathiphyllum) — kvetoucí i ve stínu",
+        body: "Lopatkovec je raritou mezi kvetoucími pokojovkami — kvete i v polostínu. Jeho bílé toulcovité květy se objevují několikrát do roka a vydrží týdny. Snáší nižší světlo, ale kvete lépe u okna. Zalijte, když povrch substrátu vyschne. Bonus: lopatkovec čistí vzduch a je nenáročný na péči.",
+      },
+      {
+        type: "text",
+        heading: "Begónie elatior — záplava barev",
+        body: "Begónie elatior patří k nejvděčnějším kvetoucím pokojovkám. Kvete v teplých barvách — červená, růžová, oranžová, žlutá i bílá — a to měsíce v kuse. Potřebuje světlé místo bez přímého slunce, pravidelnou zálivku a přihnojení během kvetení. Po odkvětu ji seřízněte a ona znovu vykvete.",
+      },
+      {
+        type: "text",
+        heading: "Brambořík (Cyclamen) — zimní hvězda",
+        body: "Brambořík kvete od podzimu do jara, kdy většina pokojovek odpočívá. Miluje chlad (15–18 °C) a světlo. Zalijte odspodu — vodu nalijte do misky a po 30 minutách přebytek slijte. Po odkvětu nechte hlízu v suchém substrátu odpočívat přes léto a na podzim obnovte zálivku.",
+      },
+      {
+        type: "text",
+        heading: "Voskovka (Hoya) — voňavá kráska",
+        body: "Voskovka tvoří úchvatné hrozny voskových květů s omamnou vůní, zejména večer. Je to popínavá/převislá rostlina ideální do závěsného košíku. Klíč k květení: hodně světla, mírná zálivka a neřezat stonky po odkvětu — na stejném místě vykvete znovu. Voskovka je trpělivá — poprvé kvete až po 2–3 letech.",
+      },
+      {
+        type: "text",
+        heading: "Ibišek pokojový (Hibiscus) — tropická exotika",
+        body: "Pokojový ibišek tvoří velké, nápadné květy v červené, růžové, oranžové nebo žluté barvě. Každý květ vydrží jen den, ale rostlina jich produkuje spoustu. Potřebuje plné slunce (jižní okno), pravidelnou zálivku a hnojení v sezóně. Na zimu omezíte zálivku a přesunete do chladnější místnosti.",
+      },
+      {
+        type: "plantList",
+        heading: "Kvetoucí pokojovky v našem katalogu",
+        plantIds: [
+          "spathiphyllum",
+          "begonia-elatior",
+          "cyclamen-persicum",
+          "hoya-carnosa",
+          "hibiscus-syriacus",
+          "citrus-limon",
+          "tradescantia-zebrina",
+          "coleus-scutellarioides",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Jak přimět pokojovky k opětovnému kvetení",
+        body: "Mnoho pokojovek po nákupu odkvete a pak už jen zelenají. Většinou jim chybí správné podmínky pro nasazení poupat:\n\n1. Dostatek světla — většina kvetoucích pokojovek potřebuje minimálně 4–6 hodin denního světla.\n\n2. Chladnější zimní odpočinek — brambořík, citroník a mnohé další potřebují 2–3 měsíce chladnějších teplot (10–15 °C).\n\n3. Správné hnojení — během růstu a kvetení přihnojujte hnojivem s vyšším podílem fosforu a draslíku (podpora kvetení), ne dusíku (ten podporuje jen listy).\n\n4. Trpělivost — některé rostliny (voskovka, citroník) kvetou až po několika letech.",
+      },
+      {
+        type: "tip",
+        title: "Citroník — kvete a plodí v bytě",
+        body: "Citroník je skvělá volba pro slunné okno nebo zimní zahradu. Kvete voňavými bílými květy a při dobrých podmínkách nasadí i plody. Přes léto ho vystavte ven, přes zimu chladná světlá místnost (5–12 °C). Zalijte dešťovou vodou — nesnáší tvrdou vodu z kohoutku.",
+      },
+    ],
+  },
+  {
+    slug: "rostliny-na-zivy-plot-jak-vybrat-a-vysadit",
+    title: "Rostliny na živý plot: jak vybrat, vysadit a udržovat",
+    excerpt:
+      "Živý plot je krásnější a ekologičtější než betonová zeď. Přehled nejlepších druhů a návod na výsadbu krok za krokem.",
+    date: "2026-04-04",
+    author: "Ta Pravá",
+    heroImage: "/images/blog-zivy-plot.png",
+    tags: ["zahrada", "živý plot", "keře"],
+    metaDescription:
+      "Jaké rostliny na živý plot? Habr, tis, zerav, ptačí zob, buk. Kompletní průvodce výběrem, výsadbou a střihem živého plotu.",
+    content: [
+      {
+        type: "text",
+        body: "Živý plot je jednou z nejlepších investic do zahrady. Poskytuje soukromí, tlumí hluk, chrání před větrem, zachytává prach a je domovem pro ptáky a hmyz. Na rozdíl od dřevěného nebo betonového plotu s léty krásnější. Klíčem je správný výběr rostlin a trpělivost.",
+      },
+      {
+        type: "text",
+        heading: "Stálezelený, nebo opadavý?",
+        body: "Stálezelené ploty (zerav, tis, bobkovišeň) poskytují celoroční soukromí, ale vypadají celý rok stejně. Opadavé ploty (habr, buk) jsou na jaře a v létě nádherně zelené, na podzim získají zlatou barvu a přes zimu propouštějí více světla — ale habr si suché listy drží až do jara. Listnaté ploty jsou ekologicky hodnotnější — kvetou, plodí a nabízejí úkryt hmyzu.",
+      },
+      {
+        type: "text",
+        heading: "Nejlepší rostliny na živý plot",
+        body: "Habr obecný: nejoblíbenější listnatý plot v ČR. Rychlý růst, snese řez, drží suché listy přes zimu. Vhodný pro většinu stanovišť.\n\nZerav západní (thúje): klasika mezi stálezelenými ploty. Rychlý růst, hustý, cenově dostupný. Nesnese silný řez do starého dřeva.\n\nTis červený: pomalý růst, ale výjimečně dlouhověký a snese i radikální řez. Jedovatý — nevhodný tam, kde se pohybují malé děti.\n\nPtačí zob obecný: nenáročný polozelený keř. Rychle roste, kvete bíle a plody milují ptáci.\n\nBuk lesní: luxusní vzhled, měděné podzimní listy drží přes zimu. Pomalejší růst, ale krásný po celý rok.\n\nBobkovišeň: stálezelená s velkými lesklými listy. Rychlý růst, tropický vzhled, ale citlivější na silné mrazy.",
+      },
+      {
+        type: "plantList",
+        heading: "Rostliny na živý plot v katalogu",
+        plantIds: [
+          "carpinus-betulus",
+          "thuja-occidentalis",
+          "taxus-baccata",
+          "ligustrum-vulgare",
+          "fagus-sylvatica",
+          "prunus-laurocerasus",
+          "buxus-sempervirens",
+          "berberis-thunbergii",
+          "ilex-aquifolium",
+          "pyracantha-coccinea",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Jak vysadit živý plot",
+        body: "1. Vytyčte linii plotu pomocí provázku a kolíků.\n\n2. Vykopejte rýhu 40–50 cm širokou a hlubokou (ne jednotlivé jámy).\n\n3. Na dno přidejte zralý kompost smíchaný s původní zeminou.\n\n4. Sázejte 3–5 rostlin na běžný metr (podle druhu a požadované hustoty).\n\n5. Kořenový krček nechte v úrovni terénu.\n\n6. Zasypejte, udusejte a důkladně zalijte.\n\n7. Zamulčujte kůrou v pásu kolem plotu.",
+      },
+      {
+        type: "tip",
+        title: "Kolik rostlin na metr?",
+        body: "Habr, buk: 4–5 ks/m. Zerav: 3–4 ks/m. Tis: 3–4 ks/m. Ptačí zob: 4–5 ks/m. Bobkovišeň: 2–3 ks/m. Při dvouřadové výsadbě (cik-cak) je plot hustší, ale potřebujete 1,5× více sazenic.",
+      },
+      {
+        type: "text",
+        heading: "Kdy a jak stříhat",
+        body: "První řez proveďte hned po výsadbě — zkraťte o třetinu, aby se rostliny větvily od spodu. Tvarový řez provádějte 2× ročně: koncem června a v srpnu/září. Stříhejte tak, aby byl plot nahoře o něco užší než dole (tvar lichobežníku) — spodní větve pak dostanou dostatek světla a neholí se.",
+      },
+      {
+        type: "text",
+        heading: "Nejčastější chyby",
+        body: "Příliš těsná výsadba: rostliny se tlačí a spodek plotu se holí. Pozdní stříhání: řez v říjnu nestihne dozrát a mráz poškodí čerstvé výhony. Zapomenutá zálivka v prvním roce: nově vysazený plot potřebuje pravidelnou zálivku 1–2 roky. Řez do starého dřeva u zeravů: thúje z holého dřeva nevyraší — na rozdíl od habru nebo tisu.",
+      },
+    ],
+  },
+  {
+    slug: "prisvetlovani-pokojovych-rostlin-kompletni-pruvodce",
+    title: "Přisvětlování pokojových rostlin: kompletní průvodce",
+    excerpt:
+      "V zimě i v tmavém bytě rostlinám chybí světlo. Jak funguje přisvětlování, co potřebujete a kolik to stojí?",
+    date: "2026-04-02",
+    author: "Ta Pravá",
+    heroImage: "/images/blog-prisvetlovani.png",
+    tags: ["pokojové", "péče", "přisvětlování"],
+    metaDescription:
+      "Kompletní průvodce přisvětlováním pokojových rostlin. Jak vybrat LED lampu, kolik hodin svítit, spotřeba elektřiny a tipy pro začátečníky.",
+    content: [
+      {
+        type: "text",
+        body: "Světlo je pro rostliny to, co jídlo pro nás — bez něj nepřežijí. V českých podmínkách je od října do března den krátký a intenzita světla nízká. A pokud máte byt s okny na sever nebo rostliny stojí daleko od okna, mohou strádat i v létě. Řešením je přisvětlování — a díky moderním LED technologiím je dnes dostupné, účinné a levné.",
+      },
+      {
+        type: "text",
+        heading: "Proč rostliny potřebují více světla?",
+        body: "Rostliny využívají světlo k fotosyntéze — procesu, kterým přeměňují oxid uhličitý a vodu na cukry a kyslík. Bez dostatečného světla rostliny táhnou (etiolace), listy blednou, nové výhony jsou slabé a tenké. Kvetoucí rostliny nenasadí poupata. Suchomilné rostliny (sukulenty, kaktusy) se deformují.",
+      },
+      {
+        type: "text",
+        heading: "Jaký typ osvětlení zvolit?",
+        body: "Dnes jsou jednoznačnou volbou LED svítidla. Oproti starším technologiím (zářivky, sodíkové výbojky) mají zásadní výhody: spotřebují 60–80 % méně energie, vyzařují minimum tepla (nepoškodí listy), mají životnost 30 000–50 000 hodin a jsou dostupné ve správném světelném spektru pro rostliny.",
+      },
+      {
+        type: "text",
+        heading: "Barevné spektrum — fialová, nebo bílá?",
+        body: "Rostliny nejvíce využívají červené (630–660 nm) a modré (430–460 nm) světlo. Proto mají specializované rostlinné LED fialovo-růžovou barvu — obsahují pouze tyto vlnové délky. Bílé full-spectrum LED obsahují všechny vlnové délky a svítí přirozeně. Obě varianty fungují skvěle. Bílé LED jsou příjemnější pro lidské oko a interiér, fialové jsou o trochu účinnější na watt.",
+      },
+      {
+        type: "tip",
+        title: "PPFD a lux — co sledovat?",
+        body: "Lux měří jas pro lidské oko, ale rostliny vnímají světlo jinak. Přesnější jednotka je PPFD (µmol/m²/s) — měří množství fotonů využitelných pro fotosyntézu. Pro většinu pokojovek stačí 50–150 PPFD, pro sukulenty a rajčata 200–400 PPFD. Kvalitní LED lampy tuto hodnotu uvádějí.",
+      },
+      {
+        type: "text",
+        heading: "Jak dlouho svítit?",
+        body: "Většina pokojových rostlin potřebuje 12–16 hodin světla denně (přirozené + umělé dohromady). V zimě, kdy je den 8 hodin, doplňte 4–8 hodin přisvětlování — ráno a/nebo večer. Používejte časovač (stojí od 100 Kč) — rostliny milují pravidelný režim. Nepřisvětlujte nepřetržitě 24 hodin — i rostliny potřebují tmu pro metabolické procesy.",
+      },
+      {
+        type: "text",
+        heading: "Kolik to stojí na elektřině?",
+        body: "Překvapivě málo. Typická LED lampa pro 3–5 pokojovek má příkon 20–30 W. Při 8 hodinách denně po dobu 6 zimních měsíců (180 dní):\n\n25 W × 8 h × 180 dní = 36 kWh\n\nPři ceně 6 Kč/kWh je to přibližně 216 Kč za celou zimu — tedy asi 36 Kč měsíčně. I výkonnější 50W panel vyjde na zhruba 70 Kč měsíčně. Investice do svítidla se pohybuje od 300 Kč (lampička s klipem) do 2 000 Kč (kvalitní panel).",
+      },
+      {
+        type: "text",
+        heading: "Vzdálenost lampy od rostlin",
+        body: "Příliš daleko — rostliny nedostanou dost světla (intenzita klesá se čtvercem vzdálenosti). Příliš blízko — hrozí popálení listů u méně kvalitních lamp. Obecná pravidla: LED panel 20–40 cm nad rostlinami. LED lampička s klipem 15–25 cm. Pokud rostliny táhnou (dlouhé slabé výhony), je světlo moc daleko nebo slabé.",
+      },
+      {
+        type: "tip",
+        title: "Co přisvětlovat jako první?",
+        body: "Největší užitek z přisvětlování mají: sukulenty a kaktusy (bez světla se deformují), bylinky na parapetu (bazalka, koriandr — zásadně lepší růst), klíčení sazenic na jaře (předpěstování rajčat, paprik), kvetoucí pokojovky (pomáhá nasadit poupata) a citrusy (citroník potřebuje hodně světla celý rok).",
+      },
+      {
+        type: "text",
+        heading: "Tipy pro efektivní přisvětlování",
+        body: "Kombinujte přirozené a umělé světlo — umístěte lampu tak, aby doplňovala denní světlo, ne aby ho nahrazovala. Bílé stěny a reflexní podložky odrážejí světlo a zvyšují účinnost. Otáčejte rostliny — aby růst byl rovnoměrný ze všech stran. Čistěte listy od prachu — prach snižuje absorpci světla o 20–30 %. A hlavně: pozorujte rostliny. Pokud reagují sytějšími listy, kompaktnějším růstem a kvetením — vaše přisvětlování funguje!",
+      },
+    ],
+  },
+  {
+    slug: "popinave-rostliny-pruvodce-vyberem-a-pestovanim",
+    title: "Popínavé rostliny: průvodce výběrem a pěstováním",
+    excerpt:
+      "Popínavé rostliny zakryjí plot, zeď i pergolu. Jak se dělí, jak je sázet a které jsou nejlepší do české zahrady.",
+    date: "2026-03-30",
+    author: "Ta Pravá",
+    heroImage: "/images/blog-popinave.png",
+    tags: ["zahrada", "popínavé", "pergola"],
+    metaDescription:
+      "Kompletní průvodce popínavými rostlinami. Samopnoucí, úponkaté, ovíjivé i vzpěrné. Jak sázet, jakou oporu zvolit a jak stříhat.",
+    content: [
+      {
+        type: "text",
+        body: "Popínavé rostliny patří k nejefektnějším zahradním prvkům. Zakryjí nevzhlednou zeď, promění pergolu v zelenou oázu, vytvoří zastínění terasy nebo přidají vertikální rozměr malé zahradě. A to často za jedinou sezónu. Klíčem k úspěchu je vybrat správný druh pro dané místo a zajistit vhodnou oporu.",
+      },
+      {
+        type: "text",
+        heading: "Jak se popínavé rostliny pnou?",
+        body: "Popínavky se dělí do čtyř skupin podle způsobu uchycení:\n\nSamopnoucí — přichytávají se k povrchu vlastními přísavnými kořínky. Nepotřebují oporu, lezou po stěnách, kmenech a skalách. Patří sem břečťan, přísavník (loubinec), trubač a hortenzie popínavá.\n\nÚponkaté — uchycují se tenkými úponky kolem drátů, mříží nebo jiných rostlin. Typickým zástupcem je plamének, vinná réva a mučenka.\n\nOvíjivé — celými výhony se ovíjejí kolem opory. Potřebují svislé tyče, sloupy nebo pergolu. Sem patří vistárie, zimolez ovíjivý a aktinidie (kiwi).\n\nVzpěrné — nemají žádný uchycovací mechanismus. Své výhony zasunují do opory a zaklesávají trny. Typická je popínavá růže a ostružiník. Musíte je k opoře přivazovat.",
+      },
+      {
+        type: "text",
+        heading: "Kde a jak sázet",
+        body: "Popínavky sázejte na jaře nebo na podzim, v létě se vyhněte horkým dnům. Výsadbová jáma by měla být 20–30 cm od zdi nebo plotu — přímo u paty zdi je půda chudá, suchá a zhutněná. Nakloňte kořenový bal směrem k opoře. Půda by měla být humózní, propustná a na živiny bohatá. Po výsadbě zalijte a zamulčujte.",
+      },
+      {
+        type: "tip",
+        title: "Co je treláž?",
+        body: "Treláž je mřížová konstrukce ze dřeva, kovu nebo plastu, která slouží jako opora pro popínavky. Připevňuje se na zeď s mezerou 5–10 cm, aby za ní proudil vzduch. Dřevěná treláž vypadá nejpřirozeněji, nerezové dráty jsou nejdiskrétnější a nejtrvanlivější.",
+      },
+      {
+        type: "text",
+        heading: "Nejlepší popínavky na slunce",
+        body: "Vistárie: královna popínavek. Dlouhé hrozny modrých, bílých nebo růžových květů v květnu. Dorůstá až 15 m, potřebuje pevnou oporu (pergola, zeď). Kvete na starém dřevě — řežte opatrně.\n\nPlamének: obrovské množství odrůd s květy od bílé po tmavě fialovou. Hlava na slunci, nohy ve stínu — zastíněte kořeny nízkou trvalkou. Řez závisí na skupině.\n\nRůže popínavá: klasika pro romantickou zahradu. Potřebuje přivazování k opoře. Řez po odkvětu a na jaře.\n\nTrubač: exoticky vypadající trubkovité květy v oranžové a červené. Samopnoucí, velmi rychlý růst. Pozor — v chladnějších polohách může namrzat.",
+      },
+      {
+        type: "text",
+        heading: "Nejlepší popínavky do stínu",
+        body: "Břečťan popínavý: nejodolnější stálezelená popínavka. Roste prakticky kdekoli — na slunci, v polostínu i v plném stínu. Samopnoucí, nenáročný, téměř bezúdržbový. Plody jsou jedovaté pro člověka, ale ptáci je milují.\n\nHortenzie popínavá: nádherně kvete bílými květy v červnu. Samopnoucí, ale zpočátku roste pomalu. Po zakořenění (2–3 roky) přidá i 1 m za rok. Ideální na severní stěnu.\n\nLoubinec: samopnoucí, extrémně rychlý růst, nádherné podzimní zbarvení v ohnivě červené. Zcela bezúdržbový. Vhodný na velké plochy — zeď, garáž, plot.",
+      },
+      {
+        type: "plantList",
+        heading: "Popínavé rostliny v našem katalogu",
+        plantIds: [
+          "clematis-jackmanii",
+          "wisteria-sinensis",
+          "rosa-climbing",
+          "hedera-helix",
+          "parthenocissus-quinquefolia",
+          "campsis-radicans",
+          "hydrangea-petiolaris",
+          "lonicera-caprifolium",
+          "actinidia-arguta",
+          "passiflora-incarnata",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Kdy a jak stříhat",
+        body: "Stříhání záleží na druhu a skupině. Obecně: popínavky kvetoucí na starém dřevě (vistárie, některé plaménky) stříhejte po odkvětu. Kvetoucí na novém dřevě (trubač, letní plaménky) stříhejte brzy na jaře. Břečťan a loubinec stříhejte kdykoli — usměrňujte růst, aby nelezl, kam nechcete. Růže popínavé řežte na jaře — odstraňte staré dřevo a zkraťte postranní výhony.",
+      },
+      {
+        type: "tip",
+        title: "Poškozují popínavky zeď?",
+        body: "Častá obava, ale realita je nuancovanější. Samopnoucí druhy (břečťan, loubinec) se přichytávají k povrchu — na zdravé omítce neškodí, ale na poškozené omítce mohou kořínky vnikat do trhlin. Ovíjivé (vistárie) mají obrovskou sílu a mohou ohýbat trubky a plechy. Řešení: kvalitní treláž s mezerou od zdi, která chrání fasádu a umožňuje údržbu.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
