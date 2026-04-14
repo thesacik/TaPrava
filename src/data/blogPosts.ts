@@ -849,40 +849,31 @@ export const blogPosts: BlogPost[] = [
         heading: "Lopatkovec (Spathiphyllum) — kvetoucí i ve stínu",
         body: "Lopatkovec je raritou mezi kvetoucími pokojovkami — kvete i v polostínu. Jeho bílé toulcovité květy se objevují několikrát do roka a vydrží týdny. Snáší nižší světlo, ale kvete lépe u okna. Zalijte, když povrch substrátu vyschne. Bonus: lopatkovec čistí vzduch a je nenáročný na péči.",
       },
+      { type: "plantList", plantIds: ["spathiphyllum"] },
       {
         type: "text",
         heading: "Begónie elatior — záplava barev",
         body: "Begónie elatior patří k nejvděčnějším kvetoucím pokojovkám. Kvete v teplých barvách — červená, růžová, oranžová, žlutá i bílá — a to měsíce v kuse. Potřebuje světlé místo bez přímého slunce, pravidelnou zálivku a přihnojení během kvetení. Po odkvětu ji seřízněte a ona znovu vykvete.",
       },
+      { type: "plantList", plantIds: ["begonia-elatior"] },
       {
         type: "text",
         heading: "Brambořík (Cyclamen) — zimní hvězda",
         body: "Brambořík kvete od podzimu do jara, kdy většina pokojovek odpočívá. Miluje chlad (15–18 °C) a světlo. Zalijte odspodu — vodu nalijte do misky a po 30 minutách přebytek slijte. Po odkvětu nechte hlízu v suchém substrátu odpočívat přes léto a na podzim obnovte zálivku.",
       },
+      { type: "plantList", plantIds: ["cyclamen-persicum"] },
       {
         type: "text",
         heading: "Voskovka (Hoya) — voňavá kráska",
         body: "Voskovka tvoří úchvatné hrozny voskových květů s omamnou vůní, zejména večer. Je to popínavá/převislá rostlina ideální do závěsného košíku. Klíč k květení: hodně světla, mírná zálivka a neřezat stonky po odkvětu — na stejném místě vykvete znovu. Voskovka je trpělivá — poprvé kvete až po 2–3 letech.",
       },
+      { type: "plantList", plantIds: ["hoya-carnosa"] },
       {
         type: "text",
         heading: "Ibišek pokojový (Hibiscus) — tropická exotika",
         body: "Pokojový ibišek tvoří velké, nápadné květy v červené, růžové, oranžové nebo žluté barvě. Každý květ vydrží jen den, ale rostlina jich produkuje spoustu. Potřebuje plné slunce (jižní okno), pravidelnou zálivku a hnojení v sezóně. Na zimu omezíte zálivku a přesunete do chladnější místnosti.",
       },
-      {
-        type: "plantList",
-        heading: "Kvetoucí pokojovky v našem katalogu",
-        plantIds: [
-          "spathiphyllum",
-          "begonia-elatior",
-          "cyclamen-persicum",
-          "hoya-carnosa",
-          "hibiscus-syriacus",
-          "citrus-limon",
-          "tradescantia-zebrina",
-          "coleus-scutellarioides",
-        ],
-      },
+      { type: "plantList", plantIds: ["hibiscus-syriacus"] },
       {
         type: "text",
         heading: "Jak přimět pokojovky k opětovnému kvetení",
@@ -1088,6 +1079,898 @@ export const blogPosts: BlogPost[] = [
         type: "tip",
         title: "Poškozují popínavky zeď?",
         body: "Častá obava, ale realita je nuancovanější. Samopnoucí druhy (břečťan, loubinec) se přichytávají k povrchu — na zdravé omítce neškodí, ale na poškozené omítce mohou kořínky vnikat do trhlin. Ovíjivé (vistárie) mají obrovskou sílu a mohou ohýbat trubky a plechy. Řešení: kvalitní treláž s mezerou od zdi, která chrání fasádu a umožňuje údržbu.",
+      },
+    ],
+  },
+  {
+    slug: "jak-pestovat-levanduli",
+    title: "Jak pěstovat levanduli: návod pro českou zahradu i květináč",
+    excerpt:
+      "Levandule voní, kvete a láká včely. Jak ji vysadit, stříhat a přezimovat v českém klimatu.",
+    date: "2026-04-08",
+    author: "Ta Pravá",
+    heroImage: "/images/months/07.png",
+    tags: ["zahrada", "levandule", "bylinky"],
+    metaDescription:
+      "Jak pěstovat levanduli v Česku. Výběr odrůdy, výsadba, řez, přezimování a pěstování v květináči krok za krokem.",
+    content: [
+      {
+        type: "text",
+        body: "Levandule je symbolem Provence, ale skvěle se daří i v české zahradě. Její fialové květy voní, lákají včely a motýly a vydrží i v suchých a chudých půdách. Stačí dodržet několik pravidel — a levandule vám bude kvést roky.",
+      },
+      {
+        type: "text",
+        heading: "Výběr odrůdy pro české klima",
+        body: "Nejodolnější je levandule lékařská (Lavandula angustifolia) — přežije mrazy do -20 °C. Oblíbené odrůdy: Hidcote (tmavě fialová, kompaktní), Munstead (světlejší, aromatická), Dwarf Blue (nízká, vhodná do truhlíků). Levandule francouzská (L. stoechas) má efektní květy, ale v Česku nepřezimuje venku. Lavandin (L. × intermedia) dorůstá největších rozměrů a je nejvoňavější.",
+      },
+      { type: "plantList", plantIds: ["lavandula-angustifolia", "lavandula-stoechas", "lavandula-intermedia"] },
+      {
+        type: "text",
+        heading: "Kde a jak vysadit",
+        body: "Levandule miluje plné slunce a propustnou, spíše chudou a vápnitou půdu. Na těžké jílovité půdě hnije — přidejte písek nebo štěrk. Sázejte na jaře (duben–květen) s roztečí 30–40 cm. Nikdy nesázejte do stínu a do vlhké půdy — to je nejčastější příčina neúspěchu.",
+      },
+      {
+        type: "tip",
+        title: "Levandule v květináči",
+        body: "Skvěle roste v květináči na slunném balkonu. Použijte propustný substrát s pískem, květináč s drenáží. Zalijte jen když je substrát suchý. Na zimu přesuňte do chladné, světlé místnosti nebo květináč obalte a postavte k jižní stěně.",
+      },
+      {
+        type: "text",
+        heading: "Řez — klíč k dlouhověkosti",
+        body: "Levandule bez řezu dřevnatí, holí se a rozpadá. Stříhejte 2× ročně:\n\n1. Po odkvětu (srpen) — sestřihněte květní stvoly a 2–3 cm zeleného přírůstku.\n\n2. Na jaře (březen–duben) — tvarový řez do kompaktního tvaru. Nikdy nestříhejte do starého dřeva (hnědých holých větví) — z nich levandule nevyraší!",
+      },
+      {
+        type: "text",
+        heading: "Přezimování v Česku",
+        body: "Levandule lékařská přežije většinu českých zim, pokud je na propustné půdě a chráněném místě. Na zimu zamulčujte kořeny štěpkou. V drsnějších podmínkách zakryjte chvojím. Největší riziko není mráz, ale mokro — zamrzlá voda u kořenů levanduli spolehlivě zahubí.",
+      },
+    ],
+  },
+  {
+    slug: "jak-pestovat-orchideje-pruvodce-pro-zacatecniky",
+    title: "Jak pěstovat orchideje: průvodce pro začátečníky",
+    excerpt:
+      "Orchideje nejsou tak náročné, jak vypadají. Poradíme, jak je zalévat, přesazovat a přimět znovu kvést.",
+    date: "2026-04-07",
+    author: "Ta Pravá",
+    heroImage: "/images/blog-kvetouci-pokojovky.png",
+    tags: ["pokojové", "orchideje", "péče"],
+    metaDescription:
+      "Jak pěstovat orchideje doma. Zálivka, světlo, hnojení, přesazování a jak přimět Phalaenopsis znovu kvést.",
+    content: [
+      {
+        type: "text",
+        body: "Orchideje (zejména Phalaenopsis, motýlí orchidej) jsou nejprodávanější pokojové rostliny v Česku. A přesto se jich lidé bojí — prý jsou náročné. Pravda je opačná: Phalaenopsis je jedna z nejnenáročnějších kvetoucích pokojovek. Stačí pochopit pár pravidel a odměnou budou měsíce květů.",
+      },
+      {
+        type: "text",
+        heading: "Světlo a umístění",
+        body: "Orchideje chtějí hodně rozptýleného světla, ale ne přímé polední slunce. Ideální je východní nebo západní okno. Na severním okně budou žít, ale nemusí kvést. Na jižním zastíňte záclonkou. Orchidej nesmí být u radiátoru — suchý horký vzduch ji rychle zahubí.",
+      },
+      {
+        type: "text",
+        heading: "Zálivka — méně je více",
+        body: "Největší chyba je přelévání. Orchideje v přírodě rostou na stromech, kořeny visí ve vzduchu. Zalijte jednou za 7–10 dní: ponořte květináč na 15–20 minut do vlažné vody, pak nechte důkladně okapat. Mezi zálivkami musí substrát (kůra) proschnout. Kořeny mají být stříbrné (suché) a po zálivce zelené.",
+      },
+      {
+        type: "tip",
+        title: "Průhledný květináč",
+        body: "Orchideje pěstujte v průhledném plastovém květináči — kořeny fotosyntetizují a vy vidíte, kdy je čas zalít (stříbrné kořeny = sucho, zelené = vlhko). Ozdobný obal použijte bez podmisky, aby voda nestála u kořenů.",
+      },
+      {
+        type: "text",
+        heading: "Substrát a přesazování",
+        body: "Orchideje nerostou v zemině! Používejte speciální orchidejový substrát — borovou kůru, případně s příměsí sphagnum mechu. Přesazujte každé 2–3 roky nebo když kůra začne hnít (tmavne, má kyselý zápach). Přesazujte po odkvětu, opatrně odstraňte starou kůru a hnilé kořeny (měkké, hnědé).",
+      },
+      {
+        type: "text",
+        heading: "Jak přimět orchidej znovu kvést",
+        body: "Po odkvětu neřežte celý stvol — zkraťte ho nad druhým kolénkem (uzlem). Z kolénka může vyrůst nový výhon s květy. Pokud orchidej nekvete déle než rok, potřebuje chladový impulz: na 4–6 týdnů ji umístěte do chladnější místnosti (15–18 °C, např. ložnice). Teplotní rozdíl mezi dnem a nocí spustí tvorbu poupat.",
+      },
+      {
+        type: "text",
+        heading: "Hnojení",
+        body: "Přihnojujte speciálním orchidejovým hnojivem (nízká koncentrace) každou druhou zálivku během růstu a kvetení (jaro–podzim). V zimě nehnojte. Nikdy nehnojte do suchého substrátu — vždy nejdřív zalijte a pak přidejte hnojivo do zálivkové vody.",
+      },
+      {
+        type: "tip",
+        title: "Vzdušná vlhkost",
+        body: "Orchideje pocházejí z tropů a potřebují vlhkost 50–70 %. V bytě s topením bývá 30–40 %. Pomozte jim: rosíte listy (ne květy), postavte květináč na misku s mokrými kamínky nebo používejte zvlhčovač. Skupinka rostlin u sebe navzájem zvyšuje vlhkost.",
+      },
+    ],
+  },
+  {
+    slug: "jak-se-starat-o-ruze-kompletni-pruvodce",
+    title: "Jak se starat o růže: kompletní průvodce péčí",
+    excerpt:
+      "Růže jsou královny zahrady. Jak je sázet, řezat, hnojit a chránit před chorobami — vše na jednom místě.",
+    date: "2026-04-06",
+    author: "Ta Pravá",
+    heroImage: "/images/months/06.png",
+    tags: ["zahrada", "růže", "péče"],
+    metaDescription:
+      "Jak pěstovat růže. Výsadba, řez, hnojení, ochrana proti chorobám a přezimování růží krok za krokem.",
+    content: [
+      {
+        type: "text",
+        body: "Růže provázejí člověka tisíce let a dodnes patří k nejoblíbenějším zahradním rostlinám. Moderní odrůdy jsou odolnější než kdy dřív a s trochou péče vás odmění bohatým kvetením od června do prvních mrazů.",
+      },
+      {
+        type: "text",
+        heading: "Typy růží",
+        body: "Záhonové (floribundy): nízké, bohatě kvetoucí, ideální do skupin. Velkokvěté (čajohybridy): elegantní velké květy na dlouhých stoncích. Popínavé: pokryjí pergolu, zeď nebo oblouk. Keřové: mohutné, odolné, vhodné do volné výsadby. Pokryvné: nízké, šíří se do plochy, vhodné na svahy. Historické: voňavé, romantické, kvetou většinou jednou za sezónu.",
+      },
+      {
+        type: "plantList",
+        heading: "Růže v našem katalogu",
+        plantIds: ["rosa-floribunda", "rosa-climbing", "rosa-rugosa", "rosa-canina", "rosa-gallica"],
+      },
+      {
+        type: "text",
+        heading: "Výsadba",
+        body: "Růže sázejte na podzim (říjen–listopad) nebo na jaře (březen–duben). Vyberte slunné, vzdušné místo — růže potřebují minimálně 6 hodin přímého slunce. Jámu vykopejte 40×40 cm, na dno kompost. Očkovací místo (zduřenina na kmínku) zakopejte 5 cm pod povrch — chrání před mrazem. Zalijte 10 l vody.",
+      },
+      {
+        type: "text",
+        heading: "Řez růží",
+        body: "Hlavní řez provádějte na jaře (březen–duben), když forsythie začíná kvést. Záhonové a velkokvěté: seřízněte na 3–5 oček nad zemí. Popínavé: odstraňte staré dřevo, zkraťte postranní výhony. Keřové: prosvětlujte střed, odstraňte křížící se a slabé větve. Během léta odstraňujte odkvetlé květy (stimuluje nové kvetení).",
+      },
+      {
+        type: "tip",
+        title: "Černá skvrnitost a padlí",
+        body: "Dva nejčastější problémy růží. Černá skvrnitost: tmavé skvrny na listech, listy opadávají. Prevence: vzdušné místo, nezalijte přes listy, v předjaří postříkejte měďnatým přípravkem. Padlí: bílý povlak na listech. Prevence: slunné místo, nepřehnojovat dusíkem. Léčba: fungicidní postřik nebo odvar z přesličky.",
+      },
+      {
+        type: "text",
+        heading: "Hnojení",
+        body: "Růže jsou hladové — hnojte 3× za sezónu: na jaře po řezu (kompost + granulované hnojivo), v červnu po prvním kvetení (hnojivo na růže) a naposledy v červenci. Po srpnu nehnojte — nové výhony by nestihly vyzrát a mráz by je poškodil.",
+      },
+      {
+        type: "text",
+        heading: "Přezimování",
+        body: "Na podzim přihrňte hlínu nebo kompost ke kořenovému krčku (kopec 15–20 cm). Kmínkové růže obalte jutou. Neřežte na podzim — řez nechte na jaro. Popínavé růže na archu stáhněte k zemi a zakryjte chvojím. Na jaře ochranu odstraňte, jakmile začnou rašit pupeny.",
+      },
+    ],
+  },
+  {
+    slug: "jak-pestovat-rajcata-na-balkone",
+    title: "Jak pěstovat rajčata na balkoně: sklizeň i bez zahrady",
+    excerpt:
+      "Sladká rajčata z vlastního balkonu? Jde to! Návod od výběru odrůdy po sklizeň v truhlíku.",
+    date: "2026-04-05",
+    author: "Ta Pravá",
+    heroImage: "/images/months/08.png",
+    tags: ["balkon", "zelenina", "rajčata"],
+    metaDescription:
+      "Jak pěstovat rajčata na balkoně v truhlíku. Výběr odrůdy, předpěstování, péče, hnojení a sklizeň krok za krokem.",
+    content: [
+      {
+        type: "text",
+        body: "K pěstování rajčat nepotřebujete zahradu. Stačí slunný balkon, dostatečně velký květináč a trocha trpělivosti. Balkonová rajčata mají skvělou chuť — daleko lepší než ta ze supermarketu — a pěstování je překvapivě jednoduché.",
+      },
+      {
+        type: "text",
+        heading: "Výběr odrůdy pro balkon",
+        body: "Na balkon volte kompaktní determinantní (keříčkové) odrůdy, které nepotřebují vysokou oporu: Balkonzauber, Tumbling Tom (převislé, do závěsných košů), Vilma (česká klasika), Tiny Tim, Losetto. Cherry a koktejlová rajčata se na balkoně daří nejlépe — mají menší plody, ale obrovský výnos a skvělou chuť.",
+      },
+      {
+        type: "text",
+        heading: "Předpěstování sazenic",
+        body: "Sejte od poloviny března do tepla (20–25 °C) na světlém parapetě. Semena zasejte 1 cm hluboko do vlhkého substrátu. Klíčí za 5–10 dní. Po vyrašení prvních pravých listů (ne děložních) přepichujte do větších kelímků. Na balkon vysaďte až po zmrzlých (po 15. květnu), kdy noční teploty neklesají pod 10 °C.",
+      },
+      {
+        type: "tip",
+        title: "Otužování sazenic",
+        body: "Týden před výsadbou sazenice otužujte — přes den je dejte na balkon, na noc vraťte dovnitř. Bez otužení dostanou sazenice ‚šok' a zastaví se v růstu na týdny.",
+      },
+      {
+        type: "text",
+        heading: "Květináč a substrát",
+        body: "Jeden keřík potřebuje minimálně 10–15 l substrátu (ideálně 20 l). Použijte kvalitní univerzální substrát obohacený kompostem. Na dno květináče drenážní vrstvu z keramzitu. Květináč musí mít drenážní otvor — rajčata nesnáší stojatou vodu, ale zároveň potřebují stálou vlhkost.",
+      },
+      {
+        type: "text",
+        heading: "Zálivka a hnojení",
+        body: "Zalijte ráno k zemi (ne přes listy) — v létě i denně. Nepravidelná zálivka způsobuje praskání plodů. Přihnojujte každých 10–14 dní rajčatovým hnojivem (vyšší podíl draslíku) od chvíle, kdy nasadí první květy. Přehnojení dusíkem = hodně listů, málo plodů.",
+      },
+      {
+        type: "text",
+        heading: "Zaštipování a podpora",
+        body: "Indeterminantní (tyčkové) odrůdy zaštipujte — odstraňujte zálistky (výhony rostoucí z úžlabí listů). Keříčkové odrůdy zaštipovat nemusíte. Ke každému rajčeti dej tyčku nebo spirálovou podporu. V srpnu ořízněte vrchol — zbývající plody stihnou dozrát.",
+      },
+      {
+        type: "tip",
+        title: "Bazalka jako parťák",
+        body: "Vysaďte k rajčatům bazalku — údajně odpuzuje škůdce, ale hlavně spolu skvěle chutnají. Na jeden balkon se vejde rajče, bazalka a pár papriček — máte vlastní minifarmu.",
+      },
+    ],
+  },
+  {
+    slug: "kdy-a-jak-hnojit-travnik",
+    title: "Kdy a jak hnojit trávník: kalendář péče o trávník",
+    excerpt:
+      "Zelený a hustý trávník potřebuje pravidelné hnojení. Kdy hnojit, čím a jak často — přehledný návod.",
+    date: "2026-04-04",
+    author: "Ta Pravá",
+    heroImage: "/images/months/05.png",
+    tags: ["zahrada", "trávník", "hnojení"],
+    metaDescription:
+      "Kdy a jak hnojit trávník. Jarní, letní, podzimní hnojení, výběr hnojiva, vertikutace a provzdušnění krok za krokem.",
+    content: [
+      {
+        type: "text",
+        body: "Trávník je nejnáročnější plocha na zahradě — pravidelně ho sekáte a odvážíte živiny. Bez hnojení řídne, žloutne a plní se mechem a plevelem. Přitom stačí hnojit 3–4× ročně správným hnojivem a trávník bude hustý, zelený a odolný.",
+      },
+      {
+        type: "text",
+        heading: "Jarní hnojení (březen–duben)",
+        body: "Nejdůležitější hnojení roku. Použijte jarní trávníkové hnojivo s vysokým podílem dusíku (N) — nastartuje růst po zimě. Aplikujte, když trávník začíná zelenat a teploty přesahují 8 °C. Před hnojením trávník posekat a shrabat starou trávu. Ideálně rozhoďte hnojivo před deštěm nebo po hnojení zalijte.",
+      },
+      {
+        type: "text",
+        heading: "Letní hnojení (červen–červenec)",
+        body: "Druhé hnojení udržuje trávník zelený přes léto. Použijte univerzální trávníkové hnojivo s vyváženým poměrem N-P-K. Nehnojte v parnu a suchu — hnojivo může trávu popálit. Aplikujte večer a zalijte. V extrémním suchu raději hnojení vynechte.",
+      },
+      {
+        type: "text",
+        heading: "Podzimní hnojení (září–říjen)",
+        body: "Podzimní hnojivo má nízký dusík a vysoký draslík (K) — posiluje kořeny a odolnost proti mrazu. Nepoužívejte jarní hnojivo na podzim! Dusík stimuluje měkký růst, který mráz snadno poškodí. Podzimní hnojení je klíčové pro to, aby trávník přežil zimu v dobré kondici.",
+      },
+      {
+        type: "tip",
+        title: "Granulované vs. tekuté hnojivo",
+        body: "Granulované hnojivo s pozvolným uvolňováním (3 měsíce) je nejpraktičtější — stačí rozhodit a zalít. Tekutá hnojiva působí rychle (vidíte efekt za týden), ale je třeba je aplikovat častěji. Pro většinu zahradníků je granulát ideální volba.",
+      },
+      {
+        type: "text",
+        heading: "Vertikutace a provzdušnění",
+        body: "Na jaře (duben) proveďte vertikutaci — strojové prořezání plsti (odumřelé trávy) v trávníku. Plsť brání pronikání vody a živin ke kořenům. Po vertikutaci trávník vypadá hrozně, ale za 2–3 týdny se zotaví a bude hustší. Provzdušnění (aerifikace) vidlemi nebo strojem zlepšuje přístup vzduchu ke kořenům — ideální pro zhutnělé půdy.",
+      },
+      {
+        type: "text",
+        heading: "Mech a plevel v trávníku",
+        body: "Mech signalizuje: kyselou půdu (přidejte vápno), stín, zhutněnou půdu nebo přemokření. Plevel přibývá v řídkém trávníku — nejlepší prevence je hustý, zdravý trávník. Dosevem zahustíte prořídlá místa. Selektivní herbicid ničí dvouděložné plevele, aniž by poškodil trávu.",
+      },
+    ],
+  },
+  {
+    slug: "jak-predpestovat-sazenice-doma",
+    title: "Jak předpěstovat sazenice doma: jarní startér pro zahrádkáře",
+    excerpt:
+      "Předpěstování doma vám dá měsíční náskok. Jak na to s rajčaty, paprikami, květinami i bylinkami.",
+    date: "2026-04-03",
+    author: "Ta Pravá",
+    heroImage: "/images/months/03.png",
+    tags: ["zahrada", "sazenice", "jaro"],
+    metaDescription:
+      "Jak předpěstovat sazenice doma na parapetě. Kdy začít, co potřebujete, přisvětlování a otužování krok za krokem.",
+    content: [
+      {
+        type: "text",
+        body: "Předpěstování sazenic na parapetě vám dá 4–8 týdenní náskok před přímým výsevem. Rajčata, papriky, okurky, cukety, ale i letničky a bylinky — všechny můžete připravit doma a na jaře vysadit silné, zdravé rostliny. A ušetříte za sazenice ze zahradnictví.",
+      },
+      {
+        type: "text",
+        heading: "Kdy začít s předpěstováním",
+        body: "Papriky a chilli: únor (potřebují nejdelší dobu). Rajčata: polovina března. Okurky a cukety: polovina dubna (rostou rychle). Letničky (afrikány, petúnie): březen. Bylinky (bazalka, koriandr): březen–duben. Klíčové pravidlo: počítejte zpět od data výsadby ven (po 15. květnu) minus doporučený věk sazenic.",
+      },
+      {
+        type: "text",
+        heading: "Co budete potřebovat",
+        body: "Miniaturní skleníčky nebo kelímky od jogurtů (s drenážním otvorem). Výsevní substrát (jemnější než univerzální). Rozprašovač na vodu. Světlé místo (jižní parapet) nebo přisvětlovací LED. Fólie nebo průhledné víčko na zakrytí do vyklíčení. Etiketky nebo popisky — po vyklíčení se sazenice těžko rozlišují.",
+      },
+      {
+        type: "tip",
+        title: "Přisvětlování mění vše",
+        body: "Sazenice na parapetě v únoru–březnu nemají dost světla a táhnou se. Levná LED lampička (300–500 Kč) dramaticky změní kvalitu sazenic — budou kompaktní, silné a tmavě zelené. Svítíte 14–16 hodin denně, 10–15 cm nad sazenicemi.",
+      },
+      {
+        type: "text",
+        heading: "Postup výsevu",
+        body: "1. Naplňte nádoby vlhkým výsevním substrátem.\n\n2. Semena zasejte do hloubky 2× jejich průměr (drobná semena jen na povrch).\n\n3. Zakryjte fólií nebo víčkem — udržuje vlhkost a teplo.\n\n4. Udržujte teplotu 20–25 °C (rajčata, papriky).\n\n5. Po vyklíčení fólii odstraňte a přesuňte na světlo.\n\n6. Po 2–3 pravých listech přepichujte do větších nádob.",
+      },
+      {
+        type: "text",
+        heading: "Otužování před výsadbou",
+        body: "Týden až dva před vysazením ven sazenice otužujte. Začněte s 1–2 hodinami venku v chráněném polostínu, postupně přidávejte čas a slunce. Poslední 2–3 dny nechte venku i přes noc (pokud nehrozí mráz). Neotužené sazenice dostanou sluneční úžeh a teplotní šok.",
+      },
+      {
+        type: "text",
+        heading: "Nejčastější chyby",
+        body: "Příliš časný výsev: sazenice přerostou a ztratí kvalitu. Málo světla: sazenice se táhnou a jsou slabé. Přemokření: způsobuje padání klíčních rostlin (plíseň). Přímá výsadba bez otužení: sazenice stagnují nebo uhynou. Příliš hluboký výsev: drobná semena nedokáží prorazit.",
+      },
+    ],
+  },
+  {
+    slug: "jak-zalozit-vyvyseny-zahon",
+    title: "Jak založit vyvýšený záhon: stavba, plnění a výsadba",
+    excerpt:
+      "Vyvýšený záhon je pohodlný, produktivní a krásný. Jak ho postavit, čím naplnit a co do něj vysadit.",
+    date: "2026-04-02",
+    author: "Ta Pravá",
+    heroImage: "/images/months/04.png",
+    tags: ["zahrada", "vyvýšený záhon", "zelenina"],
+    metaDescription:
+      "Jak založit vyvýšený záhon krok za krokem. Materiály, rozměry, plnění vrstvami a co sázet do vyvýšeného záhonu.",
+    content: [
+      {
+        type: "text",
+        body: "Vyvýšený záhon je jedním z nejlepších řešení pro pěstování zeleniny, bylinek i květin. Půda se rychleji prohřívá, lépe se kontroluje kvalita substrátu a pěstování je pohodlnější — nemusíte se ohýbat. Navíc skvěle vypadá a hodí se i na malé zahrady, terasy a zpevněné plochy.",
+      },
+      {
+        type: "text",
+        heading: "Rozměry a umístění",
+        body: "Šířka: maximálně 120 cm (abyste pohodlně dosáhli do středu z obou stran). Výška: 40–80 cm (čím vyšší, tím pohodlnější práce, ale potřebujete více materiálu). Délka: libovolná. Umístěte na slunné místo (alespoň 6 hodin denně) v severojižním směru pro rovnoměrné osvětlení.",
+      },
+      {
+        type: "text",
+        heading: "Z čeho postavit",
+        body: "Dřevo: nejčastější a nejlevnější. Použijte modřín, akát nebo tlakově impregnované dřevo (bez kontaktu se zeleninou — vyložte fólií). Vydrží 5–15 let. Gabiony (drátěné koše s kamenem): moderní, trvanlivé, ale dražší. Cihly/beton: trvalé řešení, ale náročnější stavba. Ocelový plech Corten: designový, odolný, s patinou. Vyvarujte se: ošetřeného dřeva železničních pražců (obsahují kreosol).",
+      },
+      {
+        type: "text",
+        heading: "Plnění vrstvami — klíč k úspěchu",
+        body: "Vyvýšený záhon neplňte jen zeminou — vrstvení organického materiálu vytváří kompostovací efekt, který záhon zahřívá a živí:\n\n1. Spodní vrstva (20 cm): větve, klacky, hrubý dřevní odpad — drenáž a dlouhodobé živiny.\n\n2. Střední vrstva (20 cm): listí, tráva, nedozrálý kompost, sláma — zdroj živin.\n\n3. Horní vrstva (20–30 cm): kvalitní zahradní zemina smíchaná se zralým kompostem — výsadbová vrstva.",
+      },
+      {
+        type: "tip",
+        title: "Ochrana proti hrabošům",
+        body: "Na dno záhonu dejte pozinkovanou síťovinu (oko 12 mm) — zabrání hrabošům a krtkům ve vstupu zdola. Toto je mnohem jednodušší než řešit škůdce dodatečně.",
+      },
+      {
+        type: "text",
+        heading: "Co sázet do vyvýšeného záhonu",
+        body: "V prvním roce využijte bohatost živin a sázejte náročné plodiny: rajčata, okurky, cukety, dýně, papriky. V druhém roce přejděte na středně náročné: mrkev, kedlubny, cibule, česnek, hrách. Ve třetím roce pěstujte nenáročné: fazole, hrách, bylinky, saláty. Ve čtvrtém roce záhon přihnojte a cyklus opakujte.",
+      },
+      {
+        type: "text",
+        heading: "Péče o vyvýšený záhon",
+        body: "Zálivka: vyvýšený záhon prosychá rychleji než záhon v zemi — počítejte s častější zálivkou, zejména v létě. Zvažte kapkovou závlahu. Mulčování: 5 cm slámy nebo trávy na povrchu snižuje odpařování a potlačuje plevel. Doplňování: záhon každý rok trochu klesne — na jaře doplňte vrstvu kompostu.",
+      },
+    ],
+  },
+  {
+    slug: "jak-pripravit-zahradu-na-zimu",
+    title: "Jak připravit zahradu na zimu: podzimní checklist",
+    excerpt:
+      "Správná příprava na zimu rozhoduje o tom, jak bude zahrada vypadat na jaře. Kompletní checklist pro podzim.",
+    date: "2026-04-01",
+    author: "Ta Pravá",
+    heroImage: "/images/months/10.png",
+    tags: ["zahrada", "zima", "podzim"],
+    metaDescription:
+      "Jak připravit zahradu na zimu. Podzimní práce, řez, mulčování, ochrana rostlin a příprava trávníku krok za krokem.",
+    content: [
+      {
+        type: "text",
+        body: "Podzim je pro zahrádkáře stejně důležitý jako jaro. To, co teď uděláte (nebo neuděláte), ovlivní celou příští sezónu. Správná příprava zahrady na zimu chrání rostliny před mrazem, předchází chorobám a dává vám náskok na jaře.",
+      },
+      {
+        type: "text",
+        heading: "Říjen: úklid a ochrana",
+        body: "Odstraňte odumřelé letničky a napadené rostliny (nekompostujte — spalte nebo do komunálního odpadu). Shrabte padané ovoce — hnijící plody šíří choroby. Skliďte poslední zeleninu. Odklopte a uložte hlízy jiřin, begónií a mečíků do chladné, suché místnosti.",
+      },
+      {
+        type: "text",
+        heading: "Ochrana citlivých rostlin",
+        body: "Zamulčujte kořenový prostor citlivých keřů a trvalek (10–15 cm listí, slámy nebo kůry). Stálezelené keře (hortenzie, rododendrony) zakryjte jutou proti zimnímu slunci a větru. Kmen mladých ovocných stromů obalte jutou. Růže přihrňte hlínou ke kořenovému krčku. Květináče na terase obalte a izolujte.",
+      },
+      {
+        type: "text",
+        heading: "Trávník před zimou",
+        body: "Naposledy posekat (ne příliš nakrátko — nechte 5 cm). Aplikujte podzimní hnojivo (vysoký draslík, nízký dusík). Shrabte listí — pod vrstvou listí trávník hnije a tvoří se mech. Pokud je trávník zhutnělý, provzdušněte vidlemi.",
+      },
+      {
+        type: "tip",
+        title: "Listí je zlato",
+        body: "Nepalte a nevyhazujte listí! Použijte ho jako mulč pod keře a stromy, do kompostu nebo na hromadu pro ježky. Listí je nejlepší přírodní ochrana kořenů proti mrazu a na jaře se z něj stane humus.",
+      },
+      {
+        type: "text",
+        heading: "Podzimní výsadba",
+        body: "Podzim je ideální doba pro výsadbu stromů, keřů, cibulovin (tulipány, narcisy, krokusy) a česnek. Rostliny zakořeňují přes zimu a na jaře mají náskok. Sázejte od října do první půdy mrzne. Nezapomeňte důkladně zalít — i na podzim!",
+      },
+      {
+        type: "text",
+        heading: "Zahradní technika a nástroje",
+        body: "Vyčistěte a naolejujte zahradní nářadí. Vypusťte hadice a zavřete venkovní vodní kohoutky (zamrzlá voda je roztrhne). Sekačku vyčistěte, vyměňte olej a naostřete nůž. Zahradní nábytek ukliďte pod střechu nebo zakryjte. Skleník umyjte a zkontrolujte těsnění.",
+      },
+      {
+        type: "text",
+        heading: "Kompost na zimu",
+        body: "Kompost překryjte vrstvou listí nebo plachtou — udržíte teplotu a vlhkost. Přes zimu kompostovací proces zpomalí, ale nezastaví se úplně. Na jaře budete mít hotový kompost připravený k použití.",
+      },
+    ],
+  },
+  {
+    slug: "proc-zloutnou-listy-pokojovych-rostlin",
+    title: "Proč žloutnou listy pokojových rostlin: příčiny a řešení",
+    excerpt:
+      "Žluté listy jsou nejčastější problém pokojovek. Jak poznat příčinu a co s tím udělat.",
+    date: "2026-03-30",
+    author: "Ta Pravá",
+    heroImage: "/images/categories/pokojove.png",
+    tags: ["pokojové", "problémy", "péče"],
+    metaDescription:
+      "Proč žloutnou listy pokojových rostlin. 8 nejčastějších příčin, jak je poznat a jak rostlinu zachránit.",
+    content: [
+      {
+        type: "text",
+        body: "Žluté listy na pokojovce jsou signál, že něco není v pořádku. Ale co přesně? Příčin může být několik a správná diagnóza je klíčem k záchraně rostliny. V tomto článku projdeme nejčastější důvody žloutnutí listů a poradíme, co s tím.",
+      },
+      {
+        type: "text",
+        heading: "1. Přelévání — nejčastější příčina",
+        body: "Příznaky: spodní listy žloutnou rovnoměrně, jsou měkké a vodnaté. Substrát je stále vlhký, může zapáchat. Kořeny jsou hnědé a měkké (hniloba). Řešení: nechte substrát důkladně proschnout. Zkontrolujte, zda voda odtéká z drenážního otvoru. U vážnější hniloby přesaďte — odřízněte hnilé kořeny a dejte do čerstvého substrátu.",
+      },
+      {
+        type: "text",
+        heading: "2. Nedostatek světla",
+        body: "Příznaky: listy postupně blednou a žloutnou, rostlina se natahuje ke světlu. Nové listy jsou menší a světlejší. Řešení: přesuňte rostlinu blíže k oknu. V zimě zvažte přisvětlování LED lampou. Otáčejte květináč, aby rostlina rostla rovnoměrně.",
+      },
+      {
+        type: "text",
+        heading: "3. Nedostatek živin",
+        body: "Příznaky: starší (spodní) listy žloutnou jako první, žilky mohou zůstat zelené (chloróza). Růst je pomalý. Řešení: přihnojte univerzálním hnojivem pro pokojové rostliny. Pokud jste nepřesazovali 2+ roky, přesaďte do čerstvého substrátu. Během vegetace (jaro–podzim) hnojte každé 2–3 týdny.",
+      },
+      {
+        type: "text",
+        heading: "4. Přeschnutí",
+        body: "Příznaky: listy nejprve hnědnou na okrajích, pak žloutnou a opadávají. Substrát je suchý, odtahuje se od stěn květináče. Řešení: ponořte květináč na 30 minut do vlažné vody. Nastavte pravidelný režim zálivky. Některé rostliny (kalátea, kapradina) potřebují stále vlhký substrát.",
+      },
+      {
+        type: "text",
+        heading: "5. Průvan a teplotní šok",
+        body: "Příznaky: listy žloutnou a opadávají náhle, zejména po přesunutí rostliny. Řešení: umístěte rostlinu na stálé místo bez průvanu. Vyhněte se umístění u otevřeného okna v zimě nebo nad radiátorem. Fíkusy jsou na změnu místa obzvlášť citlivé.",
+      },
+      {
+        type: "text",
+        heading: "6. Přirozené stárnutí",
+        body: "Příznaky: žloutne a opadává jeden nebo dva nejstarší (nejspodnější) listy, zbytek rostliny vypadá zdravě. Řešení: žádné — to je normální. Rostlina odkládá staré listy a přesměrovává energii do nového růstu. Prostě list odstraňte.",
+      },
+      {
+        type: "tip",
+        title: "Rychlá diagnostika",
+        body: "Zkontrolujte substrát prstem — mokrý (přelévání) nebo prašně suchý (přeschnutí)? Kde listy žloutnou — spodní (přelévání, živiny), horní (světlo, pH)? Žloutnou rovnoměrně (voda) nebo zůstávají zelené žilky (chloróza = železo)? Jsou na listech skvrny nebo škůdci (mouchy, mšice, svilušky)?",
+      },
+      {
+        type: "plantList",
+        heading: "Oblíbené pokojovky — poradíme s péčí",
+        plantIds: [
+          "monstera-deliciosa",
+          "ficus-elastica",
+          "spathiphyllum",
+          "chlorophytum-comosum",
+          "epipremnum-aureum",
+          "dracaena-marginata",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "jak-se-zbavit-slimaku-na-zahrade",
+    title: "Jak se zbavit slimáků na zahradě: účinné a přírodní metody",
+    excerpt:
+      "Slimáci dokáží zničit úrodu za jednu noc. Poradíme osvědčené metody, jak je zastavit — bez chemie i s ní.",
+    date: "2026-03-28",
+    author: "Ta Pravá",
+    heroImage: "/images/months/05.png",
+    tags: ["zahrada", "škůdci", "slimáci"],
+    metaDescription:
+      "Jak se zbavit slimáků na zahradě. Pasti, bariéry, přírodní nepřátelé a další osvědčené metody proti plzákům.",
+    content: [
+      {
+        type: "text",
+        body: "Slimáci (zejména plzák španělský) jsou noční můrou zahrádkářů. Dokáží za jednu vlhkou noc sežrat řadu sazenic a nenechají stát skoro nic — saláty, jahody, hosty, jiřiny. Boj se slimáky vyžaduje kombinaci více metod. Žádná jedna metoda nefunguje stoprocentně.",
+      },
+      {
+        type: "text",
+        heading: "Pasti s pivem",
+        body: "Klasika, která funguje. Zakopejte misku (kelímek od jogurtu) do země tak, aby okraj byl 1–2 cm nad povrchem (aby nepadali dovnitř užiteční brouci). Nalijte pivo — slimáky láká kvasnicová vůně, vlezou dovnitř a utopí se. Pasti kontrolujte denně a doplňujte. Umístěte na okraj záhonů, ne doprostřed — jinak přilákáte slimáky z celého okolí.",
+      },
+      {
+        type: "text",
+        heading: "Bariéry",
+        body: "Měděná páska kolem vyvýšeného záhonu — měď reaguje se slizem a dává slimákovi mírný elektrický šok. Popel, kávová sedlina, vaječné skořápky — fungují jako dočasná bariéra na suchu, ale déšť je spláchne. Speciální slimákový plot (ohnutý plech) — mechanická překážka. Vlna z ovčí střiže — slimáci se neradi plazí po suchém rounu.",
+      },
+      {
+        type: "tip",
+        title: "Ruční sběr — nejúčinnější metoda",
+        body: "Choďte na zahradu za soumraku s baterkou a sbírejte slimáky ručně (rukavice!). Odneste je minimálně 200 m od zahrady, jinak se vrátí. Nebo je vložte do kbelíku s vodou a octem. Denní úkryt odhalíte, když na záhon položíte prkno — ráno pod ním najdete desítky slimáků.",
+      },
+      {
+        type: "text",
+        heading: "Přírodní nepřátelé",
+        body: "Ježci, žáby, ropuchy, poštolky, drozdi, střevlíci a slíďáci — všichni žerou slimáky. Vytvořte na zahradě prostředí, které je láká: hromady klacků a listí pro ježky, malé jezírko pro žáby, ptačí budky. Kachny a slepice jsou nejefektivnější slimáčí predátoři — pokud máte možnost, využijte je.",
+      },
+      {
+        type: "text",
+        heading: "Granule proti slimákům",
+        body: "Pokud přírodní metody nestačí, použijte granule na bázi fosforečnanu železitého (Ferramol, Sluggo) — jsou bezpečné pro ježky, domácí zvířata i půdu. Rozsypte kolem ohrožených rostlin. Vyhněte se granulím na bázi methaldehydu (Mesurol) — jsou jedovaté pro ježky a domácí zvířata.",
+      },
+      {
+        type: "text",
+        heading: "Prevence",
+        body: "Zalijte ráno, ne večer — mokrá zahrada v noci je slimáčí ráj. Odstraňte úkryty: prkna, kameny, hromady listí u záhonů. Pěstujte odolné rostliny: levanduli, rozmarýn, šalvěj, kapucínky — slimáci je nejedí. Mulčujte hrubou štěpkou místo trávy — slimáci se neradi plazí po ostrém povrchu.",
+      },
+    ],
+  },
+  {
+    slug: "jak-se-zbavit-plevele-bez-chemie",
+    title: "Jak se zbavit plevele bez chemie: přírodní a účinné metody",
+    excerpt:
+      "Plevel nemusíte hubit Roundupem. Existují účinné přírodní metody, které fungují a neničí půdu.",
+    date: "2026-03-25",
+    author: "Ta Pravá",
+    heroImage: "/images/months/04.png",
+    tags: ["zahrada", "plevel", "ekologie"],
+    metaDescription:
+      "Jak se zbavit plevele bez chemie. Mulčování, plečkování, horká voda, ocet a další přírodní metody proti plevelu.",
+    content: [
+      {
+        type: "text",
+        body: "Plevel je přirozená součást zahrady, ale na záhonech a v cestách nechceme nikoho navíc. Chemické herbicidy (Roundup, glyfosát) jsou účinné, ale ničí půdní mikroorganismy, ohrožují včely a kontaminují podzemní vodu. Naštěstí existují přírodní metody, které fungují skvěle — jen vyžadují trochu více práce.",
+      },
+      {
+        type: "text",
+        heading: "Mulčování — prevence číslo jedna",
+        body: "Pokud plevel nemá světlo, nevyroste. Pokryjte záhony 5–10 cm vrstvou mulče: kůrová drť, štěpka, sláma, tráva ze sekačky. Mulč potlačuje 80–90 % plevelů a navíc udržuje vlhkost a vylepšuje půdu. Na cestičky a pod keře funguje i netkaná textilie zakrytá štěrkem nebo kůrou.",
+      },
+      {
+        type: "text",
+        heading: "Plečkování a vytrhávání",
+        body: "Klasika, která funguje nejlépe. Klíčem je pravidelnost — malý plevel vytrhejte jednou týdně za 15 minut, než ho necháte vyrůst a vysemenit se. Plečkujte za sucha — vytržený plevel na slunci uschne. Za mokra se znovu zakořeňuje. Pampelišky a pcháč vyrývejte i s kořenem, jinak znovu vyraší.",
+      },
+      {
+        type: "text",
+        heading: "Vroucí voda",
+        body: "Nejjednodušší metoda na plevel v dlažbě a cestách. Zalijte plevel vroucí vodou z konvice — ničí buňky a plevel uhyne do 24 hodin. Opakujte za 2–3 týdny, než vyčerpáte zásobu semen v půdě. Ekologické, zdarma a okamžitě účinné. Nepoužívejte na záhonech — zabili byste i kulturní rostliny.",
+      },
+      {
+        type: "tip",
+        title: "Ocet — přírodní herbicid",
+        body: "10% kuchyňský ocet postříkaný přímo na listy plevele funguje jako kontaktní herbicid — spaluje nadzemní části. Účinkuje do 24 hodin. Přidejte kapku tekutého mýdla jako smáčedlo. Pozor: ocet zabíjí všechny rostliny, nejen plevel. Stříkejte cíleně. Nefunguje na vytrvalé plevele s hlubokými kořeny.",
+      },
+      {
+        type: "text",
+        heading: "Husté výsadby a pokryvné rostliny",
+        body: "Příroda nemá ráda holou půdu — pokud ji neobsadíte vy, obsadí ji plevel. Sázejte hustě a používejte pokryvné rostliny: rozchodníky, kakosty, konvalinky, břečťan. V zeleninových záhonech sázejte do hustých bloků místo řad s holou půdou mezi nimi. Zelené hnojení (facélie, hořčice) na prázdném záhoně přes zimu potlačuje plevel a vylepšuje půdu.",
+      },
+      {
+        type: "text",
+        heading: "Co nefunguje",
+        body: "Sůl: ničí strukturu půdy a zabíjí mikroorganismy. Nikdy nepoužívejte. Jedlá soda: účinek minimální, na půdu škodlivá ve větším množství. Překrytí kartónem: funguje dočasně jako mulč, ale za pár měsíců se rozpadne. Užitečné pouze jako spodní vrstva pod mulč.",
+      },
+    ],
+  },
+  {
+    slug: "nejkrasnejsi-okrasne-travy-do-zahrady",
+    title: "Nejkrásnější okrasné trávy do zahrady: výběr a péče",
+    excerpt:
+      "Okrasné trávy dodají zahradě vzdušnost, pohyb a krásu i v zimě. Přehled nejlepších druhů pro české zahrady.",
+    date: "2026-03-22",
+    author: "Ta Pravá",
+    heroImage: "/images/months/09.png",
+    tags: ["zahrada", "trávy", "inspirace"],
+    metaDescription:
+      "Nejkrásnější okrasné trávy pro zahradu. Ozdobnice, kavyl, dochan, kostřava a další. Jak sázet a stříhat okrasné trávy.",
+    content: [
+      {
+        type: "text",
+        body: "Okrasné trávy jsou jedním z největších trendů v moderním zahradnictví — a právem. Dodávají záhonu vzdušnost, pohyb ve větru, nádherné podzimní barvy a strukturu i v zimě, kdy ostatní trvalky spí. Navíc jsou většinou nenáročné a odolné.",
+      },
+      {
+        type: "text",
+        heading: "Ozdobnice čínská (Miscanthus) — královna trav",
+        body: "Dorůstá 150–250 cm, tvoří elegantní převislé trsy s hedvábnými latami v pozdním létě. Odrůdy: Gracillimus (úzké listy, vzdušná), Morning Light (stříbřitá), Zebrinus (žluté příčné pruhy). Ideální jako solitér, živý plot nebo pozadí záhonu. Plné slunce, běžná zahradní půda.",
+      },
+      { type: "plantList", plantIds: ["miscanthus-sinensis"] },
+      {
+        type: "text",
+        heading: "Kavyl (Stipa) — vlnící se moře",
+        body: "Kavyl nejtenčí (S. tenuissima) vytváří jemné vláskové trsy, které se vlní v sebemenším vánku. Dorůstá 40–60 cm, je skvělý vpředu záhonu nebo ve štěrkových zahradách. Plné slunce, propustná suchá půda. Krátká životnost (3–4 roky), ale bohatě se vysévá.",
+      },
+      { type: "plantList", plantIds: ["stipa-tenuissima"] },
+      {
+        type: "text",
+        heading: "Dochan (Pennisetum) — lahvičkovité klasy",
+        body: "Dochan psárkovitý má půvabné chlupaté klasy připomínající lahvičky. Dorůstá 40–80 cm. Odrůda Hameln je kompaktní a spolehlivá. Krásný v kombinaci s třapatkami a šalvějemi. Plné slunce, propustná půda. V drsnějších polohách může vymrzat.",
+      },
+      { type: "plantList", plantIds: ["pennisetum-alopecuroides"] },
+      {
+        type: "text",
+        heading: "Kostřava sivá (Festuca glauca) — modrý polštářek",
+        body: "Kompaktní kulovité trsy (20–30 cm) v nádherné ocelově modré barvě. Ideální do skalek, obrub, štěrkových zahrad a truhlíků. Plné slunce, suchá propustná půda. Každé 2–3 roky rozdělte — staré trsy se uprostřed holí.",
+      },
+      { type: "plantList", plantIds: ["festuca-glauca"] },
+      {
+        type: "text",
+        heading: "Třtina Karl Foerster (Calamagrostis) — vertikální akcent",
+        body: "Úzké vzpřímené trsy dorůstají 150–170 cm, klasy se objevují už v červnu. Skvělý vertikální prvek, nezabírá mnoho místa. Snese slunce i polostín, běžnou i vlhčí půdu. Jedna z nejspolehlivějších okrasných trav — nešíří se a drží tvar.",
+      },
+      { type: "plantList", plantIds: ["calamagrostis-karl-foerster"] },
+      {
+        type: "tip",
+        title: "Kdy a jak stříhat",
+        body: "Okrasné trávy NESTŘÍHEJTE na podzim! Suché listy a klasy chrání kořeny před mrazem a vypadají krásně s jinovatkou. Sestřihněte až v březnu–dubnu, těsně než začne nový růst. Svažte trs provázkem a sestřihněte 10–15 cm nad zemí.",
+      },
+      {
+        type: "plantList",
+        heading: "Další okrasné trávy v katalogu",
+        plantIds: [
+          "carex-morrowii",
+          "molinia-caerulea",
+          "hakonechloa-macra",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "nenarocne-rostliny-ktere-preziji-i-bez-pece",
+    title: "Nenáročné rostliny, které přežijí i bez péče",
+    excerpt:
+      "Nemáte čas nebo zkušenosti? Tyto rostliny zvládnou sucho, zapomětlivost i stín — a přesto vypadají skvěle.",
+    date: "2026-03-20",
+    author: "Ta Pravá",
+    heroImage: "/images/categories/pokojove.png",
+    tags: ["pokojové", "zahrada", "začátečníci"],
+    metaDescription:
+      "Nejnenáročnější rostliny pro byt i zahradu. Pokojovky, které přežijí sucho a stín, a zahradní rostliny bez údržby.",
+    content: [
+      {
+        type: "text",
+        body: "Ne každý má zelenou ruku a ne každý chce trávit víkendy zaléváním a přihnojováním. Naštěstí existují rostliny, které zvládnou zapomětlivost, sucho, stín i absenci majitele na dovolenou. Tady je náš výběr těch nejodolnějších.",
+      },
+      {
+        type: "text",
+        heading: "Pokojové rostliny ‚k nezabití'",
+        body: "Zamiokulkas: snese stín, sucho i zapomenutí na měsíce. Zalijte jednou za 2–3 týdny. Tchýnin jazyk (Sansevieria): vertikální, elegantní, zvládne téměř nulovou zálivku. Pothos (Epipremnum): popínavá/převislá rostlina, roste v šeru, snese nepravidelnou zálivku. Aspidistra: její anglické jméno je ‚cast-iron plant' (železná rostlina). Stín, sucho, zanedbání — zvládne vše. Aloe vera: zalijte jednou za 2–3 týdny, dejte ke světlu, a máte bezúdržbovou rostlinu s léčivými účinky.",
+      },
+      {
+        type: "plantList",
+        heading: "Nejodolnější pokojovky",
+        plantIds: [
+          "zamioculcas-zamiifolia",
+          "sansevieria-trifasciata",
+          "epipremnum-aureum",
+          "aspidistra-elatior",
+          "aloe-vera",
+          "crassula-ovata",
+          "chlorophytum-comosum",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Zahradní rostliny bez údržby",
+        body: "Rozchodník (Sedum): sukulentní trvalka pro slunce a sucho. Kvete na podzim, přežije bez zálivky celé léto. Netřesk (Sempervivum): roste ve štěrbinách, na střechách, ve skalce — doslova kdekoli se sluncem. Levandule: po zakořenění nevyžaduje zálivku. Stačí jednou ročně sestříhat. Dlužicha (Heuchera): barevné listy celý rok, snese stín i slunce. Kostřava sivá: modrý polštářek, který roste v suché půdě a nepotřebuje péči.",
+      },
+      {
+        type: "plantList",
+        heading: "Bezúdržbové zahradní rostliny",
+        plantIds: [
+          "sedum-spectabile",
+          "sempervivum-tectorum",
+          "lavandula-angustifolia",
+          "heuchera",
+          "festuca-glauca",
+          "echinacea-purpurea",
+        ],
+      },
+      {
+        type: "tip",
+        title: "Zlaté pravidlo pro lenochy",
+        body: "Při výběru rostlin se řiďte pravidlem: pokud pochází z drsného prostředí (poušť, skály, horská louka), pravděpodobně přežije vaši nepéči. Tropické rostliny vyžadující stálou vlhkost (kapradiny, kalátey) jsou pravý opak.",
+      },
+    ],
+  },
+  {
+    slug: "rostliny-odpuzujici-komary",
+    title: "Rostliny odpuzující komáry: přírodní ochrana na zahradě i balkoně",
+    excerpt:
+      "Některé rostliny přirozeně odpuzují komáry svou vůní. Vysaďte je na terasu, k posezení nebo do truhlíku.",
+    date: "2026-03-18",
+    author: "Ta Pravá",
+    heroImage: "/images/months/07.png",
+    tags: ["balkon", "zahrada", "tipy"],
+    metaDescription:
+      "Které rostliny odpuzují komáry? Levandule, citronela, máta, rozmarýn a další. Přírodní ochrana na zahradě a balkoně.",
+    content: [
+      {
+        type: "text",
+        body: "Letní večery na terase kazí jen jedno — komáři. Místo chemických repelentů můžete využít rostliny, které komáry přirozeně odpuzují svými esenciálními oleji. Žádná rostlina není zázračný repelent, ale ve správné kombinaci a umístění dokáží výrazně snížit počet otravného hmyzu.",
+      },
+      {
+        type: "text",
+        heading: "Levandule",
+        body: "Nejznámější přírodní repelent. Silice linalool a linalyl acetát, které levandule obsahuje, komáry odpuzují. Vysaďte ji podél terasy, k posezení nebo do truhlíků u dveří. Bonus: krásně voní, kvete fialově a láká včely a motýly.",
+      },
+      { type: "plantList", plantIds: ["lavandula-angustifolia"] },
+      {
+        type: "text",
+        heading: "Šanta kočičí (Nepeta cataria)",
+        body: "Studie amerického státního úřadu ukázaly, že nepetalakton (účinná látka šanty) je 10× účinnější než DEET (chemický repelent). Kočky ji milují, komáři nenávidí. Nenáročná trvalka, kvete modře, roste na slunci i v polostínu.",
+      },
+      { type: "plantList", plantIds: ["nepeta-cataria"] },
+      {
+        type: "text",
+        heading: "Muškát (Pelargonium)",
+        body: "Zejména vonné muškáty s citronovým aroma (Pelargonium citrosum, tzv. ‚citrónová pelargónie') jsou účinné proti komárům. Klasické muškáty na balkoně také pomáhají — jejich silice komáry odpuzují. Navíc kvete celé léto a je nenáročná.",
+      },
+      { type: "plantList", plantIds: ["pelargonium-zonale"] },
+      {
+        type: "text",
+        heading: "Rozmarýn",
+        body: "Rozmarýn obsahuje silice (kafr, borneol), které komáry a další hmyz odpuzují. Skvěle roste v truhlíku na slunném balkonu. Dvojí užitek: odpuzuje komáry a dochucuje grilované maso.",
+      },
+      { type: "plantList", plantIds: ["rosmarinus-officinalis"] },
+      {
+        type: "text",
+        heading: "Máta",
+        body: "Mentol v mátě je přirozeným repelentem. Pěstujte v květináči (v záhonu se nekontrolovaně šíří). Umístěte ke dveřím, oknům nebo na stůl na terase. Listy můžete rozmačkat a potřít kůži jako přírodní repelent.",
+      },
+      { type: "plantList", plantIds: ["mentha-piperita"] },
+      {
+        type: "tip",
+        title: "Jak zvýšit účinnost",
+        body: "Samotná přítomnost rostliny nestačí — silice se uvolňují hlavně při poranění listů. Občas listy pomoučte, přetřete nebo postříhejte, aby se aroma uvolnilo. Kombinujte více druhů — koktejl vůní je účinnější než jedna rostlina. Umístěte rostliny tam, kde sedíte — ne na druhou stranu zahrady.",
+      },
+    ],
+  },
+  {
+    slug: "jedle-kvetiny-do-salatu-a-na-dort",
+    title: "Jedlé květiny do salátu a na dort: co kvete a chutná",
+    excerpt:
+      "Květiny nejsou jen na okrasu. Přehled jedlých květin, které oživí vaše saláty, dezerty i nápoje.",
+    date: "2026-03-15",
+    author: "Ta Pravá",
+    heroImage: "/images/months/06.png",
+    tags: ["kuchyně", "zahrada", "jedlé květiny"],
+    metaDescription:
+      "Jedlé květiny do salátu, na dort a do nápojů. Které květy jsou jedlé, jak je sklízet a jak používat v kuchyni.",
+    content: [
+      {
+        type: "text",
+        body: "Jedlé květiny jsou jedním z nejstarších gastronomických trendů — a přesto jsou stále překvapením. Fialky v salátu, lichořeřišnice na chlebíčku, levandule v limonádě nebo růžové lístky na dortu. Jsou krásné, voňavé a často i zdravé. Ale pozor — ne každá květina je jedlá!",
+      },
+      {
+        type: "tip",
+        title: "Základní pravidla bezpečnosti",
+        body: "Jezte pouze květiny, které jste si sami vypěstovali nebo je koupili jako jedlé. Nikdy nejezte květiny z květinářství — bývají ošetřené pesticidy. Nesbírejte u silnic a na ošetřovaných plochách. Pokud si nejste jistí identifikací, nejezte. Některé krásné květiny (konvalinka, náprstník, oměj) jsou smrtelně jedovaté.",
+      },
+      {
+        type: "text",
+        heading: "Lichořeřišnice (Tropaeolum majus)",
+        body: "Královna jedlých květin. Květy i listy mají pikantní, lehce pepřnou chuť připomínající rukolu. Barvy od žluté přes oranžovou po červenou. Skvělé do salátů, na chlebíčky, na ozdobu polévek. Semena nakládaná v octu nahrazují kapary. Snadno se pěstuje — zvládne i začátečník.",
+      },
+      { type: "plantList", plantIds: ["tropaeolum-majus"] },
+      {
+        type: "text",
+        heading: "Violka vonná (Viola odorata) a maceška",
+        body: "Drobné fialové květy s jemnou sladkou vůní. Klasická ozdoba dortů a dezertů — krystalizované (potřené bílkem a posypané cukrem) vydrží měsíce. Macešky mají větší květy v širokém barevném spektru, chuť je jemná, lehce travnatá. Obě se hodí do salátů, na zmrzlinu a do nápojů.",
+      },
+      { type: "plantList", plantIds: ["viola-odorata", "viola-wittrockiana"] },
+      {
+        type: "text",
+        heading: "Brutnák lékařský (Borago officinalis)",
+        body: "Jasně modré hvězdicovité květy s okurkovitou chutí. Nádherné v letních nápojích, zamražené v kostkách ledu nebo v salátech. Brutnák je letničky, ale bohatě se vysévá. Celá rostlina je jedlá — mladé listy chutnají jako okurka.",
+      },
+      { type: "plantList", plantIds: ["borago-officinalis"] },
+      {
+        type: "text",
+        heading: "Slunečnice (Helianthus annuus)",
+        body: "Okvětní lístky jsou jedlé — mají lehce hořkou, oříškovou chuť. Loupané semena (slunečnicová jádra) jsou klasika. Skvělé do salátů a pečiva. Poupata se dají grilovat podobně jako artyčoky.",
+      },
+      { type: "plantList", plantIds: ["helianthus-annuus"] },
+      {
+        type: "text",
+        heading: "Další jedlé květiny",
+        body: "Levandule: sladkově kořenitá, do limonád, pečiva a cukru. Rozmarýn: modré kvítky s rozmarýnovou chutí. Hvozdík: sladká hřebíčková chuť, odstraňte bílou patku. Aksamitník (Tagetes): pikantní, citrusová chuť, skvělý do rýžových pokrmů. Růže: okvětní lístky do džemů, sirupů, čajů — odstraňte bílou patku (je hořká). Sedmikráska: jemná travnatá chuť, ideální ozdoba.",
+      },
+      {
+        type: "plantList",
+        heading: "Jedlé květiny v katalogu",
+        plantIds: ["tagetes-patula", "dianthus-gratianopolitanus", "lavandula-angustifolia"],
+      },
+    ],
+  },
+  {
+    slug: "jak-pestovat-kiwi-aktinidie-v-cesku",
+    title: "Jak pěstovat kiwi (aktinidie) v Česku: exotika na vaší zahradě",
+    excerpt:
+      "Kiwi v Česku? Ano! Mini kiwi (aktinidie) dozrává i v našem klimatu. Jak ho vysadit, vést a sklízet.",
+    date: "2026-03-12",
+    author: "Ta Pravá",
+    heroImage: "/images/blog-popinave.png",
+    tags: ["zahrada", "ovoce", "popínavé"],
+    metaDescription:
+      "Jak pěstovat kiwi (aktinidie) v českých podmínkách. Mini kiwi, výsadba, opora, řez a sklizeň krok za krokem.",
+    content: [
+      {
+        type: "text",
+        body: "Kiwi si většina lidí spojuje s Novým Zélandem, ale aktinidie — příbuzná klasického kiwi — se úspěšně pěstuje i v Česku. Zejména mini kiwi (Actinidia arguta) plodí drobné plody velikosti třešně se sladkou chutí, které se jedí i se slupkou. A je mrazuvzdorná do -25 °C!",
+      },
+      {
+        type: "text",
+        heading: "Druhy aktinidií pro české klima",
+        body: "Aktinidie ostrolistá (A. arguta, mini kiwi): nejspolehlivější volba. Plody 2–3 cm, sladké, jedí se se slupkou. Mrazuvzdornost do -25 °C. Silný růst, potřebuje pevnou oporu. Aktinidie pestrolistá (A. kolomikta): okrasná i užitková. Listy mají bílo-růžové zbarvení. Menší plody, mrazuvzdornost až -35 °C. Méně plodná, ale nejodolnější.",
+      },
+      {
+        type: "plantList",
+        heading: "Aktinidie v katalogu",
+        plantIds: ["actinidia-arguta", "actinidia-kolomikta"],
+      },
+      {
+        type: "text",
+        heading: "Samčí a samičí rostliny",
+        body: "Aktinidie jsou dvoudomé — potřebujete samčí i samičí rostlinu pro opylení a plodnost. Jeden samec opylí až 6 samic. Existují i samoplodné odrůdy (Issai), ale s opylovačem mají vyšší výnos. Pohlaví poznáte až při prvním kvetení (3.–4. rok).",
+      },
+      {
+        type: "text",
+        heading: "Výsadba a opora",
+        body: "Sázejte na jaře do slunného, závětří chráněného místa. Aktinidie potřebuje pevnou oporu — pergolu, drátěnku nebo treláž. Dorůstá 5–10 m a je velmi silná. Půda humózní, propustná, mírně kyselá. Nesázejte do vápenité půdy. Po výsadbě zamulčujte a pravidelně zalijte v prvních letech.",
+      },
+      {
+        type: "tip",
+        title: "Pozor na pozdní jarní mrazy",
+        body: "Aktinidie raší relativně brzy (duben) a mladé výhony jsou citlivé na pozdní mrazy. V ohrožených lokalitách zakryjte rašící rostlinu netkanou textilií při předpovědi mrazu. Proto je ideální výsadba u jižní stěny domu, která akumuluje teplo.",
+      },
+      {
+        type: "text",
+        heading: "Řez a vedení",
+        body: "Aktinidii veďte podobně jako vinnou révu — hlavní ramena po drátěnce, z nich krátké plodonosné výhony. Letní řez (červenec): zkraťte nové přírůstky na 5–6 listů za posledním plodem. Zimní řez (únor–březen): prosvětlete, odstraňte staré dřevo. Neřežte na jaře — míza silně teče a rostlina ‚krvácí'.",
+      },
+      {
+        type: "text",
+        heading: "Sklizeň",
+        body: "Mini kiwi dozrává v září–říjnu. Plody jsou zralé, když mírně změknou na dotek. Sklízejte postupně — ne všechny dozrávají najednou. Nedozrálé plody dozrají při pokojové teplotě za několik dní (podobně jako rajčata). Úroda z jedné rostliny může být 10–30 kg!",
+      },
+    ],
+  },
+  {
+    slug: "jak-na-kompostovani-pro-zacatecniky",
+    title: "Jak na kompostování pro začátečníky: krok za krokem",
+    excerpt:
+      "Kompostování je nejlepší způsob, jak z odpadu vyrobit zlato pro zahradu. Návod pro úplné začátečníky.",
+    date: "2026-03-10",
+    author: "Ta Pravá",
+    heroImage: "/images/months/05.png",
+    tags: ["zahrada", "kompost", "ekologie"],
+    metaDescription:
+      "Jak začít kompostovat. Jaký kompostér, co kompostovat, poměr zelené a hnědé složky a jak poznat hotový kompost.",
+    content: [
+      {
+        type: "text",
+        body: "Kompostování je nejpřirozenější způsob recyklace — přeměňujete kuchyňský a zahradní odpad na výživnou zeminu pro své rostliny. Zdarma, ekologicky a jednoduše. Pokud máte zahradu, nemáte důvod nekompostovat. A i v bytě můžete kompostovat s vermikompostérem.",
+      },
+      {
+        type: "text",
+        heading: "Co kompostovat",
+        body: "ZELENÁ složka (bohatá na dusík): slupky od ovoce a zeleniny, kávová sedlina, čajové sáčky (bez svorek), tráva ze sekačky, plevel (bez semen!), zbytky zeleniny.\n\nHNĚDÁ složka (bohatá na uhlík): suché listí, dřevěná štěpka, kartón a papír (nastříhaný), sláma, piliny, větve (nasekané).\n\nPoměr: přibližně 2–3 díly hnědé na 1 díl zelené.",
+      },
+      {
+        type: "text",
+        heading: "Co NEKOMPOSTOVAT",
+        body: "Maso, kosti, ryby — lákají hlodavce a páchnout. Mléčné výrobky — stejný důvod. Pečivo — plísní a přitahuje myši. Olejem nasáklé zbytky. Nemocné rostliny — choroby přežijí kompostování. Kočičí/psí trus — obsahuje parazity. Popel z uhlí (dřevěný popel v malém množství lze).",
+      },
+      {
+        type: "text",
+        heading: "Výběr kompostéru",
+        body: "Otevřená hromada: nejjednodušší, ale nejpomalejší. Vhodná na větší zahrady. Dřevěný/plastový kompostér: udržuje teplo a vlhkost, vypadá upraveně. Ideální pro menší zahrady. Rotační kompostér: nejrychlejší (kompost za 4–8 týdnů), ale menší kapacita. Vermikompostér: pro byty a terasy — žížaly zpracovávají odpad na vynikající kompost.",
+      },
+      {
+        type: "tip",
+        title: "Zlaté pravidlo: vrstvit, míchat, zavlažit",
+        body: "Střídejte zelené a hnědé vrstvy. Jednou za 2–3 týdny kompost promíchejte vidlemi (přísun kyslíku urychluje rozklad). Udržujte vlhkost jako u ždímaného hadru — ne mokrý, ne suchý. Správný kompost voní po lese, ne po hnilobě.",
+      },
+      {
+        type: "text",
+        heading: "Jak dlouho trvá kompostování",
+        body: "Studený kompost (jen vrstvení bez míchání): 6–12 měsíců. Horký kompost (pravidelné míchání, správný poměr): 2–4 měsíce. Rotační kompostér: 4–8 týdnů. Vermikompostér: 2–3 měsíce. Hotový kompost poznáte podle tmavě hnědé barvy, drobivé struktury a příjemné lesní vůně. Původní materiál už není rozeznatelný.",
+      },
+      {
+        type: "text",
+        heading: "Jak kompost používat",
+        body: "Zamíchejte do záhonů při výsadbě (obohacuje půdu). Použijte jako mulč kolem keřů a stromů (3–5 cm vrstva). Přidejte do substrátu pro přesazování pokojovek (max. 30 %). Rozhoďte po trávníku jako topdressing na jaře. Připravte kompostový čaj (výluh) pro zálivku. Kompost je nejlepší hnojivo — pomalé, přirozené a komplexní.",
       },
     ],
   },
