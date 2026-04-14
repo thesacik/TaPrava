@@ -35,6 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${plant.nazevCz}${plant.nazevLat ? ` (${plant.nazevLat})` : ""}`,
     description,
+    alternates: { canonical: `/rostliny/${slug}` },
     openGraph: {
       title: `${plant.nazevCz} | Ta Pravá`,
       description,

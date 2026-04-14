@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Ochrana osobních údajů",
   description:
     "Zásady ochrany osobních údajů a používání cookies na webu TaPrava.cz.",
+  alternates: { canonical: "/ochrana-osobnich-udaju" },
 };
 
 export default function PrivacyPage() {

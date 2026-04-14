@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   description:
     "Interaktivní průvodce výběrem rostlin pro zahradu, balkon i interiér. Katalog s více než 1 000 rostlinami, filtry, porovnání cen v e-shopech.",
   metadataBase: new URL("https://taprava.cz"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     siteName: "Ta Pravá",
     locale: "cs_CZ",

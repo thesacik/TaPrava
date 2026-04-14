@@ -4,6 +4,7 @@ import { FavoritesClient } from "./FavoritesClient";
 export const metadata: Metadata = {
   title: "Oblíbené rostliny",
   description: "Vaše uložené oblíbené rostliny na jednom místě.",
+  alternates: { canonical: "/oblibene" },
 };
 
 export default function OblíbenéPage() {

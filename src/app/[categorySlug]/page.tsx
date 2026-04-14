@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Lightbulb, HelpCircle } from "lucide-react";
 import { categoryPages, getCategoryBySlug } from "@/data/categoryPages";
 import { allPlants } from "@/utils/plants";
+import { toSlug } from "@/utils/slug";
 import type { Plant } from "@/types/plants";
 import { CategoryGrid } from "./CategoryGrid";
 
@@ -24,6 +25,7 @@ export async function generateMetadata({
   return {
     title: cat.metaTitle,
     description: cat.metaDescription,
+    alternates: { canonical: `/${categorySlug}` },
     openGraph: {
       title: cat.metaTitle,
       description: cat.metaDescription,
@@ -50,8 +52,26 @@ export default async function CategoryPage({
 
   const plants = getPlants(cat);
 
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: cat.title,
+    description: cat.metaDescription,
+    numberOfItems: plants.length,
+    itemListElement: plants.slice(0, 30).map((plant, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: plant.nazevCz,
+      url: `https://taprava.cz/rostliny/${toSlug(plant.nazevCz, plant.id)}`,
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-gradient-to-b from-accent-light to-white">
         <div className="mx-auto max-w-5xl px-4 py-14 md:py-20">
