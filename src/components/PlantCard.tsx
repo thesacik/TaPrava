@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Sun, CloudSun, Cloud, Droplets, Bug, Leaf, Heart } from "lucide-react";
 import type { Plant } from "@/types/plants";
-import { getThumbUrl } from "@/utils/imageUrl";
+import { getPlantImageUrl } from "@/utils/imageUrl";
 import { toSlug } from "@/utils/slug";
 
 interface PlantCardProps {
@@ -47,7 +47,7 @@ function PlantImage({ src, alt }: { src: string; alt: string }) {
 }
 
 export function PlantCard({ plant, reasons, rank, isFavorite, onToggleFavorite }: PlantCardProps) {
-  const thumbUrl = getThumbUrl(plant.obrazek, 400);
+  const thumbUrl = getPlantImageUrl(plant.obrazek, plant.obrazekOverride, 400);
   const slug = toSlug(plant.nazevCz, plant.id);
 
   return (

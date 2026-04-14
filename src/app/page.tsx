@@ -2,9 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import {
   Leaf, Search, Sparkles, TreeDeciduous, Flower, Home,
-  Shrub, Sprout, CalendarDays,
+  Shrub, Sprout, CalendarDays, ArrowRight,
 } from "lucide-react";
 import { allPlants } from "@/utils/plants";
+import { getLatestPosts } from "@/data/blogPosts";
 
 export default function HomePage() {
   const totalPlants = allPlants.length;
@@ -104,6 +105,52 @@ export default function HomePage() {
             <CalendarDays size={22} />
             Otevřít průvodce
           </Link>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-16">
+        <div className="mb-8 flex items-center justify-between">
+          <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+            Z našeho blogu
+          </h2>
+          <Link
+            href="/blog"
+            className="flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+          >
+            Všechny články
+            <ArrowRight size={15} />
+          </Link>
+        </div>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {getLatestPosts(3).map((post) => (
+            <Link
+              key={post.slug}
+              href={`/blog/${post.slug}`}
+              className="group flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:shadow-lg"
+            >
+              <div className="relative aspect-[16/10] bg-accent-light">
+                <Image
+                  src={post.heroImage}
+                  alt={post.title}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover transition duration-300 group-hover:scale-105"
+                  quality={75}
+                />
+              </div>
+              <div className="flex flex-1 flex-col p-4">
+                <h3 className="mb-1.5 font-bold text-gray-900 leading-snug group-hover:text-primary">
+                  {post.title}
+                </h3>
+                <p className="flex-1 text-sm text-gray-500 leading-relaxed">
+                  {post.excerpt}
+                </p>
+                <span className="mt-3 flex items-center gap-1 text-xs font-medium text-primary">
+                  Číst více <ArrowRight size={12} />
+                </span>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
 

@@ -75,6 +75,7 @@ export interface Plant {
   vhodnaDoNadoby?: boolean;
   rychlostRustu?: RychlostRustu;
   obrazek?: string;
+  obrazekOverride?: string;
   popis?: string;
   pece?: string;
   tagy?: string[];

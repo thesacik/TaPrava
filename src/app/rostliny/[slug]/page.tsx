@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { allPlants } from "@/utils/plants";
 import { toSlug } from "@/utils/slug";
-import { getThumbUrl } from "@/utils/imageUrl";
+import { getPlantImageUrl } from "@/utils/imageUrl";
 import { kategorieLabels } from "@/utils/labels";
 import { PlantDetailClient } from "./PlantDetailClient";
 
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? plant.popis.slice(0, 155)
     : `${plant.nazevCz} (${plant.nazevLat ?? ""}) — ${typeLabel}. Zjistěte podmínky pěstování, péči a kde koupit.`;
 
-  const ogImage = getThumbUrl(plant.obrazek, 500);
+  const ogImage = getPlantImageUrl(plant.obrazek, plant.obrazekOverride, 500);
 
   return {
     title: `${plant.nazevCz}${plant.nazevLat ? ` (${plant.nazevLat})` : ""}`,
@@ -55,7 +55,7 @@ export default async function PlantPage({ params }: Props) {
     name: plant.nazevCz,
     ...(plant.nazevLat && { alternateName: plant.nazevLat }),
     description: plant.popis ?? `${plant.nazevCz} — informace o pěstování a péči.`,
-    ...(plant.obrazek && { image: getThumbUrl(plant.obrazek, 500) }),
+    ...(plant.obrazek && { image: getPlantImageUrl(plant.obrazek, plant.obrazekOverride, 500) }),
     category: plant.kategorie.map((k) => kategorieLabels[k]).join(", "),
   };
 

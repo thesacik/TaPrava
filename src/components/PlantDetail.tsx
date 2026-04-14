@@ -11,7 +11,7 @@ import { EshopOffers } from "@/components/EshopOffers";
 import { PriceLinks } from "@/components/PriceLinks";
 import { PlantGallery, type PlantGalleryHandle } from "@/components/PlantGallery";
 import { useGalleryPhotos } from "@/hooks/useGalleryPhotos";
-import { getThumbUrl } from "@/utils/imageUrl";
+import { getPlantImageUrl } from "@/utils/imageUrl";
 import {
   kategorieLabels, svetloLabels, vlhkostLabels, narocnostLabels,
   rychlostRustuLabels, frekvenceZalivkyLabels, barvaKvetuLabels, mesicLabels,
@@ -63,7 +63,7 @@ interface PlantDetailProps {
 }
 
 export function PlantDetail({ plant, isFavorite, onToggleFavorite }: PlantDetailProps) {
-  const thumbUrl = getThumbUrl(plant.obrazek, 500);
+  const thumbUrl = getPlantImageUrl(plant.obrazek, plant.obrazekOverride, 500);
   const galleryRef = useRef<PlantGalleryHandle>(null);
   const { photos } = useGalleryPhotos(plant.nazevLat);
 

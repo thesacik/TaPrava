@@ -1,3 +1,11 @@
+export function getPlantImageUrl(
+  obrazek: string | undefined,
+  override: string | undefined,
+  width: number,
+): string | undefined {
+  return getThumbUrl(override ?? obrazek, width);
+}
+
 export function getThumbUrl(url: string | undefined, width: number): string | undefined {
   if (!url) return undefined;
 

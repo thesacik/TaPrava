@@ -22,6 +22,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="/pruvodce" className="text-gray-600 hover:text-primary">Průvodce výběrem</Link></li>
               <li><Link href="/rostliny" className="text-gray-600 hover:text-primary">Katalog rostlin</Link></li>
+              <li><Link href="/blog" className="text-gray-600 hover:text-primary">Blog</Link></li>
               <li><Link href="/oblibene" className="text-gray-600 hover:text-primary">Oblíbené</Link></li>
             </ul>
           </div>

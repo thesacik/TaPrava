@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { allPlants } from "@/utils/plants";
 import { toSlug } from "@/utils/slug";
 import { categoryPages } from "@/data/categoryPages";
+import { blogPosts } from "@/data/blogPosts";
 
 const BASE = "https://taprava.cz";
 
@@ -13,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/sezonni-pruvodce`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/oblibene`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
     { url: `${BASE}/ochrana-osobnich-udaju`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.2 },
+    { url: `${BASE}/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
   ];
 
   const categoryLandings: MetadataRoute.Sitemap = categoryPages.map((cat) => ({
@@ -29,5 +31,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...categoryLandings, ...plantPages];
+  const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${BASE}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...categoryLandings, ...plantPages, ...blogPages];
 }

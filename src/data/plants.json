@@ -53,7 +53,8 @@
       "pro opylovace",
       "suche stanoviste"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-087.jpg&w=500"
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-087.jpg&w=500",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Lavandula-angustifolia-Ventoux.jpg/500px-Lavandula-angustifolia-Ventoux.jpg"
   },
   {
     "id": "hosta",
@@ -4676,7 +4677,8 @@
       "kuchynska",
       "zakladni bylinka"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Petroselinum_crispum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-103.jpg&w=500"
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Petroselinum_crispum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-103.jpg&w=500",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Curly_Parsley_Petroselinum_crispum_Drops.jpg/500px-Curly_Parsley_Petroselinum_crispum_Drops.jpg"
   },
   {
     "id": "allium-schoenoprasum",
@@ -6415,7 +6417,8 @@
       "alternativa zimostrazu",
       "tvarovatelny"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg&w=500"
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg&w=500",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ilex_crenata_Steeds_0zz.jpg/500px-Ilex_crenata_Steeds_0zz.jpg"
   },
   {
     "id": "pilea-peperomioides",
@@ -7385,7 +7388,8 @@
       "asijska kuchyne",
       "bylinka"
     ],
-    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg&w=500"
+    "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg&w=500",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Coriandrum_sativum_L._%284171522832%29.jpg/500px-Coriandrum_sativum_L._%284171522832%29.jpg"
   },
   {
     "id": "centranthus-ruber",
@@ -9787,7 +9791,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Calamagrostis_halleriana_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v13.jpg&w=500",
     "popis": "Třtina pobřežní (Calamagrostis pseudophragmites) je okrasná tráva, vhodná na zahradu, do nádoby a na balkon nebo terasu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://inaturalist-open-data.s3.amazonaws.com/photos/528928252/medium.jpg"
   },
   {
     "id": "achillea-setacea",
@@ -10438,7 +10443,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg&w=500",
     "popis": "Cesmína paraguayská (Ilex paraguariensis) je keř, vhodný na zahradu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči. Pozor — rostlina je mírně jedovatá. Uchovávejte mimo dosah dětí a domácích zvířat."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči. Pozor — rostlina je mírně jedovatá. Uchovávejte mimo dosah dětí a domácích zvířat.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Ilex_paraguariensis_-_Yerba_mate_-_desc-leaves.jpg/500px-Ilex_paraguariensis_-_Yerba_mate_-_desc-leaves.jpg"
   },
   {
     "id": "potentilla-micrantha",
@@ -11838,7 +11844,8 @@
     "proMotyly": true,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Illustration_Allium_ursinum1.jpg&w=500",
     "popis": "Česnek medvědí (Allium ursinum) je bylinka, vhodná na zahradu, do nádoby a na balkon nebo terasu. Preferuje slunné a polostinné stanoviště. Je oblíbená opylovači.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Daslook_%28Allium_ursinum%29_26-04-2020._%28actm.%29_01.jpg/500px-Daslook_%28Allium_ursinum%29_26-04-2020._%28actm.%29_01.jpg"
   },
   {
     "id": "salvia-verbenaca",
@@ -11895,7 +11902,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Prunus_cerasus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-113.jpg&w=500",
     "popis": "Třešeň višeň (Prunus cerasus) je strom, vhodný na zahradu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči. Pozor — rostlina je mírně jedovatá. Uchovávejte mimo dosah dětí a domácích zvířat."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči. Pozor — rostlina je mírně jedovatá. Uchovávejte mimo dosah dětí a domácích zvířat.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/-_Prunus_cerasus_-.jpg/500px--_Prunus_cerasus_-.jpg"
   },
   {
     "id": "pieris-mannii",
@@ -12331,7 +12339,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Illustration_Rosa_pimpinellifolia0_white.jpg&w=500",
     "popis": "Růže žlutá (Rosa foetida) je keř, vhodný na zahradu. Preferuje slunné a polostinné stanoviště. Vyniká příjemnou vůní.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Rosa_Eglanteria_Luteola_001.JPG/500px-Rosa_Eglanteria_Luteola_001.JPG"
   },
   {
     "id": "rubus-illecebrosus",
@@ -13406,7 +13415,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Illustration_Ulmus_carpinifolia0.jpg&w=500",
     "popis": "Jilm habrolistý (Ulmus minor) je strom, vhodný na zahradu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ulmus_minor_subsp_minor.jpg/500px-Ulmus_minor_subsp_minor.jpg"
   },
   {
     "id": "quercus-rubra",
@@ -16080,7 +16090,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Illustration_Rubus_candidans0.jpg&w=500",
     "popis": "Ostružiník běloplstnatý (Rubus montanus) je keř, vhodný na zahradu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://inaturalist-open-data.s3.amazonaws.com/photos/633027286/medium.jpg"
   },
   {
     "id": "gypsophila-scorzonerifolia",
@@ -19649,7 +19660,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Malus_domestica_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-108.jpg&w=500",
     "popis": "Jabloň nízká (Malus pumila) je strom, vhodný na zahradu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Malus_pumila_Mont-Royal_2013.jpg/500px-Malus_pumila_Mont-Royal_2013.jpg"
   },
   {
     "id": "geranium-palustre",
@@ -21119,7 +21131,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Cleaned-Illustration_Carex_bohemica.jpg&w=500",
     "popis": "Ostřice šáchorovitá (Carex bohemica) je okrasná tráva, vhodná na zahradu, do nádoby a na balkon nebo terasu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Carex_bohemica_plant_%2803%29.jpg/500px-Carex_bohemica_plant_%2803%29.jpg"
   },
   {
     "id": "carex-vaginata",
@@ -22420,7 +22433,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Festuca_rubra_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v15.jpg&w=500",
     "popis": "Kostřava červená (Festuca rubra) je okrasná tráva, vhodná na zahradu, do nádoby a na balkon nebo terasu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Festuca_rubra_%2826750509574%29.jpg/500px-Festuca_rubra_%2826750509574%29.jpg"
   },
   {
     "id": "sedum-villosum",
@@ -23279,7 +23293,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Nigella_sativa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-227.jpg&w=500",
     "popis": "Černucha setá (Nigella sativa) je trvalka, vhodná na zahradu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Nigella_sativa.jpg/500px-Nigella_sativa.jpg"
   },
   {
     "id": "mentha-arvensis",
@@ -23528,7 +23543,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Carex_divulsa_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v18.jpg&w=500",
     "popis": "Ostřice přetrhovaná (Carex divulsa) je okrasná tráva, vhodná na zahradu, do nádoby a na balkon nebo terasu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Carex_divulsa_ssp._divulsa_%285559099094%29.jpg/500px-Carex_divulsa_ssp._divulsa_%285559099094%29.jpg"
   },
   {
     "id": "carex-supina",
@@ -23921,7 +23937,8 @@
     "proMotyly": true,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Illustration_Allium_scorodoprasum_and_Allium_porrum0.jpg&w=500",
     "popis": "Česnek ořešec (Allium scorodoprasum) je bylinka, vhodná na zahradu, do nádoby a na balkon nebo terasu. Preferuje slunné a polostinné stanoviště. Je oblíbená opylovači.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Allium_scorodoprasum_%281%29.jpg/500px-Allium_scorodoprasum_%281%29.jpg"
   },
   {
     "id": "platanus-orientalis",
@@ -24145,7 +24162,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Illustration_Alchemilla_vulgaris0_clean.jpg&w=500",
     "popis": "Kontryhel obecný (Alchemilla vulgaris) je trvalka, vhodná na zahradu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Lady%27s_Mantle_%28Alchemilla_vulgaris%29%2C_Bishopstone_-_geograph.org.uk_-_1363662.jpg/500px-Lady%27s_Mantle_%28Alchemilla_vulgaris%29%2C_Bishopstone_-_geograph.org.uk_-_1363662.jpg"
   },
   {
     "id": "rosa-jundzillii",
@@ -26228,7 +26246,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Illustration_Rosa_majalis0.jpg&w=500",
     "popis": "Růže májová (Rosa majalis) je keř, vhodný na zahradu. Preferuje slunné a polostinné stanoviště. Vyniká příjemnou vůní.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Rosa-majalis-flower.JPG/500px-Rosa-majalis-flower.JPG"
   },
   {
     "id": "tulipa-sylvestris",
@@ -26854,7 +26873,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Illustration_Carex_ornithopoda0.jpg&w=500",
     "popis": "Ostřice ptačí nožka (Carex ornithopoda) je okrasná tráva, vhodná na zahradu, do nádoby a na balkon nebo terasu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Carex_ornithopoda_plant_%2803%29.jpeg/500px-Carex_ornithopoda_plant_%2803%29.jpeg"
   },
   {
     "id": "phlox-drummondii",
@@ -31044,7 +31064,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Illustration_Rubus_pedemontanus0.jpg&w=500",
     "popis": "Ostružiník žláznatý (Rubus pedemontanus) je keř, vhodný na zahradu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://inaturalist-open-data.s3.amazonaws.com/photos/123668742/medium.jpg"
   },
   {
     "id": "rubus-mollis",
@@ -31638,7 +31659,8 @@
     "proMotyly": true,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Centaurea_calcitrapa_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v2.jpg&w=500",
     "popis": "Chrpa sikavice (Centaurea calcitrapa) je trvalka, vhodná na zahradu. Preferuje slunné a polostinné stanoviště. Je oblíbená opylovači.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Centaurea_calcitrapa_%2814584556372%29.jpg/500px-Centaurea_calcitrapa_%2814584556372%29.jpg"
   },
   {
     "id": "asplenium-septentrionale",
@@ -32158,7 +32180,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Illustration_Ilex_aquifolium0.jpg&w=500",
     "popis": "Cesmína ostrolistá (Ilex aquifolium) je keř, vhodný na zahradu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči. Pozor — rostlina je mírně jedovatá. Uchovávejte mimo dosah dětí a domácích zvířat."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči. Pozor — rostlina je mírně jedovatá. Uchovávejte mimo dosah dětí a domácích zvířat.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ilex_aquifolium_108511993.jpg/500px-Ilex_aquifolium_108511993.jpg"
   },
   {
     "id": "viola-tricolor",
@@ -33601,7 +33624,8 @@
     "proMotyly": false,
     "obrazek": "https://commons.wikimedia.org/w/thumb.php?f=Illustration_Ranunculus_lingua0.jpg&w=500",
     "popis": "Pryskyřník velký (Ranunculus lingua) je trvalka, vhodná na zahradu. Preferuje slunné a polostinné stanoviště.",
-    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči."
+    "pece": "Zalévejte pravidelně, když vrchní vrstva substrátu zaschne. Umístěte na slunné a polostinné stanoviště. Středně náročná rostlina vyžadující základní péči.",
+    "obrazekOverride": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Greater_Spearwort_-_geograph.org.uk_-_1389879.jpg"
   },
   {
     "id": "allium-sativum",
