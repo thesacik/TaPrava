@@ -120,7 +120,7 @@ function ContentBlockRenderer({ block }: { block: ContentBlock }) {
               {block.heading}
             </h2>
           )}
-          <p className="text-gray-600 leading-relaxed">{block.body}</p>
+          <div className="text-gray-600 leading-relaxed whitespace-pre-line">{block.body}</div>
         </div>
       );
 
