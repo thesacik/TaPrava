@@ -2,7 +2,8 @@ export type ContentBlock =
   | { type: "text"; heading?: string; body: string }
   | { type: "tip"; title: string; body: string }
   | { type: "image"; src: string; alt: string; caption?: string }
-  | { type: "plantList"; heading?: string; plantIds: string[] };
+  | { type: "plantList"; heading?: string; plantIds: string[] }
+  | { type: "video"; src: string; title?: string; caption?: string };
 
 export interface BlogPost {
   slug: string;
@@ -2059,6 +2060,12 @@ export const blogPosts: BlogPost[] = [
         type: "tip",
         title: "Cibuloviny jako jarní bonus",
         body: "V říjnu doplňte záhon cibulovinami (tulipány, narcisy, krokusy, modřence). Opatrně odhrnete mulč, zasadíte cibulky ve skupinkách a mulč vrátíte. Na jaře vás odmění barvami ještě před tím, než se trvalky probudí.",
+      },
+      {
+        type: "video",
+        src: "https://www.youtube.com/embed/vxpTBOx_TwA?si=CV7GaMfPtcsayNwb&start=12",
+        title: "Jak vysadit trvalkový záhon",
+        caption: "Video návod na výsadbu trvalkového záhonu",
       },
     ],
   },

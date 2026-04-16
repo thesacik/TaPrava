@@ -160,6 +160,27 @@ function ContentBlockRenderer({ block }: { block: ContentBlock }) {
       return (
         <PlantListBlock heading={block.heading} plantIds={block.plantIds} />
       );
+
+    case "video":
+      return (
+        <figure className="my-8">
+          <div className="relative aspect-video overflow-hidden rounded-xl bg-black">
+            <iframe
+              src={block.src}
+              title={block.title ?? "Video"}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              className="absolute inset-0 h-full w-full"
+            />
+          </div>
+          {block.caption && (
+            <figcaption className="mt-2 text-center text-sm text-gray-400">
+              {block.caption}
+            </figcaption>
+          )}
+        </figure>
+      );
   }
 }
 
