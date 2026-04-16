@@ -1974,6 +1974,94 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "osazovaci-plan-trvalkoveho-zahonu-jak-rozmistit-rostliny",
+    title: "Osazovací plán trvalkového záhonu: jak správně rozmístit rostliny",
+    excerpt:
+      "Krásný trvalkový záhon není náhoda — je za ním promyšlený osazovací plán. Jak rostliny rozdělit do skupin a kam je vysadit.",
+    date: "2026-04-09",
+    author: "Ta Pravá",
+    heroImage: "/images/categories/trvalky.png",
+    tags: ["zahrada", "trvalky", "plánování"],
+    metaDescription:
+      "Jak vytvořit osazovací plán trvalkového záhonu. Funkční skupiny rostlin, hustota výsadby, rozmístění a instrukce pro výsadbu krok za krokem.",
+    content: [
+      {
+        type: "text",
+        body: "Trvalkový záhon, který vypadá přirozeně a zároveň harmonicky, nevznikne náhodným rozsázením rostlin z květinářství. Stojí za ním promyšlený osazovací plán — rozdělení rostlin do funkčních skupin podle výšky, charakteru a role v záhonu. V tomto článku vám ukážeme, jak takový plán sestavit a podle něj vysadit záhon, který bude krásný od prvního roku.",
+      },
+      {
+        type: "text",
+        heading: "Čtyři funkční skupiny trvalek",
+        body: "Moderní přístup k tvorbě trvalkových záhonů pracuje se čtyřmi funkčními skupinami. Každá má v záhonu jinou roli, jinou výšku a jiný podíl na celkové ploše. Jejich správná kombinace vytváří přirozeně vypadající celek s bohatou strukturou.",
+      },
+      {
+        type: "text",
+        heading: "1. Solitérní trvalky (5–15 % záhonu)",
+        body: "Jsou nejvýraznější a nejmohutnější — tvoří horní patro záhonu. Dorůstají obvykle 120–200 cm a jsou jeho hlavními dominantami. Umísťujeme je do pozadí (u zdi, plotu), nebo doprostřed záhonu, pokud je volně stojící (ostrůvkový). Oproti ostatním trvalkám se plně prosadí až ve druhém–třetím roce. Typické solitérní trvalky: ostrožka zahradní, třapatka lesklá, plamenka latnatá, ozdobnice čínská.",
+      },
+      {
+        type: "plantList",
+        heading: "Solitérní trvalky v katalogu",
+        plantIds: ["delphinium-elatum", "rudbeckia-nitida", "phlox-paniculata", "miscanthus-sinensis"],
+      },
+      {
+        type: "text",
+        heading: "2. Skupinové trvalky (35–60 % záhonu)",
+        body: "Tvoří střední patro a jsou zastoupeny největším podílem — svým květenstvím určují charakter celého záhonu. Dorůstají 40–100 cm. Klíčové pravidlo: sázejte je ve skupinkách po 3, 5 nebo 7 kusech stejného druhu (lichý počet vypadá přirozeněji). Opakování stejných skupin na více místech záhonu vytváří vizuální rytmus a soudržnost.",
+      },
+      {
+        type: "plantList",
+        heading: "Skupinové trvalky v katalogu",
+        plantIds: ["salvia-nemorosa", "rudbeckia-fulgida", "hemerocallis", "nepeta-faassenii", "bergenia-cordifolia", "echinacea-purpurea"],
+      },
+      {
+        type: "text",
+        heading: "3. Půdokryvné trvalky (35–50 % záhonu)",
+        body: "Nejnižší skupina (10–30 cm), která se sází do popředí, na okraje záhonu a jako výplň prázdných míst mezi skupinovými a solitérními trvalkami. Pokrývají půdu, potlačují plevel a vytvářejí plynulý přechod mezi záhonem a okolním prostorem. Mnohé mají atraktivní listy po celou sezónu.",
+      },
+      {
+        type: "plantList",
+        heading: "Půdokryvné trvalky v katalogu",
+        plantIds: ["heuchera", "ajuga-reptans", "vinca-minor", "geranium-macrorrhizum"],
+      },
+      {
+        type: "text",
+        heading: "4. Vtroušené trvalky (5–10 %, nepovinné)",
+        body: "Krátkověké, ale samovolně se vysévající rostliny, které vyplňují prostor v době, kdy ostatní trvalky ještě nedorostly do plné krásy. Dodávají záhonu spontánní, ‚divoký' charakter. Časem se samy přesouvají po záhonu a každý rok vypadají trochu jinak. Typické vtroušené trvalky: orlíček, kohoutek věncový, sporýš argentinský, turan Karvinského.",
+      },
+      {
+        type: "plantList",
+        heading: "Vtroušené trvalky v katalogu",
+        plantIds: ["aquilegia-vulgaris", "lychnis-coronaria", "verbena-bonariensis", "erigeron-karvinskianus"],
+      },
+      {
+        type: "tip",
+        title: "Pravidlo hustoty: 7–9 trvalek na m²",
+        body: "Dodržujte hustotu 7–9 rostlin na 1 m², což odpovídá rozestupům 30–35 cm. Zpočátku bude záhon vypadat řídce, ale za 2–3 roky se trvalky rozrostou a vytvoří souvislý porost. Příliš hustá výsadba vede ke konkurenci a slabšímu růstu.",
+      },
+      {
+        type: "text",
+        heading: "Jak sestavit osazovací plán krok za krokem",
+        body: "1. Zakreslete tvar záhonu na papír nebo do aplikace (stačí ruční náčrt).\n\n2. Jako první rozmístěte solitérní trvalky — jsou dominanty, od nich se odvíjí zbytek.\n\n3. Přidejte skupinové trvalky ve skupinkách po 3–7 kusech. Opakujte stejné druhy na více místech.\n\n4. Doplňte půdokryvné trvalky do popředí, na okraje a mezi mezery.\n\n5. Nakonec rozmístěte vtroušené trvalky nahodile po celém záhonu.\n\n6. Před kopáním rozložte hrnky na záhon podle plánu a zkontrolujte celkový dojem. Teprve pak sázejte.",
+      },
+      {
+        type: "text",
+        heading: "Příprava stanoviště a výsadba",
+        body: "Před výsadbou zbavte místo veškerého plevele a půdu prokypřete do hloubky 25–30 cm. Těžkou jílovitou půdu vylepšete kompostem a trochou štěrku. Trvalky vysazujte od poloviny března do konce října, ideálně v den doručení. Před výsadbou prolijte kontejnery vodou — můžete je na chvíli ponořit do nádoby s vodou.",
+      },
+      {
+        type: "text",
+        heading: "Mulčování — nezapomeňte!",
+        body: "Po výsadbě záhon vydatně zalijte (20 l/m²) a celou plochu zamulčujte. Na slunná stanoviště použijte kamennou drť (frakce 8/16 mm) ve vrstvě 5–8 cm, která potlačuje plevel a udržuje vlhkost. Pro stinné záhony se hodí kůrový mulč. Mulč přihrnujte i přes kořenový bal, nejen okolo rostliny.",
+      },
+      {
+        type: "tip",
+        title: "Cibuloviny jako jarní bonus",
+        body: "V říjnu doplňte záhon cibulovinami (tulipány, narcisy, krokusy, modřence). Opatrně odhrnete mulč, zasadíte cibulky ve skupinkách a mulč vrátíte. Na jaře vás odmění barvami ještě před tím, než se trvalky probudí.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
