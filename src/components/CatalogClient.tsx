@@ -254,9 +254,12 @@ export function CatalogClient({ plants }: CatalogClientProps) {
       {/* Filter panel overlay */}
       {panelOpen && (
         <FilterPanelOverlay
+          primaryFilterDefs={primaryFilterDefs}
+          answers={answers}
+          setPrimary={setPrimary}
           filters={additional}
           onChange={setAdditional}
-          onClear={() => setAdditional({})}
+          onClear={() => { setAdditional({}); setAnswers({} as UserAnswers); }}
           onClose={() => setPanelOpen(false)}
         />
       )}
@@ -312,13 +315,16 @@ export function CatalogClient({ plants }: CatalogClientProps) {
 const GAP = 8;
 const DIVIDER_W = 18;
 
-function useVisibleToggles(
+function useVisibleItems(
   barRef: React.RefObject<HTMLDivElement | null>,
+  primaryCount: number,
   toggleCount: number,
   deps: unknown[],
 ) {
+  const primaryWidths = useRef<number[]>([]);
   const toggleWidths = useRef<number[]>([]);
-  const [visible, setVisible] = useState(toggleCount);
+  const [visiblePrimary, setVisiblePrimary] = useState(primaryCount);
+  const [visibleToggles, setVisibleToggles] = useState(toggleCount);
 
   const recalc = useCallback(() => {
     const bar = barRef.current;
@@ -330,31 +336,37 @@ function useVisibleToggles(
     const filtrBtn = children.find((c) => c.dataset.role === "filtry");
     const filtrW = filtrBtn ? filtrBtn.offsetWidth + GAP : 0;
 
-    let fixedW = 0;
     for (const c of children) {
-      if (c.dataset.role === "toggle") {
+      if (c.dataset.role === "primary") {
         const w = c.offsetWidth;
-        if (w > 0) {
-          const idx = Number(c.dataset.idx);
-          toggleWidths.current[idx] = w;
-        }
-      } else if (c !== filtrBtn) {
-        fixedW += c.offsetWidth + GAP;
+        if (w > 0) primaryWidths.current[Number(c.dataset.idx)] = w;
+      } else if (c.dataset.role === "toggle") {
+        const w = c.offsetWidth;
+        if (w > 0) toggleWidths.current[Number(c.dataset.idx)] = w;
       }
     }
 
-    const available = barW - fixedW - filtrW;
-    let used = 0;
-    let count = 0;
-    for (let i = 0; i < toggleCount; i++) {
-      const w = (toggleWidths.current[i] ?? 80) + GAP;
-      if (used + w <= available) { used += w; count++; }
+    let remaining = barW - filtrW;
+    let pCount = 0;
+    for (let i = 0; i < primaryCount; i++) {
+      const w = (primaryWidths.current[i] ?? 100) + GAP;
+      if (remaining >= w) { remaining -= w; pCount++; }
       else break;
     }
 
-    setVisible(count);
+    if (pCount > 0 && toggleCount > 0) remaining -= DIVIDER_W;
+
+    let tCount = 0;
+    for (let i = 0; i < toggleCount; i++) {
+      const w = (toggleWidths.current[i] ?? 80) + GAP;
+      if (remaining >= w) { remaining -= w; tCount++; }
+      else break;
+    }
+
+    setVisiblePrimary(pCount);
+    setVisibleToggles(tCount);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [barRef, toggleCount, ...deps]);
+  }, [barRef, primaryCount, toggleCount, ...deps]);
 
   useEffect(() => {
     recalc();
@@ -363,7 +375,7 @@ function useVisibleToggles(
     return () => ro.disconnect();
   }, [recalc]);
 
-  return visible;
+  return { visiblePrimary, visibleToggles };
 }
 
 function FilterBar({
@@ -386,27 +398,44 @@ function FilterBar({
   onOpenPanel: () => void;
 }) {
   const barRef = useRef<HTMLDivElement>(null);
-  const visible = useVisibleToggles(barRef, quickToggles.length, [answers, additional]);
+  const { visiblePrimary, visibleToggles } = useVisibleItems(
+    barRef,
+    primaryFilterDefs.length,
+    quickToggles.length,
+    [answers, additional],
+  );
+
+  const hiddenActivePrimary = primaryFilterDefs
+    .slice(visiblePrimary)
+    .filter((pf) => answers[pf.key as keyof UserAnswers])
+    .length;
+  const totalBadge = additionalCount + hiddenActivePrimary;
 
   return (
     <div ref={barRef} className="mb-4 flex items-center gap-2">
-      {primaryFilterDefs.map((pf) => (
-        <DropdownFilter
+      {primaryFilterDefs.map((pf, i) => (
+        <div
           key={pf.key}
-          placeholder={pf.placeholder}
-          options={pf.options}
-          value={answers[pf.key as keyof UserAnswers] as string | undefined}
-          onChange={(v) => setPrimary(pf.key as keyof UserAnswers, v)}
-        />
+          data-role="primary"
+          data-idx={i}
+          style={i >= visiblePrimary ? { position: "absolute", visibility: "hidden", pointerEvents: "none" } : undefined}
+        >
+          <DropdownFilter
+            placeholder={pf.placeholder}
+            options={pf.options}
+            value={answers[pf.key as keyof UserAnswers] as string | undefined}
+            onChange={(v) => setPrimary(pf.key as keyof UserAnswers, v)}
+          />
+        </div>
       ))}
-      {visible > 0 && <span className="mx-1 h-6 w-px shrink-0 bg-gray-200" />}
+      {visibleToggles > 0 && <span className="mx-1 h-6 w-px shrink-0 bg-gray-200" />}
       {quickToggles.map((qt, i) => (
         <button
           key={qt.key}
           data-role="toggle"
           data-idx={i}
           onClick={() => toggleAdditional(qt.key)}
-          style={i >= visible ? { position: "absolute", visibility: "hidden", pointerEvents: "none" } : undefined}
+          style={i >= visibleToggles ? { position: "absolute", visibility: "hidden", pointerEvents: "none" } : undefined}
           className={`shrink-0 whitespace-nowrap rounded-full border px-3 py-1.5 text-sm font-medium transition ${
             additional[qt.key] ? "border-primary bg-accent-light text-primary-dark" : "border-gray-200 text-gray-600 hover:border-gray-300"
           }`}
@@ -420,8 +449,8 @@ function FilterBar({
         className="ml-auto flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border border-gray-200 bg-gray-50 px-3 py-1.5 text-sm font-semibold text-gray-600 transition hover:bg-white"
       >
         <SlidersHorizontal size={14} /> Filtry
-        {additionalCount > 0 && (
-          <span className="flex h-5 min-w-[20px] items-center justify-center rounded-full bg-primary px-1 text-[10px] font-bold text-white">{additionalCount}</span>
+        {totalBadge > 0 && (
+          <span className="flex h-5 min-w-[20px] items-center justify-center rounded-full bg-primary px-1 text-[10px] font-bold text-white">{totalBadge}</span>
         )}
       </button>
     </div>
@@ -474,7 +503,10 @@ function DropdownFilter({ placeholder, options, value, onChange }: {
   );
 }
 
-function FilterPanelOverlay({ filters, onChange, onClear, onClose }: {
+function FilterPanelOverlay({ primaryFilterDefs, answers, setPrimary, filters, onChange, onClear, onClose }: {
+  primaryFilterDefs: { key: string; placeholder: string; options: Record<string, string> }[];
+  answers: UserAnswers;
+  setPrimary: (key: keyof UserAnswers, value: string | undefined) => void;
   filters: AdditionalFilters;
   onChange: (f: AdditionalFilters) => void;
   onClear: () => void;
@@ -496,6 +528,19 @@ function FilterPanelOverlay({ filters, onChange, onClear, onClose }: {
           <button onClick={onClose} aria-label="Zavřít filtry" className="text-gray-400 hover:text-gray-600"><X size={22} /></button>
         </div>
         <div className="flex-1 space-y-6 overflow-y-auto px-5 py-5">
+          {primaryFilterDefs.map((pf) => (
+            <ChipSection key={pf.key} label={pf.placeholder}>
+              {Object.entries(pf.options).map(([val, lab]) => (
+                <Chip
+                  key={val}
+                  active={answers[pf.key as keyof UserAnswers] === val}
+                  onClick={() => setPrimary(pf.key as keyof UserAnswers, answers[pf.key as keyof UserAnswers] === val ? undefined : val)}
+                >
+                  {lab}
+                </Chip>
+              ))}
+            </ChipSection>
+          ))}
           <ChipSection label="Barva květu">
             {(Object.keys(barvaKvetuLabels) as BarvaKvetu[]).map((b) => (
               <Chip key={b} active={filters.barvaKvetu === b} onClick={() => setSelect("barvaKvetu", filters.barvaKvetu === b ? undefined : b)}>{barvaKvetuLabels[b]}</Chip>
