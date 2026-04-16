@@ -105,6 +105,7 @@ interface AdditionalFilters {
   proVcely?: boolean;
   jedla?: boolean;
   vhodnaDoNadoby?: boolean;
+  vhodnaProZivyPlot?: boolean;
   bezpecnaProDeti?: boolean;
   bezpecnaProPsy?: boolean;
 }
@@ -125,6 +126,7 @@ const quickToggles: { key: keyof AdditionalFilters; label: string }[] = [
   { key: "proVcely", label: "Pro včely" },
   { key: "jedla", label: "Jedlá" },
   { key: "stalezelena", label: "Stálezelená" },
+  { key: "vhodnaProZivyPlot", label: "Na živý plot" },
   { key: "bezpecnaProDeti", label: "Pro děti" },
   { key: "bezpecnaProPsy", label: "Pro mazlíčky" },
 ];
@@ -181,6 +183,7 @@ export function CatalogClient({ plants }: CatalogClientProps) {
     if (additional.proVcely) result = result.filter(({ plant }) => plant.proVcely);
     if (additional.jedla) result = result.filter(({ plant }) => plant.jedla);
     if (additional.vhodnaDoNadoby) result = result.filter(({ plant }) => plant.vhodnaDoNadoby);
+    if (additional.vhodnaProZivyPlot) result = result.filter(({ plant }) => plant.vhodnaProZivyPlot);
     if (additional.bezpecnaProDeti) result = result.filter(({ plant }) => plant.bezpecnaProDeti);
     if (additional.bezpecnaProPsy) result = result.filter(({ plant }) => plant.bezpecnaProPsy);
     if (searchQuery) {
@@ -561,7 +564,7 @@ function FilterPanelOverlay({ primaryFilterDefs, answers, setPrimary, filters, o
             <div className="space-y-1">
               {([
                 ["stalezelena", "Stálezelená"], ["vune", "Voní"], ["proVcely", "Pro včely"],
-                ["jedla", "Jedlá"], ["vhodnaDoNadoby", "Do nádoby"],
+                ["jedla", "Jedlá"], ["vhodnaDoNadoby", "Do nádoby"], ["vhodnaProZivyPlot", "Vhodná na živý plot"],
                 ["bezpecnaProDeti", "Bezpečná pro děti"], ["bezpecnaProPsy", "Bezpečná pro mazlíčky"],
               ] as [keyof AdditionalFilters, string][]).map(([key, label]) => (
                 <label key={key} className="flex cursor-pointer items-center gap-3 rounded-lg px-2 py-2.5 hover:bg-gray-50">

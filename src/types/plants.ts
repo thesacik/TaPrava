@@ -73,11 +73,14 @@ export interface Plant {
   frekvenceZalivky?: FrekvenceZalivky;
   mrazuvzdornostDoC?: number;
   vhodnaDoNadoby?: boolean;
+  vhodnaProZivyPlot?: boolean;
   rychlostRustu?: RychlostRustu;
   obrazek?: string;
   obrazekOverride?: string;
   popis?: string;
   pece?: string;
+  jakZasadit?: string;
+  galerieOverride?: { url: string; attribution: string; license: string }[];
   tagy?: string[];
 }
 

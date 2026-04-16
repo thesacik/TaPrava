@@ -65,7 +65,8 @@ interface PlantDetailProps {
 export function PlantDetail({ plant, isFavorite, onToggleFavorite }: PlantDetailProps) {
   const thumbUrl = getPlantImageUrl(plant.obrazek, plant.obrazekOverride, 500);
   const galleryRef = useRef<PlantGalleryHandle>(null);
-  const { photos } = useGalleryPhotos(plant.nazevLat);
+  const { photos: inatPhotos } = useGalleryPhotos(plant.galerieOverride ? undefined : plant.nazevLat);
+  const photos = plant.galerieOverride ?? inatPhotos;
 
   const fallbackUrl = photos.length > 0 ? photos[0].url : undefined;
 
@@ -156,6 +157,13 @@ export function PlantDetail({ plant, isFavorite, onToggleFavorite }: PlantDetail
             <div className="mb-6 rounded-xl bg-gray-50 p-5">
               <h2 className="mb-2 text-lg font-semibold text-gray-900">Péče</h2>
               <p className="text-sm text-gray-600 leading-relaxed">{plant.pece}</p>
+            </div>
+          )}
+
+          {plant.jakZasadit && (
+            <div className="mb-6 rounded-xl bg-green-50 p-5">
+              <h2 className="mb-2 text-lg font-semibold text-gray-900">Jak zasadit {plant.nazevCz.toLowerCase()}</h2>
+              <p className="text-sm text-gray-600 leading-relaxed">{plant.jakZasadit}</p>
             </div>
           )}
         </div>
