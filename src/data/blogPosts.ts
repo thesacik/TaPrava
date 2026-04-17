@@ -2069,6 +2069,102 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "jak-daleko-sadit-zivy-plot-od-sousedovy-zahrady",
+    title: "Jak daleko sázet živý plot od sousedovy zahrady? Pravidla a zákon",
+    excerpt:
+      "Chcete vysadit živý plot, ale nevíte, jak daleko od hranice pozemku? Přehled zákonných vzdáleností, praktická doporučení a tipy, jak se vyhnout sousedským sporům.",
+    date: "2026-04-16",
+    author: "Ta Pravá",
+    heroImage: "/images/blog-zivy-plot.png",
+    tags: ["zahrada", "živý plot", "zákon", "sousedé"],
+    metaDescription:
+      "Zákonné vzdálenosti pro výsadbu živého plotu od hranice pozemku. Praktický přehled pravidel dle občanského zákoníku, doporučené druhy a tipy na bezproblémovou výsadbu.",
+    content: [
+      {
+        type: "tip",
+        title: "Stručné doporučení — co musíte dodržet",
+        body: "Stromy a keře dorůstající přes 3 metry: minimálně 3 metry od hranice pozemku. Keře a stromy do 3 metrů výšky: minimálně 1,5 metru od hranice. Vzdálenost se měří od středu kmene/osy keře k hranici pozemku. Pokud si nejste jisti, sázejte raději o půl metru dál — ušetříte si spory. A vždy si promluvte se sousedem dřív, než začnete kopat.",
+      },
+      {
+        type: "text",
+        heading: "Proč na vzdálenosti záleží?",
+        body: "Živý plot je krásná věc — poskytuje soukromí, tlumí hluk, chrání zahradu před větrem a je domovem pro ptáky. Jenže na rozdíl od dřevěného plotu rostliny nectí hranice pozemků. Přerůstají k sousedovi, hází stín, pouštějí listí a kořeny se šíří pod plot. Pokud nesázíte správně, může se z krásy stát sousedský spor. A ten může skončit až u soudu — nebo pokácením vašeho krásného plotu.",
+      },
+      {
+        type: "text",
+        heading: "Co říká zákon? (§ 1017 občanského zákoníku)",
+        body: "Vzdálenosti výsadby od hranice pozemku upravuje § 1017 zákona č. 89/2012 Sb. (občanský zákoník). Pravidlo je jednoduché:\n\nStromy a keře, které mohou kdykoli v budoucnu přesáhnout výšku 3 metry → minimální vzdálenost 3 metry od hranice pozemku.\n\nStromy a keře o nižší výšce (do 3 metrů) → minimální vzdálenost 1,5 metru od hranice pozemku.\n\nZákon nerozlišuje mezi stromy a keři — rozhodující je výška, které může rostlina dosáhnout. Takže i pro výsadbu živého plotu z keřů, které nepřesáhnou 3 metry, platí podmínka minimálně 1,5 metru od hranice.",
+      },
+      {
+        type: "text",
+        heading: "Výjimky z pravidla",
+        body: "Zákon uvádí několik výjimek, kdy se vzdálenosti nemusí dodržet:\n\nNa sousedním pozemku je les nebo sad — stromy v blízkosti jsou očekávatelné.\n\nStromy tvoří rozhradu — tedy historicky oddělují pozemky.\n\nStrom je zvláště chráněn podle zákona o ochraně přírody.\n\nV praxi se výjimka často uplatňuje i u veřejných pozemků (komunikace, parky), kterým přesahy v rozumné míře nevadí.",
+      },
+      {
+        type: "tip",
+        title: "Praktická rada",
+        body: "Zákonná vzdálenost je minimum. Pokud sázíte rychle rostoucí dřeviny (zerav, habr, ptačí zob), počítejte s tím, že se za pár let rozrostou. Sázejte raději 2 metry od hranice, i když zákon vyžaduje jen 1,5 — ušetříte si budoucí střih ze sousedovy strany a případné spory.",
+      },
+      {
+        type: "text",
+        heading: "Které druhy kam? Doporučení podle vzdálenosti",
+        body: "Máte-li prostor jen 1,5 metru od hranice, volte nízké keře do 3 metrů: dřišťál, mochna křovitá, tavolník, zimostráz nebo nízké skalníky. Rostou pomaleji a nevyžadují tak častý řez ze strany souseda.\n\nPokud máte 3 metry a více, můžete sáhnout po vyšších druzích: zerav, habr, buk, tis, ptačí zob nebo bobkovišeň. Tyto druhy vytvoří vysoký a hustý plot, ale vyžadují pravidelný tvarový řez.\n\nPro bambusový plot (fargezie) počítejte s větším odstupem a u invazivních druhů instalujte rizomovou bariéru do hloubky minimálně 60 cm.",
+      },
+      {
+        type: "plantList",
+        heading: "Nízké keře na plot do 1,5 m od hranice (do 3 m výšky)",
+        plantIds: [
+          "berberis-thunbergii",
+          "potentilla-fruticosa",
+          "spiraea-arguta",
+          "buxus-sempervirens",
+          "berberis-frikartii",
+          "berberis-media",
+          "rosa-rugosa",
+        ],
+      },
+      {
+        type: "plantList",
+        heading: "Vyšší druhy na plot 3 m a více od hranice",
+        plantIds: [
+          "thuja-occidentalis",
+          "carpinus-betulus",
+          "taxus-baccata",
+          "fagus-sylvatica",
+          "ligustrum-vulgare",
+          "prunus-lusitanica",
+          "fargesia-murielae",
+          "cotoneaster-lucidus",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Co když sousedův plot přerůstá k vám?",
+        body: "Občanský zákoník (§ 1016) vám dává právo zasáhnout. U keřů a jiných rostlin (tedy i živých plotů) smíte přesahující části odstranit šetrným způsobem, a to bez nutnosti souseda předem vyzývat. U stromů je to přísnější — musíte nejdřív souseda požádat a dát mu přiměřenou dobu na nápravu.\n\nPozor na slovo \"šetrně\" — neznačí to ruční nůžky místo motorové pily, ale to, že byste neměli rostlinu poškodit nebo zničit. Pokud nešetrným řezem zničíte sousedův plot, nesete za to odpovědnost.",
+      },
+      {
+        type: "text",
+        heading: "Stín, listí a plody — co jsou imise?",
+        body: "I správně vysazený plot může časem způsobovat problémy. Zákon (§ 1013) zakazuje působit na sousední pozemek imisemi v nepřiměřené míře — a to zahrnuje stín, opad listí, plody i vlhkost.\n\nNe každé spadané listí je problém. Zákon pracuje s pojmy \"míra nepřiměřená místním poměrům\" a \"podstatné omezení obvyklého užívání pozemku\". V zastavěné oblasti se vzrostlými zahradami se pár spadaných listů toleruje. Ale pokud váš plot dlouhodobě bere sousedovi světlo nebo mu zavaluje zahradu jehličím, může soud rozhodnout i o odstranění — i když jste dodrželi zákonné vzdálenosti.",
+      },
+      {
+        type: "tip",
+        title: "Pozor na dohody se sousedy",
+        body: "Ústní nebo písemná dohoda se sousedem, že můžete sázet blíže k hranici, vás chrání jen dočasně. Pokud soused pozemek prodá, nový majitel dohodou vázán není a může požadovat dodržení zákonných vzdáleností. Jedinou jistotou je zřízení věcného břemene (služebnosti) zapsaného v katastru nemovitostí — to \"běží s pozemkem\" a platí i pro budoucí vlastníky.",
+      },
+      {
+        type: "text",
+        heading: "Praktický návod: jak sázet živý plot u hranice",
+        body: "1. Změřte vzdálenost od hranice pozemku — ne od plotu, ale od skutečné katastrální hranice. Pokud si nejste jisti, nechte si hranici vytyčit geodétem.\n\n2. Rozhodněte, zda sázíte keře do 3 m výšky (vzdálenost 1,5 m) nebo vyšší druhy (vzdálenost 3 m).\n\n3. Vytyčte linii výsadby provázkem a kolíky, měřeno od osy budoucích keřů.\n\n4. Vykopejte rýhu 40–50 cm širokou a hlubokou, na dno přidejte kompost.\n\n5. Sázejte 3–5 kusů na běžný metr podle druhu.\n\n6. Po výsadbě důkladně zalijte a zamulčujte.\n\n7. Promluvte se sousedem — i když sázíte v souladu se zákonem, dobrý vztah je k nezaplacení.",
+      },
+      {
+        type: "text",
+        heading: "Shrnutí",
+        body: "Výsadba živého plotu je investice na desítky let. Dodržení zákonných vzdáleností vás chrání před spory i před tím, abyste museli krásný vzrostlý plot pokácet. Sázejte raději o kousek dál, volte druhy přiměřené prostoru a hlavně — mluvte se sousedy. Většina problémů se dá vyřešit rozhovorem přes plot, ne přes právníky.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
